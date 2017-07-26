@@ -1,5 +1,5 @@
 <p align="center">
-    <img src="https://invigilator.io/wp-content/uploads/2016/12/invigilator.png" width="320" alt="Web Template">
+    <img src="https://camo.githubusercontent.com/d648ea140f019e3d340887f7f51d019f94d1f4af/68747470733a2f2f696e766967696c61746f722e696f2f77702d636f6e74656e742f75706c6f6164732f323031362f31322f696e766967696c61746f722e706e67" width="320" alt="Web Template">
     <br>
     <br>
     <a href="LICENSE">
@@ -38,6 +38,12 @@ vapor run serve
 
 You can then visit the page at http://127.0.0.1:8080. You can login to the admin panel on: http://127.0.0.1:8080/admin. First time you visit this page, it will show you the admin credentials in a small flash.
 
+## Deploy to Vapor Cloud
+
+Coming soon...
+
 ## Roadmap
 
 - Easy plugin integration
+- Improved documentation
+- Test and CI

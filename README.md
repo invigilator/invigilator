@@ -1,5 +1,5 @@
 <p align="center">
-    <img src="https://camo.githubusercontent.com/d648ea140f019e3d340887f7f51d019f94d1f4af/68747470733a2f2f696e766967696c61746f722e696f2f77702d636f6e74656e742f75706c6f6164732f323031362f31322f696e766967696c61746f722e706e67" width="320" alt="Web Template">
+    <img src="https://user-images.githubusercontent.com/2535140/28637833-211a6d0e-7243-11e7-9337-33660da9ad34.png" width="520" alt="Web Template">
     <br>
     <br>
     <a href="LICENSE">
@@ -23,9 +23,9 @@ This is some of the features in Invigilator:
 - User system, allowing to create multiple users
 - Slug URLs for SEO
 - Manual write SEO meta tags (title, keywords and description)
-- Blogging system, write your blog posts with markdown
+- Blogging system, write your blog posts with markdown *(Coming soon)*
 - Easy to style with your own theme
-- Setup menus including submenu, and drag'n'drop for order
+- Setup menus including submenu, and drag'n'drop for order *(Coming soon)*
 
 For more, see our [Demo](https://demo.invigilator.io) or our [Website](https://invigilator.io)
 
@@ -47,5 +47,6 @@ Coming soon...
 ## Roadmap
 
 - Easy plugin integration
+- Custom page tags
 - Improved documentation
 - Test and CI

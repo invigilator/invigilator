@@ -37,7 +37,11 @@
     "middleware": [
         "error",
         "date",
-        "file"
+        "file",
+        "sessions",
+        "flash",
+        "invigilator-persist",
+        "view"
     ],
 
     "//": "Choose which commands this application can run",

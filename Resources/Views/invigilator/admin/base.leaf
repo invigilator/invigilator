@@ -1,0 +1,92 @@
+<!doctype html>
+<html class="no-js" lang="en">
+
+<head>
+    <meta charset="utf-8">
+    <meta http-equiv="x-ua-compatible" content="ie=edge">
+    <title> Dashboard | Invigilator </title>
+    <meta name="description" content="">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <link rel="apple-touch-icon" href="apple-touch-icon.png">
+    <!-- Place favicon.ico in the root directory -->
+    <link rel="stylesheet" href="/invigilator/css/vendor.css">
+    <!-- Theme initialization -->
+    <link rel="stylesheet" id="theme-style" href="/invigilator/css/app.css">
+    #import("head")
+</head>
+
+<body>
+    <div class="main-wrapper">
+        <div class="app" id="app">
+            <header class="header">
+                <div class="header-block header-block-collapse hidden-lg-up"> <button class="collapse-btn" id="sidebar-collapse-btn">
+                    <i class="fa fa-bars"></i>
+                </button> </div>
+                <div class="header-block header-block-search hidden-sm-down">
+                    <a href="#()" class="btn btn-primary-outline">View site</a>
+                </div>
+                <div class="header-block header-block-nav">
+                    <ul class="nav-profile">
+                        <li class="profile dropdown">
+                            <a class="nav-link dropdown-toggle" data-toggle="dropdown" href="#()" role="button" aria-haspopup="true" aria-expanded="false">
+                                <div class="img" style="background-image: url('https://cdn.vapor.cloud/fromdktousa/images/authors/jonas.jpg')"> </div> <span class="name">
+                                    #(request.storage.authedBackendUser.name)
+                                </span> </a>
+                                <div class="dropdown-menu profile-dropdown-menu" aria-labelledby="dropdownMenu1"> <a class="dropdown-item" href="/admin/users/#(request.storage.authedBackendUser.id)/edit">
+                                    <i class="fa fa-user icon"></i>
+                                    Profile
+                                </a>
+                                <div class="dropdown-divider"></div> <a class="dropdown-item" href="/admin/logout">
+                                    <i class="fa fa-power-off icon"></i>
+                                    Logout
+                                </a> </div>
+                            </li>
+                        </ul>
+                    </div>
+                </header>
+                <aside class="sidebar">
+                    <div class="sidebar-container">
+                        <div class="sidebar-header">
+                            <div class="brand">
+                                <div class="logo"> <span class="l l1"></span> <span class="l l2"></span> <span class="l l3"></span> <span class="l l4"></span> <span class="l l5"></span> </div> Invigilator </div>
+                            </div>
+                            <nav class="menu">
+                                <ul class="nav metismenu" id="sidebar-menu">
+                                    <li class="#equal(active, "dashboard") { active }"> <a href="/admin">
+                                        <i class="fa fa-home"></i> Dashboard
+                                    </a> </li>
+                                    <li class=""> <a href="/admin/posts">
+                                        <i class="fa fa-list"></i> Posts
+                                    </a> </li>
+                                    <li class="#equal(active, "cmsPages") { active }"> <a href="/admin/cms/pages">
+                                        <i class="fa fa-list-alt"></i> Pages
+                                    </a> </li>
+                                    <li class="#equal(active, "cmsMenus") { active }"> <a href="/admin/cms/menus">
+                                        <i class="fa fa-link"></i> Menus
+                                    </a> </li>
+                                    <li class="#equal(active, "users") {active}"> <a href="/admin/users">
+                                        <i class="fa fa-users"></i> Users
+                                    </a> </li>
+
+                                </ul>
+                            </nav>
+                        </div>
+                    </aside>
+                    <article class="content dashboard-page">
+                        <section class="section">
+                            <div class="row sameheight-container">
+                                <div class="col-md-12">
+                                    #embed("invigilator/admin/partials/elements/alerts")
+                                </div>
+                                #import("body")
+                            </div>
+                        </section>
+                    </article>
+
+                    <script src="/invigilator/js/vendor.js"></script>
+                    <script src="/invigilator/js/app.js"></script>
+                    <script src="https://cdnjs.cloudflare.com/ajax/libs/tether/1.3.7/js/tether.min.js" integrity="sha384-XTs3FgkjiBgo8qjEjBk0tGmf3wPrWtA6coPfQDfFEY8AnYJwjalXCiosYRBIBZX8" crossorigin="anonymous"></script>
+                    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0-alpha.6/js/bootstrap.min.js" integrity="sha384-vBWWzlZJ8ea9aCX4pEW3rVHjgjt7zpkNpZk+02D9phzyeVkE+jo0ieGizqPLForn" crossorigin="anonymous"></script>
+                    #import("scripts")
+                </body>
+                </html>

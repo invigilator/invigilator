@@ -1,0 +1,28 @@
+#extend("invigilator/admin/base")
+
+#export("head") {
+    <title>Admin | Blog Admin | SteamPress</title>
+}
+
+#export("scripts") {
+    <script src="/static/js/admin/admin.js"></script>
+}
+
+#export("body") {
+    <div class="col col-xs-12 col-sm-12 col-md-12 col-xl-12 stats-col">
+        <div class="card sameheight-item stats" data-exclude="xs">
+            <div class="card-block">
+                <div class="title-block">
+                    <h4 class="title"> Shortcuts </h4>
+                </div>
+                <div class="row row-sm stats-container">
+                    <div class="col-xs-12 col-sm-6 stat-col">
+                        <a href="#()" class="btn btn-primary-outline"><i class="fa fa-plus"></i> Create post</a>
+                        <a href="#()" class="btn btn-primary-outline"><i class="fa fa-plus"></i> Create page</a>
+                        <a href="#()" class="btn btn-primary-outline"><i class="fa fa-plus"></i> Create user</a>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+}

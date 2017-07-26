@@ -1,0 +1,4 @@
+/home/josc/.local/share/JetBrains/Toolbox/apps/CLion/ch-0/172.3317.49/bin/cmake/bin/cmake -DCMAKE_BUILD_TYPE=Debug -G "CodeBlocks - Unix Makefiles" /home/josc/Documents/invigilator/invigilator
+-- Configuring done
+-- Generating done
+-- Build files have been written to: /home/josc/Documents/invigilator/invigilator/cmake-build-debug

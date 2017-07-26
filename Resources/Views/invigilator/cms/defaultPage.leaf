@@ -1,0 +1,14 @@
+<div class="container mt-4">
+
+    #if(page.published) {}
+    ##else() {
+        <div class="h3 text-center"><span class="badge badge-info">DRAFT PAGE</span></div>
+    }
+
+    <br /><br />
+
+    <div class="post-contents mt-3">
+        #invigilatorMarkdown(page.contents)
+    </div>
+
+</div>

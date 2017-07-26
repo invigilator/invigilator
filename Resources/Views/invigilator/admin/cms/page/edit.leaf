@@ -1,0 +1,112 @@
+#extend("invigilator/admin/base")
+
+#export("head") {
+<title>#if(editing) { Edit } ##else() { Create } Blog Post | Blog Admin | From Denmark to the Big Apple</title>
+
+<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/select2/4.0.3/css/select2.min.css" integrity="sha256-xJOZHfpxLR/uhh1BwYFS5fhmOAdIRQaiOul5F/b7v3s= sha384-HIipfSYbpCkh5/1V87AWAeR5SUrNiewznrUrtNz1ux4uneLhsAKzv/0FnMbj3m6g sha512-2L0dEjIN/DAmTV5puHriEIuQU/IL3CoPm/4eyZp3bM8dnaXri6lK8u6DC5L96b+YSs9f3Le81dDRZUSYeX4QcQ==" crossorigin="anonymous">
+<link rel="stylesheet" href="https://cdn.jsdelivr.net/simplemde/1.11.2/simplemde.min.css" integrity="sha256-Is0XNfNX8KF/70J2nv8Qe6BWyiXrtFxKfJBHoDgNAEM= sha384-rQdIropf4eQBEB9SkNB4xxukYHlkyXJfKYkpVNUQOLizz+d2q0wo7zjVA2XcYSij sha512-lB03MbtC3LxImQ+BKnZIyvVHTQ8SSmQ15AhVh5U/+CCp4wKtZMvgLGXbZIjIBBbnKsmk3/6n2vcF8a9CtVVSfA==" crossorigin="anonymous">
+}
+
+#export("scripts") {
+  <script src="https://cdn.jsdelivr.net/simplemde/1.11.2/simplemde.min.js" integrity="sha256-6sZs7OGP0Uzcl7UDsLaNsy1K0KTZx1+6yEVrRJMn2IM= sha384-83rBTICYr+FwAC+A5t0ZYsWjTcPXibCe/NBSFLAgMPkwHBvIi02EcE9OShMsGCi3 sha512-ksSfTk6JIdsze75yZ8c+yDVLu09SNefa9IicxEE+HZvWo9kLPY1vrRlmucEMHQReWmEdKqusQWaDMpkTb3M2ug==" crossorigin="anonymous"></script>
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/select2/4.0.3/js/select2.min.js" integrity="sha256-+mWd/G69S4qtgPowSELIeVAv7+FuL871WXaolgXnrwQ= sha384-222hzbb8Z8ZKe6pzP18nTSltQM3PdcAwxWKzGOKOIF+Y3bROr5n9zdQ8yTRHgQkQ sha512-bj8HE1pKwchoYNizhD57Vl6B9ExS25Hw21WxoQEzGapNNjLZ0+kgRMEn9KSCD+igbE9+/dJO7x6ZhLrdaQ5P3g==" crossorigin="anonymous"></script>
+  <script src="/static/js/admin/createPost.js"></script>
+}
+
+#export("body") {
+    <div class="col-md-12">
+        <div class="card card-block">
+            <div class="title-block">
+                <h3 class="title">
+                    #if(editing) {
+                        Edit Your page
+                    }
+                    ##else() {
+                        Create page
+                    }
+                </h3>
+            </div>
+
+        #if(errors) {
+            #loop(errors, "error") {
+            <div class="alert alert-danger" role="alert">
+                <strong>Warning: </strong>#(error)
+            </div>
+            }
+        }
+
+        #if(page) {
+        <div id="edit-post-data" data-editing-page="true" data-published-post="#(post.published)" data-original-slug-url="#(page.slug)" data-original-title="#(page.title)"></div>
+        }
+
+        <form action="/admin/cms/#if(page) {pages/#(page.id)/edit} ##else() {pages/create}" id="create-post-form" method="post" class="mt-3">
+            #if(page) {
+            <div class="alert alert-warning alert-dismissible show" role="alert" id="blog-post-edit-title-warning">
+                <button type="button" class="close" data-dismiss="alert" aria-label="Close">
+                    <span aria-hidden="true">&times;</span>
+                </button>
+                <strong>Warning</strong> - editing the title will change the URL of the post - this can cause issues with comment engines and SEO and may break links to your site.
+                <a href="#()" class="alert-link" id="keep-original-slug-url-link">Keep original link?</a>
+            </div>
+            }
+            #if(editing) {
+            <div class="form group" id="create-post-status-group">
+                <label class="form-control-label">Status</label>
+                <div class="h4">#if(post.published) {<span class="badge badge-success">Published</span>} ##else() {<span class="badge badge-info">Draft</span>}</div>
+            </div>
+            }
+
+            <div class="form-group #if(title_error) { has-danger }" id="create-post-title-group">
+                <label class="form-control-label" for="inputTitle">Title</label>
+                <input type="text" class="form-control #if(title_error) { form-control-danger }" id="inputTitle" name="title" placeholder="Page title" value="#(page.title)" autofocus required>
+            </div>
+
+            <div class="form-group" id="create-post-slugurl-group">
+                <label class="form-control-label" for="inputSlugUrl">Path</label>
+                <div class="input-group">
+                    <span class="input-group-addon" id="slug-url-path">#(post_path_prefix)http://127.0.0.1:8080/</span>
+                    <input type="text" class="form-control" id="inputSlugUrl" name="slugUrl" aria-describedby="slug-url-path" value="#(page.slug_url)" readonly tabindex="-1">
+                </div>
+            </div>
+
+            <div class="form-group #if(contents_error) { has-danger }" id="create-post-contents-group">
+                <label class="form-control-label" for="inputPostContents">Content</label>
+                <textarea class="form-control #if(contents_error) { form-control-danger }" id="inputPostContents" name="contents" rows="10" required>#(page.contents)</textarea>
+            </div>
+
+            <h3>SEO</h3>
+
+            <div class="form-group #if(metaTitle_error) { has-danger }" id="create-post-meta-title-group">
+                <label class="form-control-label" for="metaTitle">Meta title</label>
+                <input type="text" class="form-control #if(metaTitle_error) { form-control-danger }" id="metaTitle" name="metaTitle" placeholder="Page meta title" value="#(page.meta_title)" required>
+            </div>
+
+            <div class="form-group #if(metaKeywords_error) { has-danger }" id="create-post-meta-keywords-group">
+                <label class="form-control-label" for="metaKeywords">Meta keywords</label>
+                <input type="text" class="form-control #if(metaKeywords_error) { form-control-danger }" id="metaKeywords" name="metaKeywords" placeholder="Page meta keywords" value="#(page.meta_keywords)" required>
+            </div>
+
+            <div class="form-group #if(metaDescription_error) { has-danger }" id="create-post-meta-description-group">
+                <label class="form-control-label" for="metaTitle">Meta description</label>
+                <input type="text" class="form-control #if(metaDescription_error) { form-control-danger }" id="metaDescription" name="metaDescription" placeholder="Page meta description" value="#(page.meta_description)" required>
+            </div>
+
+        <div class="form-group">
+            #if(draft) {
+            <button type="Submit" class="btn btn-info" name="save-draft" value="save-draft">Save Draft</button>
+            }
+            <button type="Submit" class="btn btn-primary" name="publish" value="publish">#if(page) {#if(draft) {Publish} ##else() {Update}} ##else() {Publish}</button>
+            #if(editing) {
+            <a href="/admin/" class="btn btn-secondary" id="cancel-edit-button">Cancel</a>
+            }
+
+            <small id="mardownHelper" class="text-muted ml-4">
+                You can style your page with <a href="http://commonmark.org/help/" target="_blank">Markdown</a>
+            </small>
+        </div>
+
+        </form>
+
+    </div>
+</div>
+}

@@ -1,0 +1,75 @@
+#extend("invigilator/admin/base")
+
+#export("head") {
+    <title>Admin</title>
+}
+
+#export("body") {
+    <div class="col-md-12">
+            <div class="card">
+                <div class="card-block">
+                    <div class="card-title-block">
+                        <div class="pull-left">
+                            <h3 class="title"> Menu </h3>
+                        </div>
+                        <div class="pull-right">
+                            <a href="/admin/cms/pages/create" class="btn btn-primary btn-sm rounded"> <i class="fa fa-plus"></i> Add menu item </a>
+                        </div>
+                    </div>
+                    <section class="example">
+                        <div class="dd" id="nestable3">
+                            <ol class="dd-list">
+                                <li class="dd-item dd3-item" data-id="13">
+                                    <div class="dd-handle dd3-handle">Drag</div><div class="dd3-content">Home</div>
+                                </li>
+                                <li class="dd-item dd3-item" data-id="14">
+                                    <div class="dd-handle dd3-handle">Drag</div><div class="dd3-content">About</div>
+                                </li>
+                                <li class="dd-item dd3-item" data-id="15">
+                                    <div class="dd-handle dd3-handle">Drag</div><div class="dd3-content">Blog</div>
+                                    <ol class="dd-list">
+                                        <li class="dd-item dd3-item" data-id="16">
+                                            <div class="dd-handle dd3-handle">Drag</div><div class="dd3-content">
+                                                Blog
+                                                <div class="pull-right delete"><i class="fa fa-remove"></i></div>
+                                            </div>
+                                        </li>
+                                        <li class="dd-item dd3-item" data-id="17">
+                                            <div class="dd-handle dd3-handle">Drag</div><div class="dd3-content">Authors</div>
+                                        </li>
+                                    </ol>
+                                </li>
+                            </ol>
+                        </div>
+                        <div style="clear:both"></div>
+                        <br /><br />
+                        <input type="text" id="list" style="width:500px" />
+                    </section>
+                </div>
+            </div>
+        </div>
+}
+
+#export("scripts") {
+    <script src="/static/js/admin/admin.js"></script>
+    <script src="/invigilator/js/jquery.nestable.js"></script>
+
+    <script>
+        var updateOutput = function(e)
+        {
+            var list   = e.length ? e : $(e.target),
+                output = $('#()list');
+
+            output.val(window.JSON.stringify(list.nestable('serialize')));//, null, 2));
+        };
+
+        $('.dd').nestable({
+            maxDepth: 2
+        }).on('change', updateOutput);
+
+        $('.delete').click(function() {
+            alert('a')
+        })
+    </script>
+
+}

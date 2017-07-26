@@ -1,0 +1,49 @@
+#extend("invigilator/admin/base")
+
+#export("head") {
+    <title>Admin</title>
+}
+
+#export("scripts") {
+    <script src="/static/js/admin/admin.js"></script>
+}
+
+#export("body") {
+    <div class="col-md-12">
+            <div class="card">
+                <div class="card-block">
+                    <div class="card-title-block">
+                        <div class="pull-left">
+                            <h3 class="title"> Pages </h3>
+                        </div>
+                        <div class="pull-right">
+                            <a href="/admin/cms/pages/create" class="btn btn-primary btn-sm rounded"> <i class="fa fa-plus"></i> Add new </a>
+                        </div>
+                    </div>
+                    <section class="example">
+                        <table class="table table-striped">
+                            <thead>
+                                <tr>
+                                    <th>Name</th>
+                                    <th>Username</th>
+                                    <th>&nbsp;</th>
+                                </tr>
+                            </thead>
+                            <tbody>
+                                #loop(users, "user") {
+                                <tr>
+                                    <td>#(user.name)</td>
+                                    <td>#(user.username)</td>
+                                    <td class="text-right pull-right">
+                                        <a class="btn btn-primary-outline btn-sm" href="/admin/users/#(user.id)/edit"><i class="fa fa-edit"></i> Edit</a>
+                                        <a class="btn btn-danger-outline btn-sm delete-post-button" href="/admin/cms/pages/#(user.id)/delete"><i class="fa fa-remove"></i> Delete</a>
+                                    </td>
+                                </tr>
+                                }
+                            </tbody>
+                        </table>
+                    </section>
+                </div>
+            </div>
+        </div>
+}

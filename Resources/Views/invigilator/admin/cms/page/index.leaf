@@ -1,0 +1,51 @@
+#extend("invigilator/admin/base")
+
+#export("head") {
+    <title>Admin</title>
+}
+
+#export("scripts") {
+    <script src="/static/js/admin/admin.js"></script>
+}
+
+#export("body") {
+    <div class="col-md-12">
+            <div class="card">
+                <div class="card-block">
+                    <div class="card-title-block">
+                        <div class="pull-left">
+                            <h3 class="title"> Pages </h3>
+                        </div>
+                        <div class="pull-right">
+                            <a href="/admin/cms/pages/create" class="btn btn-primary btn-sm rounded"> <i class="fa fa-plus"></i> Add new </a>
+                        </div>
+                    </div>
+                    <section class="example">
+                        <table class="table table-striped">
+                            <thead>
+                                <tr>
+                                    <th>Title</th>
+                                    <th>Date published</th>
+                                    <th>Last edited</th>
+                                    <th>&nbsp;</th>
+                                </tr>
+                            </thead>
+                            <tbody>
+                                #loop(pages, "page") {
+                                <tr>
+                                    <td><a href="/#(page.slug_url)/">#(page.title)</a></td>
+                                    <td>#(page.created_date)</td>
+                                    <td>#if(page.last_edited_date) {#(post.last_edited_date)} ##else() { N/A }</td>
+                                    <td class="text-right pull-right">
+                                        <a class="btn btn-primary-outline btn-sm" href="/admin/cms/pages/#(page.id)/edit"><i class="fa fa-edit"></i> Edit</a>
+                                        <a class="btn btn-danger-outline btn-sm delete-post-button" href="/admin/cms/pages/#(page.id)/delete"><i class="fa fa-remove"></i> Delete</a>
+                                    </td>
+                                </tr>
+                                }
+                            </tbody>
+                        </table>
+                    </section>
+                </div>
+            </div>
+        </div>
+}

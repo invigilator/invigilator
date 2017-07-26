@@ -1,0 +1,54 @@
+#extend("invigilator/admin/base")
+
+#export("head") {
+    <title>Admin</title>
+}
+
+#export("scripts") {
+    <script src="/static/js/admin/admin.js"></script>
+}
+
+#export("body") {
+    <div class="col-md-12">
+        <div class="card card-block">
+            <div class="title-block">
+                <h3 class="title">
+                    #if(user) {Edit} ##else() {Create A New} User
+                </h3>
+            </div>
+
+            <form action="#if(user) {/admin/users/#(user.id)/edit} ##else() {/admin/users/create}" id="create-user-form" method="post">
+                <div class="form-group #if(name_error) { has-danger }" id="create-user-name-group">
+                    <label class="form-control-label" for="inputName">Name *</label>
+                    <input type="text" class="form-control #if(name_error) { form-control-danger }" id="inputName" name="name" placeholder="Name" value="#(user.name)" autofocus required>
+                </div>
+
+                <div class="form-group #if(password_error) { has-danger }" id="create-user-password-group">
+                    <label class="form-control-label" for="inputPassword">Password #if(user) {} ##else() { *}</label>
+                    <div class="input-group">
+                        <input type="password" class="form-control #if(password_error) { form-control-danger }" id="inputPassword" name="password" placeholder="Password" #if(user) {} ##else() {required}>
+                            <span class="input-group-btn">
+                                <button type="button" class="btn btn-secondary" data-toggle="modal" data-target="#()passwordModal" tabindex="-1">?</button>
+                            </span>
+                    </div>
+
+                    #if(user) {<small id="passwordHelpBlock" class="form-text text-muted">
+                    Leave the password blank if you don't want to change the password
+                    </small>}
+                </div>
+
+                <div class="form-group mt-3">
+                    <button type="Submit" class="btn btn-primary">#if(user) {Save} ##else() {Create User}</button>
+                    #if(user) {
+                    <a href="/admin/users" class="btn btn-secondary" id="cancel-edit-button">Cancel</a>
+                    }
+                    <small class="text-muted ml-4">
+                        * Required Field
+                    </small>
+                </div>
+
+            </form>
+        </div>
+    </div>
+
+}

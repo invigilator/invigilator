@@ -1,0 +1,2860 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CodeBlocks_project_file>
+	<FileVersion major="1" minor="6"/>
+	<Project>
+		<Option title="deployment"/>
+		<Option makefile_is_custom="1"/>
+		<Option compiler="gcc"/>
+		<Option virtualFolders="CMake Files\;"/>
+		<Build>
+			<Target title="all">
+				<Option working_dir="/home/josc/Documents/invigilator/invigilator/cmake-build-debug"/>
+				<Option type="4"/>
+				<MakeCommands>
+					<Build command="/usr/bin/make -j4 -f &quot;/home/josc/Documents/invigilator/invigilator/cmake-build-debug/Makefile&quot;  VERBOSE=1 all"/>
+					<CompileFile command="/usr/bin/make -j4 -f &quot;/home/josc/Documents/invigilator/invigilator/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j4 -f &quot;/home/josc/Documents/invigilator/invigilator/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j4 -f &quot;/home/josc/Documents/invigilator/invigilator/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="rebuild_cache">
+				<Option working_dir="/home/josc/Documents/invigilator/invigilator/cmake-build-debug"/>
+				<Option type="4"/>
+				<MakeCommands>
+					<Build command="/usr/bin/make -j4 -f &quot;/home/josc/Documents/invigilator/invigilator/cmake-build-debug/Makefile&quot;  VERBOSE=1 rebuild_cache"/>
+					<CompileFile command="/usr/bin/make -j4 -f &quot;/home/josc/Documents/invigilator/invigilator/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j4 -f &quot;/home/josc/Documents/invigilator/invigilator/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j4 -f &quot;/home/josc/Documents/invigilator/invigilator/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="edit_cache">
+				<Option working_dir="/home/josc/Documents/invigilator/invigilator/cmake-build-debug"/>
+				<Option type="4"/>
+				<MakeCommands>
+					<Build command="/usr/bin/make -j4 -f &quot;/home/josc/Documents/invigilator/invigilator/cmake-build-debug/Makefile&quot;  VERBOSE=1 edit_cache"/>
+					<CompileFile command="/usr/bin/make -j4 -f &quot;/home/josc/Documents/invigilator/invigilator/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j4 -f &quot;/home/josc/Documents/invigilator/invigilator/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j4 -f &quot;/home/josc/Documents/invigilator/invigilator/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="deployment">
+				<Option working_dir="/home/josc/Documents/invigilator/invigilator/cmake-build-debug"/>
+				<Option type="4"/>
+				<MakeCommands>
+					<Build command="/usr/bin/make -j4 -f &quot;/home/josc/Documents/invigilator/invigilator/cmake-build-debug/Makefile&quot;  VERBOSE=1 deployment"/>
+					<CompileFile command="/usr/bin/make -j4 -f &quot;/home/josc/Documents/invigilator/invigilator/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j4 -f &quot;/home/josc/Documents/invigilator/invigilator/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j4 -f &quot;/home/josc/Documents/invigilator/invigilator/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+		</Build>
+		<Unit filename="/home/josc/Documents/invigilator/invigilator/.build/checkouts/auth-provider.git--7376956362792676061/Package.swift">
+			<Option target="deployment"/>
+		</Unit>
+		<Unit filename="/home/josc/Documents/invigilator/invigilator/.build/checkouts/auth-provider.git--7376956362792676061/Sources/AuthProvider/AuthError.swift">
+			<Option target="deployment"/>
+		</Unit>
+		<Unit filename="/home/josc/Documents/invigilator/invigilator/.build/checkouts/auth-provider.git--7376956362792676061/Sources/AuthProvider/BCryptHasher+PasswordVerifier.swift">
+			<Option target="deployment"/>
+		</Unit>
+		<Unit filename="/home/josc/Documents/invigilator/invigilator/.build/checkouts/auth-provider.git--7376956362792676061/Sources/AuthProvider/Exports.swift">
+			<Option target="deployment"/>
+		</Unit>
+		<Unit filename="/home/josc/Documents/invigilator/invigilator/.build/checkouts/auth-provider.git--7376956362792676061/Sources/AuthProvider/Helper.swift">
+			<Option target="deployment"/>
+		</Unit>
+		<Unit filename="/home/josc/Documents/invigilator/invigilator/.build/checkouts/auth-provider.git--7376956362792676061/Sources/AuthProvider/Persistable.swift">
+			<Option target="deployment"/>
+		</Unit>
+		<Unit filename="/home/josc/Documents/invigilator/invigilator/.build/checkouts/auth-provider.git--7376956362792676061/Sources/AuthProvider/Provider.swift">
+			<Option target="deployment"/>
+		</Unit>
+		<Unit filename="/home/josc/Documents/invigilator/invigilator/.build/checkouts/auth-provider.git--7376956362792676061/Sources/AuthProvider/SessionPersistable.swift">
+			<Option target="deployment"/>
+		</Unit>
+		<Unit filename="/home/josc/Documents/invigilator/invigilator/.build/checkouts/auth-provider.git--7376956362792676061/Sources/AuthProvider/TokenMiddleware.swift">
+			<Option target="deployment"/>
+		</Unit>
+		<Unit filename="/home/josc/Documents/invigilator/invigilator/.build/checkouts/auth-provider.git--7376956362792676061/Tests/AuthProviderTests/TokenTests.swift">
+			<Option target="deployment"/>
+		</Unit>
+		<Unit filename="/home/josc/Documents/invigilator/invigilator/.build/checkouts/auth-provider.git--7376956362792676061/Tests/AuthProviderTests/Utilities/HTTP+Conveniences.swift">
+			<Option target="deployment"/>
+		</Unit>
+		<Unit filename="/home/josc/Documents/invigilator/invigilator/.build/checkouts/auth-provider.git--7376956362792676061/Tests/AuthProviderTests/Utilities/TestToken.swift">
+			<Option target="deployment"/>
+		</Unit>
+		<Unit filename="/home/josc/Documents/invigilator/invigilator/.build/checkouts/auth-provider.git--7376956362792676061/Tests/AuthProviderTests/Utilities/TestUser.swift">
+			<Option target="deployment"/>
+		</Unit>
+		<Unit filename="/home/josc/Documents/invigilator/invigilator/.build/checkouts/auth-provider.git--7376956362792676061/Tests/LinuxMain.swift">
+			<Option target="deployment"/>
+		</Unit>
+		<Unit filename="/home/josc/Documents/invigilator/invigilator/.build/checkouts/auth.git--2353667194983479598/Package.swift">
+			<Option target="deployment"/>
+		</Unit>
+		<Unit filename="/home/josc/Documents/invigilator/invigilator/.build/checkouts/auth.git--2353667194983479598/Sources/Authentication/Authenticatable/Authenticatable.swift">
+			<Option target="deployment"/>
+		</Unit>
+		<Unit filename="/home/josc/Documents/invigilator/invigilator/.build/checkouts/auth.git--2353667194983479598/Sources/Authentication/Authenticatable/PasswordAuthenticatable.swift">
+			<Option target="deployment"/>
+		</Unit>
+		<Unit filename="/home/josc/Documents/invigilator/invigilator/.build/checkouts/auth.git--2353667194983479598/Sources/Authentication/Authenticatable/TokenAuthenticatable.swift">
+			<Option target="deployment"/>
+		</Unit>
+		<Unit filename="/home/josc/Documents/invigilator/invigilator/.build/checkouts/auth.git--2353667194983479598/Sources/Authentication/AuthenticationError.swift">
+			<Option target="deployment"/>
+		</Unit>
+		<Unit filename="/home/josc/Documents/invigilator/invigilator/.build/checkouts/auth.git--2353667194983479598/Sources/Authentication/Credentials/Credentials.swift">
+			<Option target="deployment"/>
+		</Unit>
+		<Unit filename="/home/josc/Documents/invigilator/invigilator/.build/checkouts/auth.git--2353667194983479598/Sources/Authentication/Credentials/Token.swift">
+			<Option target="deployment"/>
+		</Unit>
+		<Unit filename="/home/josc/Documents/invigilator/invigilator/.build/checkouts/auth.git--2353667194983479598/Sources/Authentication/Credentials/UsernamePassword.swift">
+			<Option target="deployment"/>
+		</Unit>
+		<Unit filename="/home/josc/Documents/invigilator/invigilator/.build/checkouts/auth.git--2353667194983479598/Sources/Authentication/Header/Authorization.swift">
+			<Option target="deployment"/>
+		</Unit>
+		<Unit filename="/home/josc/Documents/invigilator/invigilator/.build/checkouts/auth.git--2353667194983479598/Sources/Authentication/Header/Basic.swift">
+			<Option target="deployment"/>
+		</Unit>
+		<Unit filename="/home/josc/Documents/invigilator/invigilator/.build/checkouts/auth.git--2353667194983479598/Sources/Authentication/Header/Bearer.swift">
+			<Option target="deployment"/>
+		</Unit>
+		<Unit filename="/home/josc/Documents/invigilator/invigilator/.build/checkouts/auth.git--2353667194983479598/Sources/Authorization/Authorizable.swift">
+			<Option target="deployment"/>
+		</Unit>
+		<Unit filename="/home/josc/Documents/invigilator/invigilator/.build/checkouts/auth.git--2353667194983479598/Sources/Authorization/AuthorizationError.swift">
+			<Option target="deployment"/>
+		</Unit>
+		<Unit filename="/home/josc/Documents/invigilator/invigilator/.build/checkouts/auth.git--2353667194983479598/Sources/Authorization/Permission.swift">
+			<Option target="deployment"/>
+		</Unit>
+		<Unit filename="/home/josc/Documents/invigilator/invigilator/.build/checkouts/auth.git--2353667194983479598/Tests/AuthenticationTests/ExampleTests.swift">
+			<Option target="deployment"/>
+		</Unit>
+		<Unit filename="/home/josc/Documents/invigilator/invigilator/.build/checkouts/auth.git--2353667194983479598/Tests/AuthenticationTests/Utilities/AuthUser.swift">
+			<Option target="deployment"/>
+		</Unit>
+		<Unit filename="/home/josc/Documents/invigilator/invigilator/.build/checkouts/auth.git--2353667194983479598/Tests/LinuxMain.swift">
+			<Option target="deployment"/>
+		</Unit>
+		<Unit filename="/home/josc/Documents/invigilator/invigilator/.build/checkouts/bcrypt.git--689449627546896077/Package.swift">
+			<Option target="deployment"/>
+		</Unit>
+		<Unit filename="/home/josc/Documents/invigilator/invigilator/.build/checkouts/bcrypt.git--689449627546896077/Sources/BCrypt/BCryptError.swift">
+			<Option target="deployment"/>
+		</Unit>
+		<Unit filename="/home/josc/Documents/invigilator/invigilator/.build/checkouts/bcrypt.git--689449627546896077/Sources/BCrypt/Base64.swift">
+			<Option target="deployment"/>
+		</Unit>
+		<Unit filename="/home/josc/Documents/invigilator/invigilator/.build/checkouts/bcrypt.git--689449627546896077/Sources/BCrypt/Convenience.swift">
+			<Option target="deployment"/>
+		</Unit>
+		<Unit filename="/home/josc/Documents/invigilator/invigilator/.build/checkouts/bcrypt.git--689449627546896077/Sources/BCrypt/Export.swift">
+			<Option target="deployment"/>
+		</Unit>
+		<Unit filename="/home/josc/Documents/invigilator/invigilator/.build/checkouts/bcrypt.git--689449627546896077/Sources/BCrypt/Hash.swift">
+			<Option target="deployment"/>
+		</Unit>
+		<Unit filename="/home/josc/Documents/invigilator/invigilator/.build/checkouts/bcrypt.git--689449627546896077/Sources/BCrypt/Keys.swift">
+			<Option target="deployment"/>
+		</Unit>
+		<Unit filename="/home/josc/Documents/invigilator/invigilator/.build/checkouts/bcrypt.git--689449627546896077/Sources/BCrypt/Parser.swift">
+			<Option target="deployment"/>
+		</Unit>
+		<Unit filename="/home/josc/Documents/invigilator/invigilator/.build/checkouts/bcrypt.git--689449627546896077/Sources/BCrypt/Salt.swift">
+			<Option target="deployment"/>
+		</Unit>
+		<Unit filename="/home/josc/Documents/invigilator/invigilator/.build/checkouts/bcrypt.git--689449627546896077/Sources/BCrypt/Serializer.swift">
+			<Option target="deployment"/>
+		</Unit>
+		<Unit filename="/home/josc/Documents/invigilator/invigilator/.build/checkouts/bcrypt.git--689449627546896077/Tests/BCryptTests/BCryptTests.swift">
+			<Option target="deployment"/>
+		</Unit>
+		<Unit filename="/home/josc/Documents/invigilator/invigilator/.build/checkouts/bcrypt.git--689449627546896077/Tests/LinuxMain.swift">
+			<Option target="deployment"/>
+		</Unit>
+		<Unit filename="/home/josc/Documents/invigilator/invigilator/.build/checkouts/bits.git--2732362089523506049/Package.swift">
+			<Option target="deployment"/>
+		</Unit>
+		<Unit filename="/home/josc/Documents/invigilator/invigilator/.build/checkouts/bits.git--2732362089523506049/Sources/Bits/Aliases.swift">
+			<Option target="deployment"/>
+		</Unit>
+		<Unit filename="/home/josc/Documents/invigilator/invigilator/.build/checkouts/bits.git--2732362089523506049/Sources/Bits/Base64Encoder.swift">
+			<Option target="deployment"/>
+		</Unit>
+		<Unit filename="/home/josc/Documents/invigilator/invigilator/.build/checkouts/bits.git--2732362089523506049/Sources/Bits/Byte+Alphabet.swift">
+			<Option target="deployment"/>
+		</Unit>
+		<Unit filename="/home/josc/Documents/invigilator/invigilator/.build/checkouts/bits.git--2732362089523506049/Sources/Bits/Byte+ControlCharacters.swift">
+			<Option target="deployment"/>
+		</Unit>
+		<Unit filename="/home/josc/Documents/invigilator/invigilator/.build/checkouts/bits.git--2732362089523506049/Sources/Bits/Byte+Convenience.swift">
+			<Option target="deployment"/>
+		</Unit>
+		<Unit filename="/home/josc/Documents/invigilator/invigilator/.build/checkouts/bits.git--2732362089523506049/Sources/Bits/Byte+PatternMatching.swift">
+			<Option target="deployment"/>
+		</Unit>
+		<Unit filename="/home/josc/Documents/invigilator/invigilator/.build/checkouts/bits.git--2732362089523506049/Sources/Bits/Byte+Random.swift">
+			<Option target="deployment"/>
+		</Unit>
+		<Unit filename="/home/josc/Documents/invigilator/invigilator/.build/checkouts/bits.git--2732362089523506049/Sources/Bits/Byte+UTF8Numbers.swift">
+			<Option target="deployment"/>
+		</Unit>
+		<Unit filename="/home/josc/Documents/invigilator/invigilator/.build/checkouts/bits.git--2732362089523506049/Sources/Bits/ByteSequence+Conversions.swift">
+			<Option target="deployment"/>
+		</Unit>
+		<Unit filename="/home/josc/Documents/invigilator/invigilator/.build/checkouts/bits.git--2732362089523506049/Sources/Bits/Bytes+Base64.swift">
+			<Option target="deployment"/>
+		</Unit>
+		<Unit filename="/home/josc/Documents/invigilator/invigilator/.build/checkouts/bits.git--2732362089523506049/Sources/Bits/Bytes+Hex.swift">
+			<Option target="deployment"/>
+		</Unit>
+		<Unit filename="/home/josc/Documents/invigilator/invigilator/.build/checkouts/bits.git--2732362089523506049/Sources/Bits/Bytes+Percent.swift">
+			<Option target="deployment"/>
+		</Unit>
+		<Unit filename="/home/josc/Documents/invigilator/invigilator/.build/checkouts/bits.git--2732362089523506049/Sources/Bits/BytesConvertible.swift">
+			<Option target="deployment"/>
+		</Unit>
+		<Unit filename="/home/josc/Documents/invigilator/invigilator/.build/checkouts/bits.git--2732362089523506049/Sources/Bits/Data+BytesConvertible.swift">
+			<Option target="deployment"/>
+		</Unit>
+		<Unit filename="/home/josc/Documents/invigilator/invigilator/.build/checkouts/bits.git--2732362089523506049/Sources/Bits/HexEncoder.swift">
+			<Option target="deployment"/>
+		</Unit>
+		<Unit filename="/home/josc/Documents/invigilator/invigilator/.build/checkouts/bits.git--2732362089523506049/Sources/Bits/Operators.swift">
+			<Option target="deployment"/>
+		</Unit>
+		<Unit filename="/home/josc/Documents/invigilator/invigilator/.build/checkouts/bits.git--2732362089523506049/Sources/Bits/String+BytesConvertible.swift">
+			<Option target="deployment"/>
+		</Unit>
+		<Unit filename="/home/josc/Documents/invigilator/invigilator/.build/checkouts/bits.git--2732362089523506049/Sources/Bits/UnsignedInteger+BytesConvertible.swift">
+			<Option target="deployment"/>
+		</Unit>
+		<Unit filename="/home/josc/Documents/invigilator/invigilator/.build/checkouts/bits.git--2732362089523506049/Sources/Bits/UnsignedInteger+Shifting.swift">
+			<Option target="deployment"/>
+		</Unit>
+		<Unit filename="/home/josc/Documents/invigilator/invigilator/.build/checkouts/bits.git--2732362089523506049/Tests/BitsTests/AlphabetTests.swift">
+			<Option target="deployment"/>
+		</Unit>
+		<Unit filename="/home/josc/Documents/invigilator/invigilator/.build/checkouts/bits.git--2732362089523506049/Tests/BitsTests/ByteTests.swift">
+			<Option target="deployment"/>
+		</Unit>
+		<Unit filename="/home/josc/Documents/invigilator/invigilator/.build/checkouts/bits.git--2732362089523506049/Tests/BitsTests/BytesTests.swift">
+			<Option target="deployment"/>
+		</Unit>
+		<Unit filename="/home/josc/Documents/invigilator/invigilator/.build/checkouts/bits.git--2732362089523506049/Tests/BitsTests/ControlCharacterTests.swift">
+			<Option target="deployment"/>
+		</Unit>
+		<Unit filename="/home/josc/Documents/invigilator/invigilator/.build/checkouts/bits.git--2732362089523506049/Tests/BitsTests/PatternMatchingTests.swift">
+			<Option target="deployment"/>
+		</Unit>
+		<Unit filename="/home/josc/Documents/invigilator/invigilator/.build/checkouts/bits.git--2732362089523506049/Tests/BitsTests/UnsignedIntegerTests.swift">
+			<Option target="deployment"/>
+		</Unit>
+		<Unit filename="/home/josc/Documents/invigilator/invigilator/.build/checkouts/bits.git--2732362089523506049/Tests/LinuxMain.swift">
+			<Option target="deployment"/>
+		</Unit>
+		<Unit filename="/home/josc/Documents/invigilator/invigilator/.build/checkouts/cmark-gfm.git-1503611458323193847/Package.swift">
+			<Option target="deployment"/>
+		</Unit>
+		<Unit filename="/home/josc/Documents/invigilator/invigilator/.build/checkouts/cmysql.git--8195173450351898932/Package.swift">
+			<Option target="deployment"/>
+		</Unit>
+		<Unit filename="/home/josc/Documents/invigilator/invigilator/.build/checkouts/console.git-1345113180440162772/Package.swift">
+			<Option target="deployment"/>
+		</Unit>
+		<Unit filename="/home/josc/Documents/invigilator/invigilator/.build/checkouts/console.git-1345113180440162772/Sources/Console/Bar/Bar.swift">
+			<Option target="deployment"/>
+		</Unit>
+		<Unit filename="/home/josc/Documents/invigilator/invigilator/.build/checkouts/console.git-1345113180440162772/Sources/Console/Bar/Loading/Console+LoadingBar.swift">
+			<Option target="deployment"/>
+		</Unit>
+		<Unit filename="/home/josc/Documents/invigilator/invigilator/.build/checkouts/console.git-1345113180440162772/Sources/Console/Bar/Loading/LoadingBar.swift">
+			<Option target="deployment"/>
+		</Unit>
+		<Unit filename="/home/josc/Documents/invigilator/invigilator/.build/checkouts/console.git-1345113180440162772/Sources/Console/Bar/Progress/Console+ProgressBar.swift">
+			<Option target="deployment"/>
+		</Unit>
+		<Unit filename="/home/josc/Documents/invigilator/invigilator/.build/checkouts/console.git-1345113180440162772/Sources/Console/Bar/Progress/ProgressBar.swift">
+			<Option target="deployment"/>
+		</Unit>
+		<Unit filename="/home/josc/Documents/invigilator/invigilator/.build/checkouts/console.git-1345113180440162772/Sources/Console/Command/Argument.swift">
+			<Option target="deployment"/>
+		</Unit>
+		<Unit filename="/home/josc/Documents/invigilator/invigilator/.build/checkouts/console.git-1345113180440162772/Sources/Console/Command/Command+Print.swift">
+			<Option target="deployment"/>
+		</Unit>
+		<Unit filename="/home/josc/Documents/invigilator/invigilator/.build/checkouts/console.git-1345113180440162772/Sources/Console/Command/Command.swift">
+			<Option target="deployment"/>
+		</Unit>
+		<Unit filename="/home/josc/Documents/invigilator/invigilator/.build/checkouts/console.git-1345113180440162772/Sources/Console/Command/Group.swift">
+			<Option target="deployment"/>
+		</Unit>
+		<Unit filename="/home/josc/Documents/invigilator/invigilator/.build/checkouts/console.git-1345113180440162772/Sources/Console/Command/Option.swift">
+			<Option target="deployment"/>
+		</Unit>
+		<Unit filename="/home/josc/Documents/invigilator/invigilator/.build/checkouts/console.git-1345113180440162772/Sources/Console/Command/Runnable.swift">
+			<Option target="deployment"/>
+		</Unit>
+		<Unit filename="/home/josc/Documents/invigilator/invigilator/.build/checkouts/console.git-1345113180440162772/Sources/Console/Command/Value.swift">
+			<Option target="deployment"/>
+		</Unit>
+		<Unit filename="/home/josc/Documents/invigilator/invigilator/.build/checkouts/console.git-1345113180440162772/Sources/Console/Console/Clear/ConsoleClear.swift">
+			<Option target="deployment"/>
+		</Unit>
+		<Unit filename="/home/josc/Documents/invigilator/invigilator/.build/checkouts/console.git-1345113180440162772/Sources/Console/Console/Color/ConsoleColor.swift">
+			<Option target="deployment"/>
+		</Unit>
+		<Unit filename="/home/josc/Documents/invigilator/invigilator/.build/checkouts/console.git-1345113180440162772/Sources/Console/Console/Console+Ask.swift">
+			<Option target="deployment"/>
+		</Unit>
+		<Unit filename="/home/josc/Documents/invigilator/invigilator/.build/checkouts/console.git-1345113180440162772/Sources/Console/Console/Console+Center.swift">
+			<Option target="deployment"/>
+		</Unit>
+		<Unit filename="/home/josc/Documents/invigilator/invigilator/.build/checkouts/console.git-1345113180440162772/Sources/Console/Console/Console+Confirm.swift">
+			<Option target="deployment"/>
+		</Unit>
+		<Unit filename="/home/josc/Documents/invigilator/invigilator/.build/checkouts/console.git-1345113180440162772/Sources/Console/Console/Console+Ephemeral.swift">
+			<Option target="deployment"/>
+		</Unit>
+		<Unit filename="/home/josc/Documents/invigilator/invigilator/.build/checkouts/console.git-1345113180440162772/Sources/Console/Console/Console+Options.swift">
+			<Option target="deployment"/>
+		</Unit>
+		<Unit filename="/home/josc/Documents/invigilator/invigilator/.build/checkouts/console.git-1345113180440162772/Sources/Console/Console/Console+Print.swift">
+			<Option target="deployment"/>
+		</Unit>
+		<Unit filename="/home/josc/Documents/invigilator/invigilator/.build/checkouts/console.git-1345113180440162772/Sources/Console/Console/Console+Run.swift">
+			<Option target="deployment"/>
+		</Unit>
+		<Unit filename="/home/josc/Documents/invigilator/invigilator/.build/checkouts/console.git-1345113180440162772/Sources/Console/Console/ConsoleError.swift">
+			<Option target="deployment"/>
+		</Unit>
+		<Unit filename="/home/josc/Documents/invigilator/invigilator/.build/checkouts/console.git-1345113180440162772/Sources/Console/Console/ConsoleProtocol.swift">
+			<Option target="deployment"/>
+		</Unit>
+		<Unit filename="/home/josc/Documents/invigilator/invigilator/.build/checkouts/console.git-1345113180440162772/Sources/Console/Console/Style/Console+ConsoleStyle.swift">
+			<Option target="deployment"/>
+		</Unit>
+		<Unit filename="/home/josc/Documents/invigilator/invigilator/.build/checkouts/console.git-1345113180440162772/Sources/Console/Console/Style/ConsoleStyle.swift">
+			<Option target="deployment"/>
+		</Unit>
+		<Unit filename="/home/josc/Documents/invigilator/invigilator/.build/checkouts/console.git-1345113180440162772/Sources/Console/Stream/FileHandle+Stream.swift">
+			<Option target="deployment"/>
+		</Unit>
+		<Unit filename="/home/josc/Documents/invigilator/invigilator/.build/checkouts/console.git-1345113180440162772/Sources/Console/Stream/Pipe+Stream.swift">
+			<Option target="deployment"/>
+		</Unit>
+		<Unit filename="/home/josc/Documents/invigilator/invigilator/.build/checkouts/console.git-1345113180440162772/Sources/Console/Stream/Stream.swift">
+			<Option target="deployment"/>
+		</Unit>
+		<Unit filename="/home/josc/Documents/invigilator/invigilator/.build/checkouts/console.git-1345113180440162772/Sources/Console/Terminal/ConsoleColor+Terminal.swift">
+			<Option target="deployment"/>
+		</Unit>
+		<Unit filename="/home/josc/Documents/invigilator/invigilator/.build/checkouts/console.git-1345113180440162772/Sources/Console/Terminal/ConsoleStyle+Terminal.swift">
+			<Option target="deployment"/>
+		</Unit>
+		<Unit filename="/home/josc/Documents/invigilator/invigilator/.build/checkouts/console.git-1345113180440162772/Sources/Console/Terminal/String+ANSI.swift">
+			<Option target="deployment"/>
+		</Unit>
+		<Unit filename="/home/josc/Documents/invigilator/invigilator/.build/checkouts/console.git-1345113180440162772/Sources/Console/Terminal/Terminal+Command.swift">
+			<Option target="deployment"/>
+		</Unit>
+		<Unit filename="/home/josc/Documents/invigilator/invigilator/.build/checkouts/console.git-1345113180440162772/Sources/Console/Terminal/Terminal.swift">
+			<Option target="deployment"/>
+		</Unit>
+		<Unit filename="/home/josc/Documents/invigilator/invigilator/.build/checkouts/console.git-1345113180440162772/Sources/Console/Utilities/Bool+Polymorphic.swift">
+			<Option target="deployment"/>
+		</Unit>
+		<Unit filename="/home/josc/Documents/invigilator/invigilator/.build/checkouts/console.git-1345113180440162772/Sources/Console/Utilities/String+Trim.swift">
+			<Option target="deployment"/>
+		</Unit>
+		<Unit filename="/home/josc/Documents/invigilator/invigilator/.build/checkouts/console.git-1345113180440162772/Sources/ConsoleExample/main.swift">
+			<Option target="deployment"/>
+		</Unit>
+		<Unit filename="/home/josc/Documents/invigilator/invigilator/.build/checkouts/console.git-1345113180440162772/Tests/ConsoleTests/ConsoleTests.swift">
+			<Option target="deployment"/>
+		</Unit>
+		<Unit filename="/home/josc/Documents/invigilator/invigilator/.build/checkouts/console.git-1345113180440162772/Tests/ConsoleTests/Utilities.swift">
+			<Option target="deployment"/>
+		</Unit>
+		<Unit filename="/home/josc/Documents/invigilator/invigilator/.build/checkouts/console.git-1345113180440162772/Tests/LinuxMain.swift">
+			<Option target="deployment"/>
+		</Unit>
+		<Unit filename="/home/josc/Documents/invigilator/invigilator/.build/checkouts/core.git--2270913753728931330/Package.swift">
+			<Option target="deployment"/>
+		</Unit>
+		<Unit filename="/home/josc/Documents/invigilator/invigilator/.build/checkouts/core.git--2270913753728931330/Sources/Core/Array.swift">
+			<Option target="deployment"/>
+		</Unit>
+		<Unit filename="/home/josc/Documents/invigilator/invigilator/.build/checkouts/core.git--2270913753728931330/Sources/Core/Bits.swift">
+			<Option target="deployment"/>
+		</Unit>
+		<Unit filename="/home/josc/Documents/invigilator/invigilator/.build/checkouts/core.git--2270913753728931330/Sources/Core/Cache.swift">
+			<Option target="deployment"/>
+		</Unit>
+		<Unit filename="/home/josc/Documents/invigilator/invigilator/.build/checkouts/core.git--2270913753728931330/Sources/Core/Collection+Safe.swift">
+			<Option target="deployment"/>
+		</Unit>
+		<Unit filename="/home/josc/Documents/invigilator/invigilator/.build/checkouts/core.git--2270913753728931330/Sources/Core/DataFile.swift">
+			<Option target="deployment"/>
+		</Unit>
+		<Unit filename="/home/josc/Documents/invigilator/invigilator/.build/checkouts/core.git--2270913753728931330/Sources/Core/Dispatch.swift">
+			<Option target="deployment"/>
+		</Unit>
+		<Unit filename="/home/josc/Documents/invigilator/invigilator/.build/checkouts/core.git--2270913753728931330/Sources/Core/DispatchTime+Utilities.swift">
+			<Option target="deployment"/>
+		</Unit>
+		<Unit filename="/home/josc/Documents/invigilator/invigilator/.build/checkouts/core.git--2270913753728931330/Sources/Core/EmptyInitializable.swift">
+			<Option target="deployment"/>
+		</Unit>
+		<Unit filename="/home/josc/Documents/invigilator/invigilator/.build/checkouts/core.git--2270913753728931330/Sources/Core/Exports.swift">
+			<Option target="deployment"/>
+		</Unit>
+		<Unit filename="/home/josc/Documents/invigilator/invigilator/.build/checkouts/core.git--2270913753728931330/Sources/Core/Extendable.swift">
+			<Option target="deployment"/>
+		</Unit>
+		<Unit filename="/home/josc/Documents/invigilator/invigilator/.build/checkouts/core.git--2270913753728931330/Sources/Core/FileProtocol.swift">
+			<Option target="deployment"/>
+		</Unit>
+		<Unit filename="/home/josc/Documents/invigilator/invigilator/.build/checkouts/core.git--2270913753728931330/Sources/Core/Int+Hex.swift">
+			<Option target="deployment"/>
+		</Unit>
+		<Unit filename="/home/josc/Documents/invigilator/invigilator/.build/checkouts/core.git--2270913753728931330/Sources/Core/Lock.swift">
+			<Option target="deployment"/>
+		</Unit>
+		<Unit filename="/home/josc/Documents/invigilator/invigilator/.build/checkouts/core.git--2270913753728931330/Sources/Core/Portal.swift">
+			<Option target="deployment"/>
+		</Unit>
+		<Unit filename="/home/josc/Documents/invigilator/invigilator/.build/checkouts/core.git--2270913753728931330/Sources/Core/RFC1123.swift">
+			<Option target="deployment"/>
+		</Unit>
+		<Unit filename="/home/josc/Documents/invigilator/invigilator/.build/checkouts/core.git--2270913753728931330/Sources/Core/Result.swift">
+			<Option target="deployment"/>
+		</Unit>
+		<Unit filename="/home/josc/Documents/invigilator/invigilator/.build/checkouts/core.git--2270913753728931330/Sources/Core/Semaphore.swift">
+			<Option target="deployment"/>
+		</Unit>
+		<Unit filename="/home/josc/Documents/invigilator/invigilator/.build/checkouts/core.git--2270913753728931330/Sources/Core/Sequence.swift">
+			<Option target="deployment"/>
+		</Unit>
+		<Unit filename="/home/josc/Documents/invigilator/invigilator/.build/checkouts/core.git--2270913753728931330/Sources/Core/StaticDataBuffer.swift">
+			<Option target="deployment"/>
+		</Unit>
+		<Unit filename="/home/josc/Documents/invigilator/invigilator/.build/checkouts/core.git--2270913753728931330/Sources/Core/String+CaseInsensitiveCompare.swift">
+			<Option target="deployment"/>
+		</Unit>
+		<Unit filename="/home/josc/Documents/invigilator/invigilator/.build/checkouts/core.git--2270913753728931330/Sources/Core/String+Polymorphic.swift">
+			<Option target="deployment"/>
+		</Unit>
+		<Unit filename="/home/josc/Documents/invigilator/invigilator/.build/checkouts/core.git--2270913753728931330/Sources/Core/String.swift">
+			<Option target="deployment"/>
+		</Unit>
+		<Unit filename="/home/josc/Documents/invigilator/invigilator/.build/checkouts/core.git--2270913753728931330/Sources/Core/WorkingDirectory.swift">
+			<Option target="deployment"/>
+		</Unit>
+		<Unit filename="/home/josc/Documents/invigilator/invigilator/.build/checkouts/core.git--2270913753728931330/Sources/libc/libc.swift">
+			<Option target="deployment"/>
+		</Unit>
+		<Unit filename="/home/josc/Documents/invigilator/invigilator/.build/checkouts/core.git--2270913753728931330/Tests/CoreTests/ArrayTests.swift">
+			<Option target="deployment"/>
+		</Unit>
+		<Unit filename="/home/josc/Documents/invigilator/invigilator/.build/checkouts/core.git--2270913753728931330/Tests/CoreTests/BlackBoxTests.swift">
+			<Option target="deployment"/>
+		</Unit>
+		<Unit filename="/home/josc/Documents/invigilator/invigilator/.build/checkouts/core.git--2270913753728931330/Tests/CoreTests/CacheTests.swift">
+			<Option target="deployment"/>
+		</Unit>
+		<Unit filename="/home/josc/Documents/invigilator/invigilator/.build/checkouts/core.git--2270913753728931330/Tests/CoreTests/FileProtocolTests.swift">
+			<Option target="deployment"/>
+		</Unit>
+		<Unit filename="/home/josc/Documents/invigilator/invigilator/.build/checkouts/core.git--2270913753728931330/Tests/CoreTests/PercentEncodingTests.swift">
+			<Option target="deployment"/>
+		</Unit>
+		<Unit filename="/home/josc/Documents/invigilator/invigilator/.build/checkouts/core.git--2270913753728931330/Tests/CoreTests/PolymorphicTests.swift">
+			<Option target="deployment"/>
+		</Unit>
+		<Unit filename="/home/josc/Documents/invigilator/invigilator/.build/checkouts/core.git--2270913753728931330/Tests/CoreTests/PortalTests.swift">
+			<Option target="deployment"/>
+		</Unit>
+		<Unit filename="/home/josc/Documents/invigilator/invigilator/.build/checkouts/core.git--2270913753728931330/Tests/CoreTests/RFC1123Tests.swift">
+			<Option target="deployment"/>
+		</Unit>
+		<Unit filename="/home/josc/Documents/invigilator/invigilator/.build/checkouts/core.git--2270913753728931330/Tests/CoreTests/ResultTests.swift">
+			<Option target="deployment"/>
+		</Unit>
+		<Unit filename="/home/josc/Documents/invigilator/invigilator/.build/checkouts/core.git--2270913753728931330/Tests/CoreTests/SemaphoreTests.swift">
+			<Option target="deployment"/>
+		</Unit>
+		<Unit filename="/home/josc/Documents/invigilator/invigilator/.build/checkouts/core.git--2270913753728931330/Tests/CoreTests/StaticDataBufferTests.swift">
+			<Option target="deployment"/>
+		</Unit>
+		<Unit filename="/home/josc/Documents/invigilator/invigilator/.build/checkouts/core.git--2270913753728931330/Tests/CoreTests/StringTests.swift">
+			<Option target="deployment"/>
+		</Unit>
+		<Unit filename="/home/josc/Documents/invigilator/invigilator/.build/checkouts/core.git--2270913753728931330/Tests/CoreTests/UnsignedIntegerChunkingTests.swift">
+			<Option target="deployment"/>
+		</Unit>
+		<Unit filename="/home/josc/Documents/invigilator/invigilator/.build/checkouts/core.git--2270913753728931330/Tests/CoreTests/UtilityTests.swift">
+			<Option target="deployment"/>
+		</Unit>
+		<Unit filename="/home/josc/Documents/invigilator/invigilator/.build/checkouts/core.git--2270913753728931330/Tests/LinuxMain.swift">
+			<Option target="deployment"/>
+		</Unit>
+		<Unit filename="/home/josc/Documents/invigilator/invigilator/.build/checkouts/crypto.git-1676738516728668682/Package.swift">
+			<Option target="deployment"/>
+		</Unit>
+		<Unit filename="/home/josc/Documents/invigilator/invigilator/.build/checkouts/crypto.git-1676738516728668682/Sources/Crypto/Cipher/Cipher+Method.swift">
+			<Option target="deployment"/>
+		</Unit>
+		<Unit filename="/home/josc/Documents/invigilator/invigilator/.build/checkouts/crypto.git-1676738516728668682/Sources/Crypto/Cipher/Cipher.swift">
+			<Option target="deployment"/>
+		</Unit>
+		<Unit filename="/home/josc/Documents/invigilator/invigilator/.build/checkouts/crypto.git-1676738516728668682/Sources/Crypto/Essentials/ByteStream.swift">
+			<Option target="deployment"/>
+		</Unit>
+		<Unit filename="/home/josc/Documents/invigilator/invigilator/.build/checkouts/crypto.git-1676738516728668682/Sources/Crypto/Essentials/Exports.swift">
+			<Option target="deployment"/>
+		</Unit>
+		<Unit filename="/home/josc/Documents/invigilator/invigilator/.build/checkouts/crypto.git-1676738516728668682/Sources/Crypto/Essentials/Helpers.swift">
+			<Option target="deployment"/>
+		</Unit>
+		<Unit filename="/home/josc/Documents/invigilator/invigilator/.build/checkouts/crypto.git-1676738516728668682/Sources/Crypto/HMAC/HMAC+Method.swift">
+			<Option target="deployment"/>
+		</Unit>
+		<Unit filename="/home/josc/Documents/invigilator/invigilator/.build/checkouts/crypto.git-1676738516728668682/Sources/Crypto/HMAC/HMAC.swift">
+			<Option target="deployment"/>
+		</Unit>
+		<Unit filename="/home/josc/Documents/invigilator/invigilator/.build/checkouts/crypto.git-1676738516728668682/Sources/Crypto/Hash/Hash+Method.swift">
+			<Option target="deployment"/>
+		</Unit>
+		<Unit filename="/home/josc/Documents/invigilator/invigilator/.build/checkouts/crypto.git-1676738516728668682/Sources/Crypto/Hash/Hash.swift">
+			<Option target="deployment"/>
+		</Unit>
+		<Unit filename="/home/josc/Documents/invigilator/invigilator/.build/checkouts/crypto.git-1676738516728668682/Sources/Crypto/Random/Hash+Random.swift">
+			<Option target="deployment"/>
+		</Unit>
+		<Unit filename="/home/josc/Documents/invigilator/invigilator/.build/checkouts/crypto.git-1676738516728668682/Sources/Crypto/Random/LibreSSLError.swift">
+			<Option target="deployment"/>
+		</Unit>
+		<Unit filename="/home/josc/Documents/invigilator/invigilator/.build/checkouts/crypto.git-1676738516728668682/Sources/Crypto/Random/PseudoRandom.swift">
+			<Option target="deployment"/>
+		</Unit>
+		<Unit filename="/home/josc/Documents/invigilator/invigilator/.build/checkouts/crypto.git-1676738516728668682/Sources/Crypto/Random/Random.swift">
+			<Option target="deployment"/>
+		</Unit>
+		<Unit filename="/home/josc/Documents/invigilator/invigilator/.build/checkouts/crypto.git-1676738516728668682/Tests/CryptoTests/CipherTests.swift">
+			<Option target="deployment"/>
+		</Unit>
+		<Unit filename="/home/josc/Documents/invigilator/invigilator/.build/checkouts/crypto.git-1676738516728668682/Tests/CryptoTests/HMACTests.swift">
+			<Option target="deployment"/>
+		</Unit>
+		<Unit filename="/home/josc/Documents/invigilator/invigilator/.build/checkouts/crypto.git-1676738516728668682/Tests/CryptoTests/HashTests.swift">
+			<Option target="deployment"/>
+		</Unit>
+		<Unit filename="/home/josc/Documents/invigilator/invigilator/.build/checkouts/crypto.git-1676738516728668682/Tests/LinuxMain.swift">
+			<Option target="deployment"/>
+		</Unit>
+		<Unit filename="/home/josc/Documents/invigilator/invigilator/.build/checkouts/ctls.git-2568308364909796427/Package.swift">
+			<Option target="deployment"/>
+		</Unit>
+		<Unit filename="/home/josc/Documents/invigilator/invigilator/.build/checkouts/debugging.git--7101612306500245868/Package.swift">
+			<Option target="deployment"/>
+		</Unit>
+		<Unit filename="/home/josc/Documents/invigilator/invigilator/.build/checkouts/debugging.git--7101612306500245868/Sources/Debugging/Debuggable.swift">
+			<Option target="deployment"/>
+		</Unit>
+		<Unit filename="/home/josc/Documents/invigilator/invigilator/.build/checkouts/debugging.git--7101612306500245868/Tests/DebuggingTests/FooError.swift">
+			<Option target="deployment"/>
+		</Unit>
+		<Unit filename="/home/josc/Documents/invigilator/invigilator/.build/checkouts/debugging.git--7101612306500245868/Tests/DebuggingTests/FooErrorTests.swift">
+			<Option target="deployment"/>
+		</Unit>
+		<Unit filename="/home/josc/Documents/invigilator/invigilator/.build/checkouts/debugging.git--7101612306500245868/Tests/DebuggingTests/GeneralTests.swift">
+			<Option target="deployment"/>
+		</Unit>
+		<Unit filename="/home/josc/Documents/invigilator/invigilator/.build/checkouts/debugging.git--7101612306500245868/Tests/DebuggingTests/MinimumError.swift">
+			<Option target="deployment"/>
+		</Unit>
+		<Unit filename="/home/josc/Documents/invigilator/invigilator/.build/checkouts/debugging.git--7101612306500245868/Tests/LinuxMain.swift">
+			<Option target="deployment"/>
+		</Unit>
+		<Unit filename="/home/josc/Documents/invigilator/invigilator/.build/checkouts/engine.git--4105579061574610432/Package.swift">
+			<Option target="deployment"/>
+		</Unit>
+		<Unit filename="/home/josc/Documents/invigilator/invigilator/.build/checkouts/engine.git--4105579061574610432/Sources/Cookies/Cookie+BytesConvertible.swift">
+			<Option target="deployment"/>
+		</Unit>
+		<Unit filename="/home/josc/Documents/invigilator/invigilator/.build/checkouts/engine.git--4105579061574610432/Sources/Cookies/Cookie+Parse.swift">
+			<Option target="deployment"/>
+		</Unit>
+		<Unit filename="/home/josc/Documents/invigilator/invigilator/.build/checkouts/engine.git--4105579061574610432/Sources/Cookies/Cookie+Serialize.swift">
+			<Option target="deployment"/>
+		</Unit>
+		<Unit filename="/home/josc/Documents/invigilator/invigilator/.build/checkouts/engine.git--4105579061574610432/Sources/Cookies/Cookie.swift">
+			<Option target="deployment"/>
+		</Unit>
+		<Unit filename="/home/josc/Documents/invigilator/invigilator/.build/checkouts/engine.git--4105579061574610432/Sources/Cookies/Cookies+BytesConvertible.swift">
+			<Option target="deployment"/>
+		</Unit>
+		<Unit filename="/home/josc/Documents/invigilator/invigilator/.build/checkouts/engine.git--4105579061574610432/Sources/Cookies/Cookies+Literal.swift">
+			<Option target="deployment"/>
+		</Unit>
+		<Unit filename="/home/josc/Documents/invigilator/invigilator/.build/checkouts/engine.git--4105579061574610432/Sources/Cookies/Cookies+Parse.swift">
+			<Option target="deployment"/>
+		</Unit>
+		<Unit filename="/home/josc/Documents/invigilator/invigilator/.build/checkouts/engine.git--4105579061574610432/Sources/Cookies/Cookies+Serialize.swift">
+			<Option target="deployment"/>
+		</Unit>
+		<Unit filename="/home/josc/Documents/invigilator/invigilator/.build/checkouts/engine.git--4105579061574610432/Sources/Cookies/Cookies.swift">
+			<Option target="deployment"/>
+		</Unit>
+		<Unit filename="/home/josc/Documents/invigilator/invigilator/.build/checkouts/engine.git--4105579061574610432/Sources/Cookies/Request+Cookies.swift">
+			<Option target="deployment"/>
+		</Unit>
+		<Unit filename="/home/josc/Documents/invigilator/invigilator/.build/checkouts/engine.git--4105579061574610432/Sources/Cookies/Response+Cookies.swift">
+			<Option target="deployment"/>
+		</Unit>
+		<Unit filename="/home/josc/Documents/invigilator/invigilator/.build/checkouts/engine.git--4105579061574610432/Sources/HTTP/Async/Response+Async.swift">
+			<Option target="deployment"/>
+		</Unit>
+		<Unit filename="/home/josc/Documents/invigilator/invigilator/.build/checkouts/engine.git--4105579061574610432/Sources/HTTP/Body/Body+Bytes.swift">
+			<Option target="deployment"/>
+		</Unit>
+		<Unit filename="/home/josc/Documents/invigilator/invigilator/.build/checkouts/engine.git--4105579061574610432/Sources/HTTP/Body/Body.swift">
+			<Option target="deployment"/>
+		</Unit>
+		<Unit filename="/home/josc/Documents/invigilator/invigilator/.build/checkouts/engine.git--4105579061574610432/Sources/HTTP/Body/BodyRepresentable.swift">
+			<Option target="deployment"/>
+		</Unit>
+		<Unit filename="/home/josc/Documents/invigilator/invigilator/.build/checkouts/engine.git--4105579061574610432/Sources/HTTP/Chunk/Body+Chunk.swift">
+			<Option target="deployment"/>
+		</Unit>
+		<Unit filename="/home/josc/Documents/invigilator/invigilator/.build/checkouts/engine.git--4105579061574610432/Sources/HTTP/Chunk/ChunkStream.swift">
+			<Option target="deployment"/>
+		</Unit>
+		<Unit filename="/home/josc/Documents/invigilator/invigilator/.build/checkouts/engine.git--4105579061574610432/Sources/HTTP/Chunk/Response+Chunk.swift">
+			<Option target="deployment"/>
+		</Unit>
+		<Unit filename="/home/josc/Documents/invigilator/invigilator/.build/checkouts/engine.git--4105579061574610432/Sources/HTTP/Client/Client.swift">
+			<Option target="deployment"/>
+		</Unit>
+		<Unit filename="/home/josc/Documents/invigilator/invigilator/.build/checkouts/engine.git--4105579061574610432/Sources/HTTP/Client/HTTP+Client.swift">
+			<Option target="deployment"/>
+		</Unit>
+		<Unit filename="/home/josc/Documents/invigilator/invigilator/.build/checkouts/engine.git--4105579061574610432/Sources/HTTP/FoundationClient/Client+Foundation.swift">
+			<Option target="deployment"/>
+		</Unit>
+		<Unit filename="/home/josc/Documents/invigilator/invigilator/.build/checkouts/engine.git--4105579061574610432/Sources/HTTP/FoundationClient/Request+Foundation.swift">
+			<Option target="deployment"/>
+		</Unit>
+		<Unit filename="/home/josc/Documents/invigilator/invigilator/.build/checkouts/engine.git--4105579061574610432/Sources/HTTP/FoundationClient/Response+Foundation.swift">
+			<Option target="deployment"/>
+		</Unit>
+		<Unit filename="/home/josc/Documents/invigilator/invigilator/.build/checkouts/engine.git--4105579061574610432/Sources/HTTP/FoundationClient/URI+Foundation.swift">
+			<Option target="deployment"/>
+		</Unit>
+		<Unit filename="/home/josc/Documents/invigilator/invigilator/.build/checkouts/engine.git--4105579061574610432/Sources/HTTP/Headers/Headers.swift">
+			<Option target="deployment"/>
+		</Unit>
+		<Unit filename="/home/josc/Documents/invigilator/invigilator/.build/checkouts/engine.git--4105579061574610432/Sources/HTTP/Messages/Message+CustomStringConvertible.swift">
+			<Option target="deployment"/>
+		</Unit>
+		<Unit filename="/home/josc/Documents/invigilator/invigilator/.build/checkouts/engine.git--4105579061574610432/Sources/HTTP/Messages/Message.swift">
+			<Option target="deployment"/>
+		</Unit>
+		<Unit filename="/home/josc/Documents/invigilator/invigilator/.build/checkouts/engine.git--4105579061574610432/Sources/HTTP/Method/Method+String.swift">
+			<Option target="deployment"/>
+		</Unit>
+		<Unit filename="/home/josc/Documents/invigilator/invigilator/.build/checkouts/engine.git--4105579061574610432/Sources/HTTP/Method/Method.swift">
+			<Option target="deployment"/>
+		</Unit>
+		<Unit filename="/home/josc/Documents/invigilator/invigilator/.build/checkouts/engine.git--4105579061574610432/Sources/HTTP/Middleware/Middleware+Chaining.swift">
+			<Option target="deployment"/>
+		</Unit>
+		<Unit filename="/home/josc/Documents/invigilator/invigilator/.build/checkouts/engine.git--4105579061574610432/Sources/HTTP/Middleware/Middleware.swift">
+			<Option target="deployment"/>
+		</Unit>
+		<Unit filename="/home/josc/Documents/invigilator/invigilator/.build/checkouts/engine.git--4105579061574610432/Sources/HTTP/Parser/CHTTPParser.swift">
+			<Option target="deployment"/>
+		</Unit>
+		<Unit filename="/home/josc/Documents/invigilator/invigilator/.build/checkouts/engine.git--4105579061574610432/Sources/HTTP/Parser/ParseResults.swift">
+			<Option target="deployment"/>
+		</Unit>
+		<Unit filename="/home/josc/Documents/invigilator/invigilator/.build/checkouts/engine.git--4105579061574610432/Sources/HTTP/Parser/ParserError.swift">
+			<Option target="deployment"/>
+		</Unit>
+		<Unit filename="/home/josc/Documents/invigilator/invigilator/.build/checkouts/engine.git--4105579061574610432/Sources/HTTP/Parser/RequestParser.swift">
+			<Option target="deployment"/>
+		</Unit>
+		<Unit filename="/home/josc/Documents/invigilator/invigilator/.build/checkouts/engine.git--4105579061574610432/Sources/HTTP/Parser/ResponseParser.swift">
+			<Option target="deployment"/>
+		</Unit>
+		<Unit filename="/home/josc/Documents/invigilator/invigilator/.build/checkouts/engine.git--4105579061574610432/Sources/HTTP/Request/Request.swift">
+			<Option target="deployment"/>
+		</Unit>
+		<Unit filename="/home/josc/Documents/invigilator/invigilator/.build/checkouts/engine.git--4105579061574610432/Sources/HTTP/Responder/AsyncResponder.swift">
+			<Option target="deployment"/>
+		</Unit>
+		<Unit filename="/home/josc/Documents/invigilator/invigilator/.build/checkouts/engine.git--4105579061574610432/Sources/HTTP/Responder/Responder.swift">
+			<Option target="deployment"/>
+		</Unit>
+		<Unit filename="/home/josc/Documents/invigilator/invigilator/.build/checkouts/engine.git--4105579061574610432/Sources/HTTP/Response/Response.swift">
+			<Option target="deployment"/>
+		</Unit>
+		<Unit filename="/home/josc/Documents/invigilator/invigilator/.build/checkouts/engine.git--4105579061574610432/Sources/HTTP/Response/ResponseRepresentable.swift">
+			<Option target="deployment"/>
+		</Unit>
+		<Unit filename="/home/josc/Documents/invigilator/invigilator/.build/checkouts/engine.git--4105579061574610432/Sources/HTTP/Serializer/RequestSerializer.swift">
+			<Option target="deployment"/>
+		</Unit>
+		<Unit filename="/home/josc/Documents/invigilator/invigilator/.build/checkouts/engine.git--4105579061574610432/Sources/HTTP/Serializer/ResponseSerializer.swift">
+			<Option target="deployment"/>
+		</Unit>
+		<Unit filename="/home/josc/Documents/invigilator/invigilator/.build/checkouts/engine.git--4105579061574610432/Sources/HTTP/Serializer/Serializer.swift">
+			<Option target="deployment"/>
+		</Unit>
+		<Unit filename="/home/josc/Documents/invigilator/invigilator/.build/checkouts/engine.git--4105579061574610432/Sources/HTTP/Serializer/SerializerError.swift">
+			<Option target="deployment"/>
+		</Unit>
+		<Unit filename="/home/josc/Documents/invigilator/invigilator/.build/checkouts/engine.git--4105579061574610432/Sources/HTTP/Server/AsyncServer.swift">
+			<Option target="deployment"/>
+		</Unit>
+		<Unit filename="/home/josc/Documents/invigilator/invigilator/.build/checkouts/engine.git--4105579061574610432/Sources/HTTP/Server/AsyncServerWorker.swift">
+			<Option target="deployment"/>
+		</Unit>
+		<Unit filename="/home/josc/Documents/invigilator/invigilator/.build/checkouts/engine.git--4105579061574610432/Sources/HTTP/Server/BasicServer.swift">
+			<Option target="deployment"/>
+		</Unit>
+		<Unit filename="/home/josc/Documents/invigilator/invigilator/.build/checkouts/engine.git--4105579061574610432/Sources/HTTP/Server/Server.swift">
+			<Option target="deployment"/>
+		</Unit>
+		<Unit filename="/home/josc/Documents/invigilator/invigilator/.build/checkouts/engine.git--4105579061574610432/Sources/HTTP/Server/ServerError.swift">
+			<Option target="deployment"/>
+		</Unit>
+		<Unit filename="/home/josc/Documents/invigilator/invigilator/.build/checkouts/engine.git--4105579061574610432/Sources/HTTP/Server/ThreadsafeArray.swift">
+			<Option target="deployment"/>
+		</Unit>
+		<Unit filename="/home/josc/Documents/invigilator/invigilator/.build/checkouts/engine.git--4105579061574610432/Sources/HTTP/Status/Status.swift">
+			<Option target="deployment"/>
+		</Unit>
+		<Unit filename="/home/josc/Documents/invigilator/invigilator/.build/checkouts/engine.git--4105579061574610432/Sources/HTTP/Version/Version.swift">
+			<Option target="deployment"/>
+		</Unit>
+		<Unit filename="/home/josc/Documents/invigilator/invigilator/.build/checkouts/engine.git--4105579061574610432/Sources/Performance/main.swift">
+			<Option target="deployment"/>
+		</Unit>
+		<Unit filename="/home/josc/Documents/invigilator/invigilator/.build/checkouts/engine.git--4105579061574610432/Sources/SMTP/Client/EHLOExtension.swift">
+			<Option target="deployment"/>
+		</Unit>
+		<Unit filename="/home/josc/Documents/invigilator/invigilator/.build/checkouts/engine.git--4105579061574610432/Sources/SMTP/Client/SMTPAuthMethod.swift">
+			<Option target="deployment"/>
+		</Unit>
+		<Unit filename="/home/josc/Documents/invigilator/invigilator/.build/checkouts/engine.git--4105579061574610432/Sources/SMTP/Client/SMTPClient+Authorize.swift">
+			<Option target="deployment"/>
+		</Unit>
+		<Unit filename="/home/josc/Documents/invigilator/invigilator/.build/checkouts/engine.git--4105579061574610432/Sources/SMTP/Client/SMTPClient+Convenience.swift">
+			<Option target="deployment"/>
+		</Unit>
+		<Unit filename="/home/josc/Documents/invigilator/invigilator/.build/checkouts/engine.git--4105579061574610432/Sources/SMTP/Client/SMTPClient+Reply.swift">
+			<Option target="deployment"/>
+		</Unit>
+		<Unit filename="/home/josc/Documents/invigilator/invigilator/.build/checkouts/engine.git--4105579061574610432/Sources/SMTP/Client/SMTPClient+Send.swift">
+			<Option target="deployment"/>
+		</Unit>
+		<Unit filename="/home/josc/Documents/invigilator/invigilator/.build/checkouts/engine.git--4105579061574610432/Sources/SMTP/Client/SMTPClient+Transmit.swift">
+			<Option target="deployment"/>
+		</Unit>
+		<Unit filename="/home/josc/Documents/invigilator/invigilator/.build/checkouts/engine.git--4105579061574610432/Sources/SMTP/Client/SMTPClient.swift">
+			<Option target="deployment"/>
+		</Unit>
+		<Unit filename="/home/josc/Documents/invigilator/invigilator/.build/checkouts/engine.git--4105579061574610432/Sources/SMTP/Client/SMTPClientError.swift">
+			<Option target="deployment"/>
+		</Unit>
+		<Unit filename="/home/josc/Documents/invigilator/invigilator/.build/checkouts/engine.git--4105579061574610432/Sources/SMTP/Client/SMTPCredential.swift">
+			<Option target="deployment"/>
+		</Unit>
+		<Unit filename="/home/josc/Documents/invigilator/invigilator/.build/checkouts/engine.git--4105579061574610432/Sources/SMTP/Client/SMTPGreeting.swift">
+			<Option target="deployment"/>
+		</Unit>
+		<Unit filename="/home/josc/Documents/invigilator/invigilator/.build/checkouts/engine.git--4105579061574610432/Sources/SMTP/Email/Address/EmailAddress+StringLiteralConvertible.swift">
+			<Option target="deployment"/>
+		</Unit>
+		<Unit filename="/home/josc/Documents/invigilator/invigilator/.build/checkouts/engine.git--4105579061574610432/Sources/SMTP/Email/Address/EmailAddress.swift">
+			<Option target="deployment"/>
+		</Unit>
+		<Unit filename="/home/josc/Documents/invigilator/invigilator/.build/checkouts/engine.git--4105579061574610432/Sources/SMTP/Email/Address/EmailAddressRepresentable.swift">
+			<Option target="deployment"/>
+		</Unit>
+		<Unit filename="/home/josc/Documents/invigilator/invigilator/.build/checkouts/engine.git--4105579061574610432/Sources/SMTP/Email/Attachment/EmailAttachment.swift">
+			<Option target="deployment"/>
+		</Unit>
+		<Unit filename="/home/josc/Documents/invigilator/invigilator/.build/checkouts/engine.git--4105579061574610432/Sources/SMTP/Email/Attachment/EmailAttachmentRepresentable.swift">
+			<Option target="deployment"/>
+		</Unit>
+		<Unit filename="/home/josc/Documents/invigilator/invigilator/.build/checkouts/engine.git--4105579061574610432/Sources/SMTP/Email/Body/EmailBody.swift">
+			<Option target="deployment"/>
+		</Unit>
+		<Unit filename="/home/josc/Documents/invigilator/invigilator/.build/checkouts/engine.git--4105579061574610432/Sources/SMTP/Email/Body/EmailBodyRepresentable.swift">
+			<Option target="deployment"/>
+		</Unit>
+		<Unit filename="/home/josc/Documents/invigilator/invigilator/.build/checkouts/engine.git--4105579061574610432/Sources/SMTP/Email/Email.swift">
+			<Option target="deployment"/>
+		</Unit>
+		<Unit filename="/home/josc/Documents/invigilator/invigilator/.build/checkouts/engine.git--4105579061574610432/Sources/SMTP/Utility/NSDate+SMTP.swift">
+			<Option target="deployment"/>
+		</Unit>
+		<Unit filename="/home/josc/Documents/invigilator/invigilator/.build/checkouts/engine.git--4105579061574610432/Sources/SMTP/Utility/NSUUID+SMTPMessageID.swift">
+			<Option target="deployment"/>
+		</Unit>
+		<Unit filename="/home/josc/Documents/invigilator/invigilator/.build/checkouts/engine.git--4105579061574610432/Sources/URI/Model/URI+Byte.swift">
+			<Option target="deployment"/>
+		</Unit>
+		<Unit filename="/home/josc/Documents/invigilator/invigilator/.build/checkouts/engine.git--4105579061574610432/Sources/URI/Model/URI+Modification.swift">
+			<Option target="deployment"/>
+		</Unit>
+		<Unit filename="/home/josc/Documents/invigilator/invigilator/.build/checkouts/engine.git--4105579061574610432/Sources/URI/Model/URI+Ports.swift">
+			<Option target="deployment"/>
+		</Unit>
+		<Unit filename="/home/josc/Documents/invigilator/invigilator/.build/checkouts/engine.git--4105579061574610432/Sources/URI/Model/URI+String.swift">
+			<Option target="deployment"/>
+		</Unit>
+		<Unit filename="/home/josc/Documents/invigilator/invigilator/.build/checkouts/engine.git--4105579061574610432/Sources/URI/Model/URI.swift">
+			<Option target="deployment"/>
+		</Unit>
+		<Unit filename="/home/josc/Documents/invigilator/invigilator/.build/checkouts/engine.git--4105579061574610432/Sources/URI/Parser/Parser.swift">
+			<Option target="deployment"/>
+		</Unit>
+		<Unit filename="/home/josc/Documents/invigilator/invigilator/.build/checkouts/engine.git--4105579061574610432/Sources/WebSockets/Client/WebSocket+Client.swift">
+			<Option target="deployment"/>
+		</Unit>
+		<Unit filename="/home/josc/Documents/invigilator/invigilator/.build/checkouts/engine.git--4105579061574610432/Sources/WebSockets/Communication/WebSocket+ControlFrames.swift">
+			<Option target="deployment"/>
+		</Unit>
+		<Unit filename="/home/josc/Documents/invigilator/invigilator/.build/checkouts/engine.git--4105579061574610432/Sources/WebSockets/Communication/WebSocket+Send.swift">
+			<Option target="deployment"/>
+		</Unit>
+		<Unit filename="/home/josc/Documents/invigilator/invigilator/.build/checkouts/engine.git--4105579061574610432/Sources/WebSockets/Connection/Headers+WebSockets.swift">
+			<Option target="deployment"/>
+		</Unit>
+		<Unit filename="/home/josc/Documents/invigilator/invigilator/.build/checkouts/engine.git--4105579061574610432/Sources/WebSockets/Connection/WebSockets+Hash.swift">
+			<Option target="deployment"/>
+		</Unit>
+		<Unit filename="/home/josc/Documents/invigilator/invigilator/.build/checkouts/engine.git--4105579061574610432/Sources/WebSockets/Model/Fragmentation.swift">
+			<Option target="deployment"/>
+		</Unit>
+		<Unit filename="/home/josc/Documents/invigilator/invigilator/.build/checkouts/engine.git--4105579061574610432/Sources/WebSockets/Model/Frame.swift">
+			<Option target="deployment"/>
+		</Unit>
+		<Unit filename="/home/josc/Documents/invigilator/invigilator/.build/checkouts/engine.git--4105579061574610432/Sources/WebSockets/Model/WebSocket+Error.swift">
+			<Option target="deployment"/>
+		</Unit>
+		<Unit filename="/home/josc/Documents/invigilator/invigilator/.build/checkouts/engine.git--4105579061574610432/Sources/WebSockets/Model/WebSocket.swift">
+			<Option target="deployment"/>
+		</Unit>
+		<Unit filename="/home/josc/Documents/invigilator/invigilator/.build/checkouts/engine.git--4105579061574610432/Sources/WebSockets/Request+WebSockets.swift">
+			<Option target="deployment"/>
+		</Unit>
+		<Unit filename="/home/josc/Documents/invigilator/invigilator/.build/checkouts/engine.git--4105579061574610432/Sources/WebSockets/Serialization/FrameDeserializer.swift">
+			<Option target="deployment"/>
+		</Unit>
+		<Unit filename="/home/josc/Documents/invigilator/invigilator/.build/checkouts/engine.git--4105579061574610432/Sources/WebSockets/Serialization/FrameSerializer.swift">
+			<Option target="deployment"/>
+		</Unit>
+		<Unit filename="/home/josc/Documents/invigilator/invigilator/.build/checkouts/engine.git--4105579061574610432/Sources/WebSockets/Serialization/WebSockets+Flags.swift">
+			<Option target="deployment"/>
+		</Unit>
+		<Unit filename="/home/josc/Documents/invigilator/invigilator/.build/checkouts/engine.git--4105579061574610432/Sources/WebSockets/WebSocketFormatErrors.swift">
+			<Option target="deployment"/>
+		</Unit>
+		<Unit filename="/home/josc/Documents/invigilator/invigilator/.build/checkouts/engine.git--4105579061574610432/Tests/CookiesTests/CookieTests.swift">
+			<Option target="deployment"/>
+		</Unit>
+		<Unit filename="/home/josc/Documents/invigilator/invigilator/.build/checkouts/engine.git--4105579061574610432/Tests/CookiesTests/CookiesTests.swift">
+			<Option target="deployment"/>
+		</Unit>
+		<Unit filename="/home/josc/Documents/invigilator/invigilator/.build/checkouts/engine.git--4105579061574610432/Tests/CookiesTests/HTTPTests.swift">
+			<Option target="deployment"/>
+		</Unit>
+		<Unit filename="/home/josc/Documents/invigilator/invigilator/.build/checkouts/engine.git--4105579061574610432/Tests/CookiesTests/ParsingTests.swift">
+			<Option target="deployment"/>
+		</Unit>
+		<Unit filename="/home/josc/Documents/invigilator/invigilator/.build/checkouts/engine.git--4105579061574610432/Tests/CookiesTests/SerializingTests.swift">
+			<Option target="deployment"/>
+		</Unit>
+		<Unit filename="/home/josc/Documents/invigilator/invigilator/.build/checkouts/engine.git--4105579061574610432/Tests/CookiesTests/Utilities.swift">
+			<Option target="deployment"/>
+		</Unit>
+		<Unit filename="/home/josc/Documents/invigilator/invigilator/.build/checkouts/engine.git--4105579061574610432/Tests/HTTPTests/FoundationConversionTests.swift">
+			<Option target="deployment"/>
+		</Unit>
+		<Unit filename="/home/josc/Documents/invigilator/invigilator/.build/checkouts/engine.git--4105579061574610432/Tests/HTTPTests/HTTPBodyTests.swift">
+			<Option target="deployment"/>
+		</Unit>
+		<Unit filename="/home/josc/Documents/invigilator/invigilator/.build/checkouts/engine.git--4105579061574610432/Tests/HTTPTests/HTTPHeadersTests.swift">
+			<Option target="deployment"/>
+		</Unit>
+		<Unit filename="/home/josc/Documents/invigilator/invigilator/.build/checkouts/engine.git--4105579061574610432/Tests/HTTPTests/HTTPMiddlewareTests.swift">
+			<Option target="deployment"/>
+		</Unit>
+		<Unit filename="/home/josc/Documents/invigilator/invigilator/.build/checkouts/engine.git--4105579061574610432/Tests/HTTPTests/HTTPParsingTests.swift">
+			<Option target="deployment"/>
+		</Unit>
+		<Unit filename="/home/josc/Documents/invigilator/invigilator/.build/checkouts/engine.git--4105579061574610432/Tests/HTTPTests/HTTPRequestTests.swift">
+			<Option target="deployment"/>
+		</Unit>
+		<Unit filename="/home/josc/Documents/invigilator/invigilator/.build/checkouts/engine.git--4105579061574610432/Tests/HTTPTests/HTTPResponseTests.swift">
+			<Option target="deployment"/>
+		</Unit>
+		<Unit filename="/home/josc/Documents/invigilator/invigilator/.build/checkouts/engine.git--4105579061574610432/Tests/LinuxMain.swift">
+			<Option target="deployment"/>
+		</Unit>
+		<Unit filename="/home/josc/Documents/invigilator/invigilator/.build/checkouts/engine.git--4105579061574610432/Tests/SMTPTests/EmailAddressTests.swift">
+			<Option target="deployment"/>
+		</Unit>
+		<Unit filename="/home/josc/Documents/invigilator/invigilator/.build/checkouts/engine.git--4105579061574610432/Tests/SMTPTests/EmailAttachmentTests.swift">
+			<Option target="deployment"/>
+		</Unit>
+		<Unit filename="/home/josc/Documents/invigilator/invigilator/.build/checkouts/engine.git--4105579061574610432/Tests/SMTPTests/EmailBodyTests.swift">
+			<Option target="deployment"/>
+		</Unit>
+		<Unit filename="/home/josc/Documents/invigilator/invigilator/.build/checkouts/engine.git--4105579061574610432/Tests/SMTPTests/SMTPClientErrorTests.swift">
+			<Option target="deployment"/>
+		</Unit>
+		<Unit filename="/home/josc/Documents/invigilator/invigilator/.build/checkouts/engine.git--4105579061574610432/Tests/SMTPTests/SMTPClientTests.swift">
+			<Option target="deployment"/>
+		</Unit>
+		<Unit filename="/home/josc/Documents/invigilator/invigilator/.build/checkouts/engine.git--4105579061574610432/Tests/SMTPTests/SMTPCredentialsTests.swift">
+			<Option target="deployment"/>
+		</Unit>
+		<Unit filename="/home/josc/Documents/invigilator/invigilator/.build/checkouts/engine.git--4105579061574610432/Tests/SMTPTests/SMTPDateTests.swift">
+			<Option target="deployment"/>
+		</Unit>
+		<Unit filename="/home/josc/Documents/invigilator/invigilator/.build/checkouts/engine.git--4105579061574610432/Tests/SMTPTests/SMTPExtensionsTests.swift">
+			<Option target="deployment"/>
+		</Unit>
+		<Unit filename="/home/josc/Documents/invigilator/invigilator/.build/checkouts/engine.git--4105579061574610432/Tests/SMTPTests/SMTPGreetingTests.swift">
+			<Option target="deployment"/>
+		</Unit>
+		<Unit filename="/home/josc/Documents/invigilator/invigilator/.build/checkouts/engine.git--4105579061574610432/Tests/SMTPTests/SMTPTestStream.swift">
+			<Option target="deployment"/>
+		</Unit>
+		<Unit filename="/home/josc/Documents/invigilator/invigilator/.build/checkouts/engine.git--4105579061574610432/Tests/SMTPTests/SMTPUUIDTests.swift">
+			<Option target="deployment"/>
+		</Unit>
+		<Unit filename="/home/josc/Documents/invigilator/invigilator/.build/checkouts/engine.git--4105579061574610432/Tests/URITests/URIModificationTests.swift">
+			<Option target="deployment"/>
+		</Unit>
+		<Unit filename="/home/josc/Documents/invigilator/invigilator/.build/checkouts/engine.git--4105579061574610432/Tests/URITests/URIQueryTests.swift">
+			<Option target="deployment"/>
+		</Unit>
+		<Unit filename="/home/josc/Documents/invigilator/invigilator/.build/checkouts/engine.git--4105579061574610432/Tests/URITests/URISerializationTests.swift">
+			<Option target="deployment"/>
+		</Unit>
+		<Unit filename="/home/josc/Documents/invigilator/invigilator/.build/checkouts/engine.git--4105579061574610432/Tests/WebSocketsTests/WebSocketParsingTests.swift">
+			<Option target="deployment"/>
+		</Unit>
+		<Unit filename="/home/josc/Documents/invigilator/invigilator/.build/checkouts/flash--5713951071228607647/Package.swift">
+			<Option target="deployment"/>
+		</Unit>
+		<Unit filename="/home/josc/Documents/invigilator/invigilator/.build/checkouts/flash--5713951071228607647/Sources/FlashMiddleware.swift">
+			<Option target="deployment"/>
+		</Unit>
+		<Unit filename="/home/josc/Documents/invigilator/invigilator/.build/checkouts/flash--5713951071228607647/Sources/Helper.swift">
+			<Option target="deployment"/>
+		</Unit>
+		<Unit filename="/home/josc/Documents/invigilator/invigilator/.build/checkouts/flash--5713951071228607647/Sources/Request+Flash.swift">
+			<Option target="deployment"/>
+		</Unit>
+		<Unit filename="/home/josc/Documents/invigilator/invigilator/.build/checkouts/flash--5713951071228607647/Sources/Response+Flash.swift">
+			<Option target="deployment"/>
+		</Unit>
+		<Unit filename="/home/josc/Documents/invigilator/invigilator/.build/checkouts/flash--5713951071228607647/Tests/FlashTests/FlashTests.swift">
+			<Option target="deployment"/>
+		</Unit>
+		<Unit filename="/home/josc/Documents/invigilator/invigilator/.build/checkouts/flash--5713951071228607647/Tests/LinuxMain.swift">
+			<Option target="deployment"/>
+		</Unit>
+		<Unit filename="/home/josc/Documents/invigilator/invigilator/.build/checkouts/fluent-provider.git--2962370062523726727/Package.swift">
+			<Option target="deployment"/>
+		</Unit>
+		<Unit filename="/home/josc/Documents/invigilator/invigilator/.build/checkouts/fluent-provider.git--2962370062523726727/Sources/FluentProvider/Cache.swift">
+			<Option target="deployment"/>
+		</Unit>
+		<Unit filename="/home/josc/Documents/invigilator/invigilator/.build/checkouts/fluent-provider.git--2962370062523726727/Sources/FluentProvider/Droplet/Config+Driver.swift">
+			<Option target="deployment"/>
+		</Unit>
+		<Unit filename="/home/josc/Documents/invigilator/invigilator/.build/checkouts/fluent-provider.git--2962370062523726727/Sources/FluentProvider/Droplet/Config+Preparation.swift">
+			<Option target="deployment"/>
+		</Unit>
+		<Unit filename="/home/josc/Documents/invigilator/invigilator/.build/checkouts/fluent-provider.git--2962370062523726727/Sources/FluentProvider/Droplet/Droplet+Prepare.swift">
+			<Option target="deployment"/>
+		</Unit>
+		<Unit filename="/home/josc/Documents/invigilator/invigilator/.build/checkouts/fluent-provider.git--2962370062523726727/Sources/FluentProvider/Droplet/Droplet+Storage.swift">
+			<Option target="deployment"/>
+		</Unit>
+		<Unit filename="/home/josc/Documents/invigilator/invigilator/.build/checkouts/fluent-provider.git--2962370062523726727/Sources/FluentProvider/Exports.swift">
+			<Option target="deployment"/>
+		</Unit>
+		<Unit filename="/home/josc/Documents/invigilator/invigilator/.build/checkouts/fluent-provider.git--2962370062523726727/Sources/FluentProvider/Filterable/Filterable.swift">
+			<Option target="deployment"/>
+		</Unit>
+		<Unit filename="/home/josc/Documents/invigilator/invigilator/.build/checkouts/fluent-provider.git--2962370062523726727/Sources/FluentProvider/Filterable/FilterableKey+String.swift">
+			<Option target="deployment"/>
+		</Unit>
+		<Unit filename="/home/josc/Documents/invigilator/invigilator/.build/checkouts/fluent-provider.git--2962370062523726727/Sources/FluentProvider/Filterable/FilterableKey.swift">
+			<Option target="deployment"/>
+		</Unit>
+		<Unit filename="/home/josc/Documents/invigilator/invigilator/.build/checkouts/fluent-provider.git--2962370062523726727/Sources/FluentProvider/Filterable/Query+Filterable.swift">
+			<Option target="deployment"/>
+		</Unit>
+		<Unit filename="/home/josc/Documents/invigilator/invigilator/.build/checkouts/fluent-provider.git--2962370062523726727/Sources/FluentProvider/Model.swift">
+			<Option target="deployment"/>
+		</Unit>
+		<Unit filename="/home/josc/Documents/invigilator/invigilator/.build/checkouts/fluent-provider.git--2962370062523726727/Sources/FluentProvider/Node+Row+JSON.swift">
+			<Option target="deployment"/>
+		</Unit>
+		<Unit filename="/home/josc/Documents/invigilator/invigilator/.build/checkouts/fluent-provider.git--2962370062523726727/Sources/FluentProvider/Pagination.swift">
+			<Option target="deployment"/>
+		</Unit>
+		<Unit filename="/home/josc/Documents/invigilator/invigilator/.build/checkouts/fluent-provider.git--2962370062523726727/Sources/FluentProvider/Prepare.swift">
+			<Option target="deployment"/>
+		</Unit>
+		<Unit filename="/home/josc/Documents/invigilator/invigilator/.build/checkouts/fluent-provider.git--2962370062523726727/Sources/FluentProvider/Provider.swift">
+			<Option target="deployment"/>
+		</Unit>
+		<Unit filename="/home/josc/Documents/invigilator/invigilator/.build/checkouts/fluent-provider.git--2962370062523726727/Sources/FluentProvider/SQLite+Config.swift">
+			<Option target="deployment"/>
+		</Unit>
+		<Unit filename="/home/josc/Documents/invigilator/invigilator/.build/checkouts/fluent-provider.git--2962370062523726727/Sources/FluentProvider/Updateable/Request+Updateable.swift">
+			<Option target="deployment"/>
+		</Unit>
+		<Unit filename="/home/josc/Documents/invigilator/invigilator/.build/checkouts/fluent-provider.git--2962370062523726727/Sources/FluentProvider/Updateable/Updateable.swift">
+			<Option target="deployment"/>
+		</Unit>
+		<Unit filename="/home/josc/Documents/invigilator/invigilator/.build/checkouts/fluent-provider.git--2962370062523726727/Sources/FluentProvider/Updateable/UpdateableKey.swift">
+			<Option target="deployment"/>
+		</Unit>
+		<Unit filename="/home/josc/Documents/invigilator/invigilator/.build/checkouts/fluent-provider.git--2962370062523726727/Tests/FluentProviderTests/CacheTests.swift">
+			<Option target="deployment"/>
+		</Unit>
+		<Unit filename="/home/josc/Documents/invigilator/invigilator/.build/checkouts/fluent-provider.git--2962370062523726727/Tests/FluentProviderTests/PagingTests.swift">
+			<Option target="deployment"/>
+		</Unit>
+		<Unit filename="/home/josc/Documents/invigilator/invigilator/.build/checkouts/fluent-provider.git--2962370062523726727/Tests/LinuxMain.swift">
+			<Option target="deployment"/>
+		</Unit>
+		<Unit filename="/home/josc/Documents/invigilator/invigilator/.build/checkouts/fluent.git--7106829749395248667/Package.swift">
+			<Option target="deployment"/>
+		</Unit>
+		<Unit filename="/home/josc/Documents/invigilator/invigilator/.build/checkouts/fluent.git--7106829749395248667/Sources/Fluent/Database/Connection.swift">
+			<Option target="deployment"/>
+		</Unit>
+		<Unit filename="/home/josc/Documents/invigilator/invigilator/.build/checkouts/fluent.git--7106829749395248667/Sources/Fluent/Database/Database.swift">
+			<Option target="deployment"/>
+		</Unit>
+		<Unit filename="/home/josc/Documents/invigilator/invigilator/.build/checkouts/fluent.git--7106829749395248667/Sources/Fluent/Database/Driver.swift">
+			<Option target="deployment"/>
+		</Unit>
+		<Unit filename="/home/josc/Documents/invigilator/invigilator/.build/checkouts/fluent.git--7106829749395248667/Sources/Fluent/Database/Executor.swift">
+			<Option target="deployment"/>
+		</Unit>
+		<Unit filename="/home/josc/Documents/invigilator/invigilator/.build/checkouts/fluent.git--7106829749395248667/Sources/Fluent/Database/ThreadConnectionPool.swift">
+			<Option target="deployment"/>
+		</Unit>
+		<Unit filename="/home/josc/Documents/invigilator/invigilator/.build/checkouts/fluent.git--7106829749395248667/Sources/Fluent/Database/Transactable.swift">
+			<Option target="deployment"/>
+		</Unit>
+		<Unit filename="/home/josc/Documents/invigilator/invigilator/.build/checkouts/fluent.git--7106829749395248667/Sources/Fluent/Entity/Dirty.swift">
+			<Option target="deployment"/>
+		</Unit>
+		<Unit filename="/home/josc/Documents/invigilator/invigilator/.build/checkouts/fluent.git--7106829749395248667/Sources/Fluent/Entity/Entity.swift">
+			<Option target="deployment"/>
+		</Unit>
+		<Unit filename="/home/josc/Documents/invigilator/invigilator/.build/checkouts/fluent.git--7106829749395248667/Sources/Fluent/Entity/EntityError.swift">
+			<Option target="deployment"/>
+		</Unit>
+		<Unit filename="/home/josc/Documents/invigilator/invigilator/.build/checkouts/fluent.git--7106829749395248667/Sources/Fluent/Entity/KeyNamingConvention.swift">
+			<Option target="deployment"/>
+		</Unit>
+		<Unit filename="/home/josc/Documents/invigilator/invigilator/.build/checkouts/fluent.git--7106829749395248667/Sources/Fluent/Entity/SoftDeletable.swift">
+			<Option target="deployment"/>
+		</Unit>
+		<Unit filename="/home/josc/Documents/invigilator/invigilator/.build/checkouts/fluent.git--7106829749395248667/Sources/Fluent/Entity/Storage.swift">
+			<Option target="deployment"/>
+		</Unit>
+		<Unit filename="/home/josc/Documents/invigilator/invigilator/.build/checkouts/fluent.git--7106829749395248667/Sources/Fluent/Entity/Timestampable.swift">
+			<Option target="deployment"/>
+		</Unit>
+		<Unit filename="/home/josc/Documents/invigilator/invigilator/.build/checkouts/fluent.git--7106829749395248667/Sources/Fluent/Pagination/Page.swift">
+			<Option target="deployment"/>
+		</Unit>
+		<Unit filename="/home/josc/Documents/invigilator/invigilator/.build/checkouts/fluent.git--7106829749395248667/Sources/Fluent/Pagination/Paginatable.swift">
+			<Option target="deployment"/>
+		</Unit>
+		<Unit filename="/home/josc/Documents/invigilator/invigilator/.build/checkouts/fluent.git--7106829749395248667/Sources/Fluent/Pagination/PaginationError.swift">
+			<Option target="deployment"/>
+		</Unit>
+		<Unit filename="/home/josc/Documents/invigilator/invigilator/.build/checkouts/fluent.git--7106829749395248667/Sources/Fluent/Pagination/Query+Page.swift">
+			<Option target="deployment"/>
+		</Unit>
+		<Unit filename="/home/josc/Documents/invigilator/invigilator/.build/checkouts/fluent.git--7106829749395248667/Sources/Fluent/Pivot/DoublePivot.swift">
+			<Option target="deployment"/>
+		</Unit>
+		<Unit filename="/home/josc/Documents/invigilator/invigilator/.build/checkouts/fluent.git--7106829749395248667/Sources/Fluent/Pivot/Pivot.swift">
+			<Option target="deployment"/>
+		</Unit>
+		<Unit filename="/home/josc/Documents/invigilator/invigilator/.build/checkouts/fluent.git--7106829749395248667/Sources/Fluent/Pivot/PivotError.swift">
+			<Option target="deployment"/>
+		</Unit>
+		<Unit filename="/home/josc/Documents/invigilator/invigilator/.build/checkouts/fluent.git--7106829749395248667/Sources/Fluent/Pivot/PivotProtocol.swift">
+			<Option target="deployment"/>
+		</Unit>
+		<Unit filename="/home/josc/Documents/invigilator/invigilator/.build/checkouts/fluent.git--7106829749395248667/Sources/Fluent/Preparation/Database+Preparation.swift">
+			<Option target="deployment"/>
+		</Unit>
+		<Unit filename="/home/josc/Documents/invigilator/invigilator/.build/checkouts/fluent.git--7106829749395248667/Sources/Fluent/Preparation/Migration.swift">
+			<Option target="deployment"/>
+		</Unit>
+		<Unit filename="/home/josc/Documents/invigilator/invigilator/.build/checkouts/fluent.git--7106829749395248667/Sources/Fluent/Preparation/Preparation.swift">
+			<Option target="deployment"/>
+		</Unit>
+		<Unit filename="/home/josc/Documents/invigilator/invigilator/.build/checkouts/fluent.git--7106829749395248667/Sources/Fluent/Preparation/PreparationError.swift">
+			<Option target="deployment"/>
+		</Unit>
+		<Unit filename="/home/josc/Documents/invigilator/invigilator/.build/checkouts/fluent.git--7106829749395248667/Sources/Fluent/Query/Action.swift">
+			<Option target="deployment"/>
+		</Unit>
+		<Unit filename="/home/josc/Documents/invigilator/invigilator/.build/checkouts/fluent.git--7106829749395248667/Sources/Fluent/Query/Aggregate.swift">
+			<Option target="deployment"/>
+		</Unit>
+		<Unit filename="/home/josc/Documents/invigilator/invigilator/.build/checkouts/fluent.git--7106829749395248667/Sources/Fluent/Query/Chunk.swift">
+			<Option target="deployment"/>
+		</Unit>
+		<Unit filename="/home/josc/Documents/invigilator/invigilator/.build/checkouts/fluent.git--7106829749395248667/Sources/Fluent/Query/ComputedField.swift">
+			<Option target="deployment"/>
+		</Unit>
+		<Unit filename="/home/josc/Documents/invigilator/invigilator/.build/checkouts/fluent.git--7106829749395248667/Sources/Fluent/Query/Distinct.swift">
+			<Option target="deployment"/>
+		</Unit>
+		<Unit filename="/home/josc/Documents/invigilator/invigilator/.build/checkouts/fluent.git--7106829749395248667/Sources/Fluent/Query/Filter/Comparison.swift">
+			<Option target="deployment"/>
+		</Unit>
+		<Unit filename="/home/josc/Documents/invigilator/invigilator/.build/checkouts/fluent.git--7106829749395248667/Sources/Fluent/Query/Filter/Filter.swift">
+			<Option target="deployment"/>
+		</Unit>
+		<Unit filename="/home/josc/Documents/invigilator/invigilator/.build/checkouts/fluent.git--7106829749395248667/Sources/Fluent/Query/Filter/Query+Filter.swift">
+			<Option target="deployment"/>
+		</Unit>
+		<Unit filename="/home/josc/Documents/invigilator/invigilator/.build/checkouts/fluent.git--7106829749395248667/Sources/Fluent/Query/Filter/Query+Group.swift">
+			<Option target="deployment"/>
+		</Unit>
+		<Unit filename="/home/josc/Documents/invigilator/invigilator/.build/checkouts/fluent.git--7106829749395248667/Sources/Fluent/Query/Filter/Scope.swift">
+			<Option target="deployment"/>
+		</Unit>
+		<Unit filename="/home/josc/Documents/invigilator/invigilator/.build/checkouts/fluent.git--7106829749395248667/Sources/Fluent/Query/Join.swift">
+			<Option target="deployment"/>
+		</Unit>
+		<Unit filename="/home/josc/Documents/invigilator/invigilator/.build/checkouts/fluent.git--7106829749395248667/Sources/Fluent/Query/Limit.swift">
+			<Option target="deployment"/>
+		</Unit>
+		<Unit filename="/home/josc/Documents/invigilator/invigilator/.build/checkouts/fluent.git--7106829749395248667/Sources/Fluent/Query/Log.swift">
+			<Option target="deployment"/>
+		</Unit>
+		<Unit filename="/home/josc/Documents/invigilator/invigilator/.build/checkouts/fluent.git--7106829749395248667/Sources/Fluent/Query/Query.swift">
+			<Option target="deployment"/>
+		</Unit>
+		<Unit filename="/home/josc/Documents/invigilator/invigilator/.build/checkouts/fluent.git--7106829749395248667/Sources/Fluent/Query/QueryError.swift">
+			<Option target="deployment"/>
+		</Unit>
+		<Unit filename="/home/josc/Documents/invigilator/invigilator/.build/checkouts/fluent.git--7106829749395248667/Sources/Fluent/Query/QueryRepresentable.swift">
+			<Option target="deployment"/>
+		</Unit>
+		<Unit filename="/home/josc/Documents/invigilator/invigilator/.build/checkouts/fluent.git--7106829749395248667/Sources/Fluent/Query/Raw.swift">
+			<Option target="deployment"/>
+		</Unit>
+		<Unit filename="/home/josc/Documents/invigilator/invigilator/.build/checkouts/fluent.git--7106829749395248667/Sources/Fluent/Query/Sort.swift">
+			<Option target="deployment"/>
+		</Unit>
+		<Unit filename="/home/josc/Documents/invigilator/invigilator/.build/checkouts/fluent.git--7106829749395248667/Sources/Fluent/Relations/Children.swift">
+			<Option target="deployment"/>
+		</Unit>
+		<Unit filename="/home/josc/Documents/invigilator/invigilator/.build/checkouts/fluent.git--7106829749395248667/Sources/Fluent/Relations/Parent.swift">
+			<Option target="deployment"/>
+		</Unit>
+		<Unit filename="/home/josc/Documents/invigilator/invigilator/.build/checkouts/fluent.git--7106829749395248667/Sources/Fluent/Relations/RelationError.swift">
+			<Option target="deployment"/>
+		</Unit>
+		<Unit filename="/home/josc/Documents/invigilator/invigilator/.build/checkouts/fluent.git--7106829749395248667/Sources/Fluent/Relations/Siblings.swift">
+			<Option target="deployment"/>
+		</Unit>
+		<Unit filename="/home/josc/Documents/invigilator/invigilator/.build/checkouts/fluent.git--7106829749395248667/Sources/Fluent/Row/Row.swift">
+			<Option target="deployment"/>
+		</Unit>
+		<Unit filename="/home/josc/Documents/invigilator/invigilator/.build/checkouts/fluent.git--7106829749395248667/Sources/Fluent/Row/RowContext.swift">
+			<Option target="deployment"/>
+		</Unit>
+		<Unit filename="/home/josc/Documents/invigilator/invigilator/.build/checkouts/fluent.git--7106829749395248667/Sources/Fluent/Row/RowConvertible.swift">
+			<Option target="deployment"/>
+		</Unit>
+		<Unit filename="/home/josc/Documents/invigilator/invigilator/.build/checkouts/fluent.git--7106829749395248667/Sources/Fluent/SQL/GeneralSQLSerializer.swift">
+			<Option target="deployment"/>
+		</Unit>
+		<Unit filename="/home/josc/Documents/invigilator/invigilator/.build/checkouts/fluent.git--7106829749395248667/Sources/Fluent/SQL/SQLSerializer.swift">
+			<Option target="deployment"/>
+		</Unit>
+		<Unit filename="/home/josc/Documents/invigilator/invigilator/.build/checkouts/fluent.git--7106829749395248667/Sources/Fluent/SQLite/SQLiteDriver.swift">
+			<Option target="deployment"/>
+		</Unit>
+		<Unit filename="/home/josc/Documents/invigilator/invigilator/.build/checkouts/fluent.git--7106829749395248667/Sources/Fluent/SQLite/SQLiteSerializer.swift">
+			<Option target="deployment"/>
+		</Unit>
+		<Unit filename="/home/josc/Documents/invigilator/invigilator/.build/checkouts/fluent.git--7106829749395248667/Sources/Fluent/Schema/Builder.swift">
+			<Option target="deployment"/>
+		</Unit>
+		<Unit filename="/home/josc/Documents/invigilator/invigilator/.build/checkouts/fluent.git--7106829749395248667/Sources/Fluent/Schema/Creator.swift">
+			<Option target="deployment"/>
+		</Unit>
+		<Unit filename="/home/josc/Documents/invigilator/invigilator/.build/checkouts/fluent.git--7106829749395248667/Sources/Fluent/Schema/Database+Schema.swift">
+			<Option target="deployment"/>
+		</Unit>
+		<Unit filename="/home/josc/Documents/invigilator/invigilator/.build/checkouts/fluent.git--7106829749395248667/Sources/Fluent/Schema/Field.swift">
+			<Option target="deployment"/>
+		</Unit>
+		<Unit filename="/home/josc/Documents/invigilator/invigilator/.build/checkouts/fluent.git--7106829749395248667/Sources/Fluent/Schema/ForeignKey.swift">
+			<Option target="deployment"/>
+		</Unit>
+		<Unit filename="/home/josc/Documents/invigilator/invigilator/.build/checkouts/fluent.git--7106829749395248667/Sources/Fluent/Schema/IdentifierType.swift">
+			<Option target="deployment"/>
+		</Unit>
+		<Unit filename="/home/josc/Documents/invigilator/invigilator/.build/checkouts/fluent.git--7106829749395248667/Sources/Fluent/Schema/Index.swift">
+			<Option target="deployment"/>
+		</Unit>
+		<Unit filename="/home/josc/Documents/invigilator/invigilator/.build/checkouts/fluent.git--7106829749395248667/Sources/Fluent/Schema/Modifier.swift">
+			<Option target="deployment"/>
+		</Unit>
+		<Unit filename="/home/josc/Documents/invigilator/invigilator/.build/checkouts/fluent.git--7106829749395248667/Sources/Fluent/Utilities/Exports.swift">
+			<Option target="deployment"/>
+		</Unit>
+		<Unit filename="/home/josc/Documents/invigilator/invigilator/.build/checkouts/fluent.git--7106829749395248667/Sources/Fluent/Utilities/UUID.swift">
+			<Option target="deployment"/>
+		</Unit>
+		<Unit filename="/home/josc/Documents/invigilator/invigilator/.build/checkouts/fluent.git--7106829749395248667/Sources/FluentTester/Atom.swift">
+			<Option target="deployment"/>
+		</Unit>
+		<Unit filename="/home/josc/Documents/invigilator/invigilator/.build/checkouts/fluent.git--7106829749395248667/Sources/FluentTester/Compound.swift">
+			<Option target="deployment"/>
+		</Unit>
+		<Unit filename="/home/josc/Documents/invigilator/invigilator/.build/checkouts/fluent.git--7106829749395248667/Sources/FluentTester/Student.swift">
+			<Option target="deployment"/>
+		</Unit>
+		<Unit filename="/home/josc/Documents/invigilator/invigilator/.build/checkouts/fluent.git--7106829749395248667/Sources/FluentTester/Tester+Chunk.swift">
+			<Option target="deployment"/>
+		</Unit>
+		<Unit filename="/home/josc/Documents/invigilator/invigilator/.build/checkouts/fluent.git--7106829749395248667/Sources/FluentTester/Tester+CustomKeys.swift">
+			<Option target="deployment"/>
+		</Unit>
+		<Unit filename="/home/josc/Documents/invigilator/invigilator/.build/checkouts/fluent.git--7106829749395248667/Sources/FluentTester/Tester+ForeignKey.swift">
+			<Option target="deployment"/>
+		</Unit>
+		<Unit filename="/home/josc/Documents/invigilator/invigilator/.build/checkouts/fluent.git--7106829749395248667/Sources/FluentTester/Tester+Index.swift">
+			<Option target="deployment"/>
+		</Unit>
+		<Unit filename="/home/josc/Documents/invigilator/invigilator/.build/checkouts/fluent.git--7106829749395248667/Sources/FluentTester/Tester+InsertAndFind.swift">
+			<Option target="deployment"/>
+		</Unit>
+		<Unit filename="/home/josc/Documents/invigilator/invigilator/.build/checkouts/fluent.git--7106829749395248667/Sources/FluentTester/Tester+Paginate.swift">
+			<Option target="deployment"/>
+		</Unit>
+		<Unit filename="/home/josc/Documents/invigilator/invigilator/.build/checkouts/fluent.git--7106829749395248667/Sources/FluentTester/Tester+PivotsAndRelations.swift">
+			<Option target="deployment"/>
+		</Unit>
+		<Unit filename="/home/josc/Documents/invigilator/invigilator/.build/checkouts/fluent.git--7106829749395248667/Sources/FluentTester/Tester+Schema.swift">
+			<Option target="deployment"/>
+		</Unit>
+		<Unit filename="/home/josc/Documents/invigilator/invigilator/.build/checkouts/fluent.git--7106829749395248667/Sources/FluentTester/Tester+SoftDelete.swift">
+			<Option target="deployment"/>
+		</Unit>
+		<Unit filename="/home/josc/Documents/invigilator/invigilator/.build/checkouts/fluent.git--7106829749395248667/Sources/FluentTester/Tester+Timestamps.swift">
+			<Option target="deployment"/>
+		</Unit>
+		<Unit filename="/home/josc/Documents/invigilator/invigilator/.build/checkouts/fluent.git--7106829749395248667/Sources/FluentTester/Tester+Transaction.swift">
+			<Option target="deployment"/>
+		</Unit>
+		<Unit filename="/home/josc/Documents/invigilator/invigilator/.build/checkouts/fluent.git--7106829749395248667/Sources/FluentTester/Tester+Utilities.swift">
+			<Option target="deployment"/>
+		</Unit>
+		<Unit filename="/home/josc/Documents/invigilator/invigilator/.build/checkouts/fluent.git--7106829749395248667/Sources/FluentTester/Tester.swift">
+			<Option target="deployment"/>
+		</Unit>
+		<Unit filename="/home/josc/Documents/invigilator/invigilator/.build/checkouts/fluent.git--7106829749395248667/Tests/FluentTesterTests/MemoryBenchmarkTests.swift">
+			<Option target="deployment"/>
+		</Unit>
+		<Unit filename="/home/josc/Documents/invigilator/invigilator/.build/checkouts/fluent.git--7106829749395248667/Tests/FluentTests/CallbackTests.swift">
+			<Option target="deployment"/>
+		</Unit>
+		<Unit filename="/home/josc/Documents/invigilator/invigilator/.build/checkouts/fluent.git--7106829749395248667/Tests/FluentTests/GroupTests.swift">
+			<Option target="deployment"/>
+		</Unit>
+		<Unit filename="/home/josc/Documents/invigilator/invigilator/.build/checkouts/fluent.git--7106829749395248667/Tests/FluentTests/JoinTests.swift">
+			<Option target="deployment"/>
+		</Unit>
+		<Unit filename="/home/josc/Documents/invigilator/invigilator/.build/checkouts/fluent.git--7106829749395248667/Tests/FluentTests/ModelFindTests.swift">
+			<Option target="deployment"/>
+		</Unit>
+		<Unit filename="/home/josc/Documents/invigilator/invigilator/.build/checkouts/fluent.git--7106829749395248667/Tests/FluentTests/ModelTests.swift">
+			<Option target="deployment"/>
+		</Unit>
+		<Unit filename="/home/josc/Documents/invigilator/invigilator/.build/checkouts/fluent.git--7106829749395248667/Tests/FluentTests/PivotTests.swift">
+			<Option target="deployment"/>
+		</Unit>
+		<Unit filename="/home/josc/Documents/invigilator/invigilator/.build/checkouts/fluent.git--7106829749395248667/Tests/FluentTests/PreparationTests.swift">
+			<Option target="deployment"/>
+		</Unit>
+		<Unit filename="/home/josc/Documents/invigilator/invigilator/.build/checkouts/fluent.git--7106829749395248667/Tests/FluentTests/QueryFiltersTests.swift">
+			<Option target="deployment"/>
+		</Unit>
+		<Unit filename="/home/josc/Documents/invigilator/invigilator/.build/checkouts/fluent.git--7106829749395248667/Tests/FluentTests/RawTests.swift">
+			<Option target="deployment"/>
+		</Unit>
+		<Unit filename="/home/josc/Documents/invigilator/invigilator/.build/checkouts/fluent.git--7106829749395248667/Tests/FluentTests/RelationTests.swift">
+			<Option target="deployment"/>
+		</Unit>
+		<Unit filename="/home/josc/Documents/invigilator/invigilator/.build/checkouts/fluent.git--7106829749395248667/Tests/FluentTests/RowTests.swift">
+			<Option target="deployment"/>
+		</Unit>
+		<Unit filename="/home/josc/Documents/invigilator/invigilator/.build/checkouts/fluent.git--7106829749395248667/Tests/FluentTests/SQLSerializerTests.swift">
+			<Option target="deployment"/>
+		</Unit>
+		<Unit filename="/home/josc/Documents/invigilator/invigilator/.build/checkouts/fluent.git--7106829749395248667/Tests/FluentTests/SQLiteTests.swift">
+			<Option target="deployment"/>
+		</Unit>
+		<Unit filename="/home/josc/Documents/invigilator/invigilator/.build/checkouts/fluent.git--7106829749395248667/Tests/FluentTests/SchemaCreateTests.swift">
+			<Option target="deployment"/>
+		</Unit>
+		<Unit filename="/home/josc/Documents/invigilator/invigilator/.build/checkouts/fluent.git--7106829749395248667/Tests/FluentTests/SortTests.swift">
+			<Option target="deployment"/>
+		</Unit>
+		<Unit filename="/home/josc/Documents/invigilator/invigilator/.build/checkouts/fluent.git--7106829749395248667/Tests/FluentTests/Utilities/Atom.swift">
+			<Option target="deployment"/>
+		</Unit>
+		<Unit filename="/home/josc/Documents/invigilator/invigilator/.build/checkouts/fluent.git--7106829749395248667/Tests/FluentTests/Utilities/Compound.swift">
+			<Option target="deployment"/>
+		</Unit>
+		<Unit filename="/home/josc/Documents/invigilator/invigilator/.build/checkouts/fluent.git--7106829749395248667/Tests/FluentTests/Utilities/CustomIdKey.swift">
+			<Option target="deployment"/>
+		</Unit>
+		<Unit filename="/home/josc/Documents/invigilator/invigilator/.build/checkouts/fluent.git--7106829749395248667/Tests/FluentTests/Utilities/CustomIdentifiedThing.swift">
+			<Option target="deployment"/>
+		</Unit>
+		<Unit filename="/home/josc/Documents/invigilator/invigilator/.build/checkouts/fluent.git--7106829749395248667/Tests/FluentTests/Utilities/Dummy.swift">
+			<Option target="deployment"/>
+		</Unit>
+		<Unit filename="/home/josc/Documents/invigilator/invigilator/.build/checkouts/fluent.git--7106829749395248667/Tests/FluentTests/Utilities/Group.swift">
+			<Option target="deployment"/>
+		</Unit>
+		<Unit filename="/home/josc/Documents/invigilator/invigilator/.build/checkouts/fluent.git--7106829749395248667/Tests/FluentTests/Utilities/LastQueryDriver.swift">
+			<Option target="deployment"/>
+		</Unit>
+		<Unit filename="/home/josc/Documents/invigilator/invigilator/.build/checkouts/fluent.git--7106829749395248667/Tests/FluentTests/Utilities/Nucleus.swift">
+			<Option target="deployment"/>
+		</Unit>
+		<Unit filename="/home/josc/Documents/invigilator/invigilator/.build/checkouts/fluent.git--7106829749395248667/Tests/FluentTests/Utilities/Proton.swift">
+			<Option target="deployment"/>
+		</Unit>
+		<Unit filename="/home/josc/Documents/invigilator/invigilator/.build/checkouts/fluent.git--7106829749395248667/Tests/FluentTests/Utilities/Random.swift">
+			<Option target="deployment"/>
+		</Unit>
+		<Unit filename="/home/josc/Documents/invigilator/invigilator/.build/checkouts/fluent.git--7106829749395248667/Tests/FluentTests/Utilities/Serialize.swift">
+			<Option target="deployment"/>
+		</Unit>
+		<Unit filename="/home/josc/Documents/invigilator/invigilator/.build/checkouts/fluent.git--7106829749395248667/Tests/FluentTests/Utilities/StringIdentifiedThing.swift">
+			<Option target="deployment"/>
+		</Unit>
+		<Unit filename="/home/josc/Documents/invigilator/invigilator/.build/checkouts/fluent.git--7106829749395248667/Tests/FluentTests/Utilities/User.swift">
+			<Option target="deployment"/>
+		</Unit>
+		<Unit filename="/home/josc/Documents/invigilator/invigilator/.build/checkouts/fluent.git--7106829749395248667/Tests/LinuxMain.swift">
+			<Option target="deployment"/>
+		</Unit>
+		<Unit filename="/home/josc/Documents/invigilator/invigilator/.build/checkouts/json.git-7220847042850857172/Package.swift">
+			<Option target="deployment"/>
+		</Unit>
+		<Unit filename="/home/josc/Documents/invigilator/invigilator/.build/checkouts/json.git-7220847042850857172/Sources/JSON/JSON+Bytes.swift">
+			<Option target="deployment"/>
+		</Unit>
+		<Unit filename="/home/josc/Documents/invigilator/invigilator/.build/checkouts/json.git-7220847042850857172/Sources/JSON/JSON+Equatable.swift">
+			<Option target="deployment"/>
+		</Unit>
+		<Unit filename="/home/josc/Documents/invigilator/invigilator/.build/checkouts/json.git-7220847042850857172/Sources/JSON/JSON+Fuzzy.swift">
+			<Option target="deployment"/>
+		</Unit>
+		<Unit filename="/home/josc/Documents/invigilator/invigilator/.build/checkouts/json.git-7220847042850857172/Sources/JSON/JSON+Parse.swift">
+			<Option target="deployment"/>
+		</Unit>
+		<Unit filename="/home/josc/Documents/invigilator/invigilator/.build/checkouts/json.git-7220847042850857172/Sources/JSON/JSON+Serialize.swift">
+			<Option target="deployment"/>
+		</Unit>
+		<Unit filename="/home/josc/Documents/invigilator/invigilator/.build/checkouts/json.git-7220847042850857172/Sources/JSON/JSON.swift">
+			<Option target="deployment"/>
+		</Unit>
+		<Unit filename="/home/josc/Documents/invigilator/invigilator/.build/checkouts/json.git-7220847042850857172/Sources/JSON/JSONContext.swift">
+			<Option target="deployment"/>
+		</Unit>
+		<Unit filename="/home/josc/Documents/invigilator/invigilator/.build/checkouts/json.git-7220847042850857172/Sources/JSON/JSONRepresentable.swift">
+			<Option target="deployment"/>
+		</Unit>
+		<Unit filename="/home/josc/Documents/invigilator/invigilator/.build/checkouts/json.git-7220847042850857172/Sources/JSON/Sequence+Convertible.swift">
+			<Option target="deployment"/>
+		</Unit>
+		<Unit filename="/home/josc/Documents/invigilator/invigilator/.build/checkouts/json.git-7220847042850857172/Tests/JSONTests/JSONConvertibleTests.swift">
+			<Option target="deployment"/>
+		</Unit>
+		<Unit filename="/home/josc/Documents/invigilator/invigilator/.build/checkouts/json.git-7220847042850857172/Tests/JSONTests/JSONTests.swift">
+			<Option target="deployment"/>
+		</Unit>
+		<Unit filename="/home/josc/Documents/invigilator/invigilator/.build/checkouts/json.git-7220847042850857172/Tests/LinuxMain.swift">
+			<Option target="deployment"/>
+		</Unit>
+		<Unit filename="/home/josc/Documents/invigilator/invigilator/.build/checkouts/leaf-provider.git-8224566933973308524/Package.swift">
+			<Option target="deployment"/>
+		</Unit>
+		<Unit filename="/home/josc/Documents/invigilator/invigilator/.build/checkouts/leaf-provider.git-8224566933973308524/Sources/LeafProvider/Keys.swift">
+			<Option target="deployment"/>
+		</Unit>
+		<Unit filename="/home/josc/Documents/invigilator/invigilator/.build/checkouts/leaf-provider.git-8224566933973308524/Sources/LeafProvider/LeafProviderError.swift">
+			<Option target="deployment"/>
+		</Unit>
+		<Unit filename="/home/josc/Documents/invigilator/invigilator/.build/checkouts/leaf-provider.git-8224566933973308524/Sources/LeafProvider/LeafRenderer.swift">
+			<Option target="deployment"/>
+		</Unit>
+		<Unit filename="/home/josc/Documents/invigilator/invigilator/.build/checkouts/leaf-provider.git-8224566933973308524/Sources/LeafProvider/Provider.swift">
+			<Option target="deployment"/>
+		</Unit>
+		<Unit filename="/home/josc/Documents/invigilator/invigilator/.build/checkouts/leaf-provider.git-8224566933973308524/Tests/LeafProviderTests/ProviderTests.swift">
+			<Option target="deployment"/>
+		</Unit>
+		<Unit filename="/home/josc/Documents/invigilator/invigilator/.build/checkouts/leaf-provider.git-8224566933973308524/Tests/LinuxMain.swift">
+			<Option target="deployment"/>
+		</Unit>
+		<Unit filename="/home/josc/Documents/invigilator/invigilator/.build/checkouts/leaf.git--1860839241550642390/Package.swift">
+			<Option target="deployment"/>
+		</Unit>
+		<Unit filename="/home/josc/Documents/invigilator/invigilator/.build/checkouts/leaf.git--1860839241550642390/Sources/Leaf/Argument.swift">
+			<Option target="deployment"/>
+		</Unit>
+		<Unit filename="/home/josc/Documents/invigilator/invigilator/.build/checkouts/leaf.git--1860839241550642390/Sources/Leaf/Buffer/Buffer+Leaf.swift">
+			<Option target="deployment"/>
+		</Unit>
+		<Unit filename="/home/josc/Documents/invigilator/invigilator/.build/checkouts/leaf.git--1860839241550642390/Sources/Leaf/Buffer/Buffer.swift">
+			<Option target="deployment"/>
+		</Unit>
+		<Unit filename="/home/josc/Documents/invigilator/invigilator/.build/checkouts/leaf.git--1860839241550642390/Sources/Leaf/Buffer/BufferProtocol.swift">
+			<Option target="deployment"/>
+		</Unit>
+		<Unit filename="/home/josc/Documents/invigilator/invigilator/.build/checkouts/leaf.git--1860839241550642390/Sources/Leaf/Byte+Leaf.swift">
+			<Option target="deployment"/>
+		</Unit>
+		<Unit filename="/home/josc/Documents/invigilator/invigilator/.build/checkouts/leaf.git--1860839241550642390/Sources/Leaf/Constants.swift">
+			<Option target="deployment"/>
+		</Unit>
+		<Unit filename="/home/josc/Documents/invigilator/invigilator/.build/checkouts/leaf.git--1860839241550642390/Sources/Leaf/Context.swift">
+			<Option target="deployment"/>
+		</Unit>
+		<Unit filename="/home/josc/Documents/invigilator/invigilator/.build/checkouts/leaf.git--1860839241550642390/Sources/Leaf/HTMLEscape.swift">
+			<Option target="deployment"/>
+		</Unit>
+		<Unit filename="/home/josc/Documents/invigilator/invigilator/.build/checkouts/leaf.git--1860839241550642390/Sources/Leaf/Leaf.swift">
+			<Option target="deployment"/>
+		</Unit>
+		<Unit filename="/home/josc/Documents/invigilator/invigilator/.build/checkouts/leaf.git--1860839241550642390/Sources/Leaf/LeafComponent.swift">
+			<Option target="deployment"/>
+		</Unit>
+		<Unit filename="/home/josc/Documents/invigilator/invigilator/.build/checkouts/leaf.git--1860839241550642390/Sources/Leaf/LeafError.swift">
+			<Option target="deployment"/>
+		</Unit>
+		<Unit filename="/home/josc/Documents/invigilator/invigilator/.build/checkouts/leaf.git--1860839241550642390/Sources/Leaf/Link.swift">
+			<Option target="deployment"/>
+		</Unit>
+		<Unit filename="/home/josc/Documents/invigilator/invigilator/.build/checkouts/leaf.git--1860839241550642390/Sources/Leaf/List.swift">
+			<Option target="deployment"/>
+		</Unit>
+		<Unit filename="/home/josc/Documents/invigilator/invigilator/.build/checkouts/leaf.git--1860839241550642390/Sources/Leaf/Node+Rendered.swift">
+			<Option target="deployment"/>
+		</Unit>
+		<Unit filename="/home/josc/Documents/invigilator/invigilator/.build/checkouts/leaf.git--1860839241550642390/Sources/Leaf/Parameter.swift">
+			<Option target="deployment"/>
+		</Unit>
+		<Unit filename="/home/josc/Documents/invigilator/invigilator/.build/checkouts/leaf.git--1860839241550642390/Sources/Leaf/Stem+Render.swift">
+			<Option target="deployment"/>
+		</Unit>
+		<Unit filename="/home/josc/Documents/invigilator/invigilator/.build/checkouts/leaf.git--1860839241550642390/Sources/Leaf/Stem+Spawn.swift">
+			<Option target="deployment"/>
+		</Unit>
+		<Unit filename="/home/josc/Documents/invigilator/invigilator/.build/checkouts/leaf.git--1860839241550642390/Sources/Leaf/Stem.swift">
+			<Option target="deployment"/>
+		</Unit>
+		<Unit filename="/home/josc/Documents/invigilator/invigilator/.build/checkouts/leaf.git--1860839241550642390/Sources/Leaf/Tag/BasicTag.swift">
+			<Option target="deployment"/>
+		</Unit>
+		<Unit filename="/home/josc/Documents/invigilator/invigilator/.build/checkouts/leaf.git--1860839241550642390/Sources/Leaf/Tag/Models/Else.swift">
+			<Option target="deployment"/>
+		</Unit>
+		<Unit filename="/home/josc/Documents/invigilator/invigilator/.build/checkouts/leaf.git--1860839241550642390/Sources/Leaf/Tag/Models/Embed.swift">
+			<Option target="deployment"/>
+		</Unit>
+		<Unit filename="/home/josc/Documents/invigilator/invigilator/.build/checkouts/leaf.git--1860839241550642390/Sources/Leaf/Tag/Models/Equal.swift">
+			<Option target="deployment"/>
+		</Unit>
+		<Unit filename="/home/josc/Documents/invigilator/invigilator/.build/checkouts/leaf.git--1860839241550642390/Sources/Leaf/Tag/Models/Export.swift">
+			<Option target="deployment"/>
+		</Unit>
+		<Unit filename="/home/josc/Documents/invigilator/invigilator/.build/checkouts/leaf.git--1860839241550642390/Sources/Leaf/Tag/Models/Extend.swift">
+			<Option target="deployment"/>
+		</Unit>
+		<Unit filename="/home/josc/Documents/invigilator/invigilator/.build/checkouts/leaf.git--1860839241550642390/Sources/Leaf/Tag/Models/If.swift">
+			<Option target="deployment"/>
+		</Unit>
+		<Unit filename="/home/josc/Documents/invigilator/invigilator/.build/checkouts/leaf.git--1860839241550642390/Sources/Leaf/Tag/Models/Import.swift">
+			<Option target="deployment"/>
+		</Unit>
+		<Unit filename="/home/josc/Documents/invigilator/invigilator/.build/checkouts/leaf.git--1860839241550642390/Sources/Leaf/Tag/Models/Index.swift">
+			<Option target="deployment"/>
+		</Unit>
+		<Unit filename="/home/josc/Documents/invigilator/invigilator/.build/checkouts/leaf.git--1860839241550642390/Sources/Leaf/Tag/Models/Loop.swift">
+			<Option target="deployment"/>
+		</Unit>
+		<Unit filename="/home/josc/Documents/invigilator/invigilator/.build/checkouts/leaf.git--1860839241550642390/Sources/Leaf/Tag/Models/Raw.swift">
+			<Option target="deployment"/>
+		</Unit>
+		<Unit filename="/home/josc/Documents/invigilator/invigilator/.build/checkouts/leaf.git--1860839241550642390/Sources/Leaf/Tag/Models/Uppercased.swift">
+			<Option target="deployment"/>
+		</Unit>
+		<Unit filename="/home/josc/Documents/invigilator/invigilator/.build/checkouts/leaf.git--1860839241550642390/Sources/Leaf/Tag/Models/Variable.swift">
+			<Option target="deployment"/>
+		</Unit>
+		<Unit filename="/home/josc/Documents/invigilator/invigilator/.build/checkouts/leaf.git--1860839241550642390/Sources/Leaf/Tag/Tag.swift">
+			<Option target="deployment"/>
+		</Unit>
+		<Unit filename="/home/josc/Documents/invigilator/invigilator/.build/checkouts/leaf.git--1860839241550642390/Sources/Leaf/Tag/TagTemplate.swift">
+			<Option target="deployment"/>
+		</Unit>
+		<Unit filename="/home/josc/Documents/invigilator/invigilator/.build/checkouts/leaf.git--1860839241550642390/Tests/LeafTests/BodyWhitespaceTests.swift">
+			<Option target="deployment"/>
+		</Unit>
+		<Unit filename="/home/josc/Documents/invigilator/invigilator/.build/checkouts/leaf.git--1860839241550642390/Tests/LeafTests/BufferTests.swift">
+			<Option target="deployment"/>
+		</Unit>
+		<Unit filename="/home/josc/Documents/invigilator/invigilator/.build/checkouts/leaf.git--1860839241550642390/Tests/LeafTests/ContextTests.swift">
+			<Option target="deployment"/>
+		</Unit>
+		<Unit filename="/home/josc/Documents/invigilator/invigilator/.build/checkouts/leaf.git--1860839241550642390/Tests/LeafTests/EmbedTests.swift">
+			<Option target="deployment"/>
+		</Unit>
+		<Unit filename="/home/josc/Documents/invigilator/invigilator/.build/checkouts/leaf.git--1860839241550642390/Tests/LeafTests/EqualTests.swift">
+			<Option target="deployment"/>
+		</Unit>
+		<Unit filename="/home/josc/Documents/invigilator/invigilator/.build/checkouts/leaf.git--1860839241550642390/Tests/LeafTests/FileLoadTests.swift">
+			<Option target="deployment"/>
+		</Unit>
+		<Unit filename="/home/josc/Documents/invigilator/invigilator/.build/checkouts/leaf.git--1860839241550642390/Tests/LeafTests/HTMLEscapeTests.swift">
+			<Option target="deployment"/>
+		</Unit>
+		<Unit filename="/home/josc/Documents/invigilator/invigilator/.build/checkouts/leaf.git--1860839241550642390/Tests/LeafTests/IfTests.swift">
+			<Option target="deployment"/>
+		</Unit>
+		<Unit filename="/home/josc/Documents/invigilator/invigilator/.build/checkouts/leaf.git--1860839241550642390/Tests/LeafTests/IndexTests.swift">
+			<Option target="deployment"/>
+		</Unit>
+		<Unit filename="/home/josc/Documents/invigilator/invigilator/.build/checkouts/leaf.git--1860839241550642390/Tests/LeafTests/LayoutTests.swift">
+			<Option target="deployment"/>
+		</Unit>
+		<Unit filename="/home/josc/Documents/invigilator/invigilator/.build/checkouts/leaf.git--1860839241550642390/Tests/LeafTests/LinkTests.swift">
+			<Option target="deployment"/>
+		</Unit>
+		<Unit filename="/home/josc/Documents/invigilator/invigilator/.build/checkouts/leaf.git--1860839241550642390/Tests/LeafTests/LoopTests.swift">
+			<Option target="deployment"/>
+		</Unit>
+		<Unit filename="/home/josc/Documents/invigilator/invigilator/.build/checkouts/leaf.git--1860839241550642390/Tests/LeafTests/NodeRenderTests.swift">
+			<Option target="deployment"/>
+		</Unit>
+		<Unit filename="/home/josc/Documents/invigilator/invigilator/.build/checkouts/leaf.git--1860839241550642390/Tests/LeafTests/ParameterTests.swift">
+			<Option target="deployment"/>
+		</Unit>
+		<Unit filename="/home/josc/Documents/invigilator/invigilator/.build/checkouts/leaf.git--1860839241550642390/Tests/LeafTests/PerformanceTests.swift">
+			<Option target="deployment"/>
+		</Unit>
+		<Unit filename="/home/josc/Documents/invigilator/invigilator/.build/checkouts/leaf.git--1860839241550642390/Tests/LeafTests/RawTests.swift">
+			<Option target="deployment"/>
+		</Unit>
+		<Unit filename="/home/josc/Documents/invigilator/invigilator/.build/checkouts/leaf.git--1860839241550642390/Tests/LeafTests/RenderTests.swift">
+			<Option target="deployment"/>
+		</Unit>
+		<Unit filename="/home/josc/Documents/invigilator/invigilator/.build/checkouts/leaf.git--1860839241550642390/Tests/LeafTests/SharedModels.swift">
+			<Option target="deployment"/>
+		</Unit>
+		<Unit filename="/home/josc/Documents/invigilator/invigilator/.build/checkouts/leaf.git--1860839241550642390/Tests/LeafTests/TagTemplateTests.swift">
+			<Option target="deployment"/>
+		</Unit>
+		<Unit filename="/home/josc/Documents/invigilator/invigilator/.build/checkouts/leaf.git--1860839241550642390/Tests/LeafTests/UppercasedTests.swift">
+			<Option target="deployment"/>
+		</Unit>
+		<Unit filename="/home/josc/Documents/invigilator/invigilator/.build/checkouts/leaf.git--1860839241550642390/Tests/LeafTests/VariableTests.swift">
+			<Option target="deployment"/>
+		</Unit>
+		<Unit filename="/home/josc/Documents/invigilator/invigilator/.build/checkouts/leaf.git--1860839241550642390/Tests/LinuxMain.swift">
+			<Option target="deployment"/>
+		</Unit>
+		<Unit filename="/home/josc/Documents/invigilator/invigilator/.build/checkouts/markdown-provider.git-4151586910358464984/Package.swift">
+			<Option target="deployment"/>
+		</Unit>
+		<Unit filename="/home/josc/Documents/invigilator/invigilator/.build/checkouts/markdown-provider.git-4151586910358464984/Sources/MarkdownProvider/Provider.swift">
+			<Option target="deployment"/>
+		</Unit>
+		<Unit filename="/home/josc/Documents/invigilator/invigilator/.build/checkouts/markdown-provider.git-4151586910358464984/Sources/MarkdownProvider/Tag.swift">
+			<Option target="deployment"/>
+		</Unit>
+		<Unit filename="/home/josc/Documents/invigilator/invigilator/.build/checkouts/markdown-provider.git-4151586910358464984/Tests/LinuxMain.swift">
+			<Option target="deployment"/>
+		</Unit>
+		<Unit filename="/home/josc/Documents/invigilator/invigilator/.build/checkouts/markdown-provider.git-4151586910358464984/Tests/MarkdownProviderTests/LeafTests.swift">
+			<Option target="deployment"/>
+		</Unit>
+		<Unit filename="/home/josc/Documents/invigilator/invigilator/.build/checkouts/markdown-provider.git-4151586910358464984/Tests/MarkdownProviderTests/ProviderTests.swift">
+			<Option target="deployment"/>
+		</Unit>
+		<Unit filename="/home/josc/Documents/invigilator/invigilator/.build/checkouts/markdown.git-2146217787954182172/Package.swift">
+			<Option target="deployment"/>
+		</Unit>
+		<Unit filename="/home/josc/Documents/invigilator/invigilator/.build/checkouts/markdown.git-2146217787954182172/Sources/SwiftMarkdown/SwiftMarkdown.swift">
+			<Option target="deployment"/>
+		</Unit>
+		<Unit filename="/home/josc/Documents/invigilator/invigilator/.build/checkouts/markdown.git-2146217787954182172/Tests/LinuxMain.swift">
+			<Option target="deployment"/>
+		</Unit>
+		<Unit filename="/home/josc/Documents/invigilator/invigilator/.build/checkouts/markdown.git-2146217787954182172/Tests/SwiftMarkdownTests/SwiftMarkdownTests.swift">
+			<Option target="deployment"/>
+		</Unit>
+		<Unit filename="/home/josc/Documents/invigilator/invigilator/.build/checkouts/multipart.git-2917356049149134630/Package.swift">
+			<Option target="deployment"/>
+		</Unit>
+		<Unit filename="/home/josc/Documents/invigilator/invigilator/.build/checkouts/multipart.git-2917356049149134630/Sources/FormData/ContentDispositionParser.swift">
+			<Option target="deployment"/>
+		</Unit>
+		<Unit filename="/home/josc/Documents/invigilator/invigilator/.build/checkouts/multipart.git-2917356049149134630/Sources/FormData/Field.swift">
+			<Option target="deployment"/>
+		</Unit>
+		<Unit filename="/home/josc/Documents/invigilator/invigilator/.build/checkouts/multipart.git-2917356049149134630/Sources/FormData/Parser.swift">
+			<Option target="deployment"/>
+		</Unit>
+		<Unit filename="/home/josc/Documents/invigilator/invigilator/.build/checkouts/multipart.git-2917356049149134630/Sources/FormData/Serializer.swift">
+			<Option target="deployment"/>
+		</Unit>
+		<Unit filename="/home/josc/Documents/invigilator/invigilator/.build/checkouts/multipart.git-2917356049149134630/Sources/Multipart/BoundaryParser.swift">
+			<Option target="deployment"/>
+		</Unit>
+		<Unit filename="/home/josc/Documents/invigilator/invigilator/.build/checkouts/multipart.git-2917356049149134630/Sources/Multipart/HeaderParser.swift">
+			<Option target="deployment"/>
+		</Unit>
+		<Unit filename="/home/josc/Documents/invigilator/invigilator/.build/checkouts/multipart.git-2917356049149134630/Sources/Multipart/Multipart+BytesConvertible.swift">
+			<Option target="deployment"/>
+		</Unit>
+		<Unit filename="/home/josc/Documents/invigilator/invigilator/.build/checkouts/multipart.git-2917356049149134630/Sources/Multipart/Parser.swift">
+			<Option target="deployment"/>
+		</Unit>
+		<Unit filename="/home/josc/Documents/invigilator/invigilator/.build/checkouts/multipart.git-2917356049149134630/Sources/Multipart/Part.swift">
+			<Option target="deployment"/>
+		</Unit>
+		<Unit filename="/home/josc/Documents/invigilator/invigilator/.build/checkouts/multipart.git-2917356049149134630/Sources/Multipart/Serializer.swift">
+			<Option target="deployment"/>
+		</Unit>
+		<Unit filename="/home/josc/Documents/invigilator/invigilator/.build/checkouts/multipart.git-2917356049149134630/Tests/FormDataTests/ParserTests.swift">
+			<Option target="deployment"/>
+		</Unit>
+		<Unit filename="/home/josc/Documents/invigilator/invigilator/.build/checkouts/multipart.git-2917356049149134630/Tests/FormDataTests/SerializerTests.swift">
+			<Option target="deployment"/>
+		</Unit>
+		<Unit filename="/home/josc/Documents/invigilator/invigilator/.build/checkouts/multipart.git-2917356049149134630/Tests/LinuxMain.swift">
+			<Option target="deployment"/>
+		</Unit>
+		<Unit filename="/home/josc/Documents/invigilator/invigilator/.build/checkouts/multipart.git-2917356049149134630/Tests/MultipartTests/ParserTests.swift">
+			<Option target="deployment"/>
+		</Unit>
+		<Unit filename="/home/josc/Documents/invigilator/invigilator/.build/checkouts/multipart.git-2917356049149134630/Tests/MultipartTests/SerializerTests.swift">
+			<Option target="deployment"/>
+		</Unit>
+		<Unit filename="/home/josc/Documents/invigilator/invigilator/.build/checkouts/mysql-driver.git--5743786968825315894/Package.swift">
+			<Option target="deployment"/>
+		</Unit>
+		<Unit filename="/home/josc/Documents/invigilator/invigilator/.build/checkouts/mysql-driver.git--5743786968825315894/Sources/MySQLDriver/Creator+MySQLTypes.swift">
+			<Option target="deployment"/>
+		</Unit>
+		<Unit filename="/home/josc/Documents/invigilator/invigilator/.build/checkouts/mysql-driver.git--5743786968825315894/Sources/MySQLDriver/MySQLConnection.swift">
+			<Option target="deployment"/>
+		</Unit>
+		<Unit filename="/home/josc/Documents/invigilator/invigilator/.build/checkouts/mysql-driver.git--5743786968825315894/Sources/MySQLDriver/MySQLDriver.swift">
+			<Option target="deployment"/>
+		</Unit>
+		<Unit filename="/home/josc/Documents/invigilator/invigilator/.build/checkouts/mysql-driver.git--5743786968825315894/Sources/MySQLDriver/MySQLSerializer.swift">
+			<Option target="deployment"/>
+		</Unit>
+		<Unit filename="/home/josc/Documents/invigilator/invigilator/.build/checkouts/mysql-driver.git--5743786968825315894/Tests/LinuxMain.swift">
+			<Option target="deployment"/>
+		</Unit>
+		<Unit filename="/home/josc/Documents/invigilator/invigilator/.build/checkouts/mysql-driver.git--5743786968825315894/Tests/MySQLDriverTests/FluentMySQLTests.swift">
+			<Option target="deployment"/>
+		</Unit>
+		<Unit filename="/home/josc/Documents/invigilator/invigilator/.build/checkouts/mysql-driver.git--5743786968825315894/Tests/MySQLDriverTests/Utilities/MySQLDriver+Tests.swift">
+			<Option target="deployment"/>
+		</Unit>
+		<Unit filename="/home/josc/Documents/invigilator/invigilator/.build/checkouts/mysql-provider.git-2851809011601993600/Package.swift">
+			<Option target="deployment"/>
+		</Unit>
+		<Unit filename="/home/josc/Documents/invigilator/invigilator/.build/checkouts/mysql-provider.git-2851809011601993600/Sources/MySQLProvider/Driver+Config.swift">
+			<Option target="deployment"/>
+		</Unit>
+		<Unit filename="/home/josc/Documents/invigilator/invigilator/.build/checkouts/mysql-provider.git-2851809011601993600/Sources/MySQLProvider/Droplet+MySQL.swift">
+			<Option target="deployment"/>
+		</Unit>
+		<Unit filename="/home/josc/Documents/invigilator/invigilator/.build/checkouts/mysql-provider.git-2851809011601993600/Sources/MySQLProvider/Error.swift">
+			<Option target="deployment"/>
+		</Unit>
+		<Unit filename="/home/josc/Documents/invigilator/invigilator/.build/checkouts/mysql-provider.git-2851809011601993600/Sources/MySQLProvider/Exports.swift">
+			<Option target="deployment"/>
+		</Unit>
+		<Unit filename="/home/josc/Documents/invigilator/invigilator/.build/checkouts/mysql-provider.git-2851809011601993600/Sources/MySQLProvider/Provider.swift">
+			<Option target="deployment"/>
+		</Unit>
+		<Unit filename="/home/josc/Documents/invigilator/invigilator/.build/checkouts/mysql-provider.git-2851809011601993600/Tests/LinuxMain.swift">
+			<Option target="deployment"/>
+		</Unit>
+		<Unit filename="/home/josc/Documents/invigilator/invigilator/.build/checkouts/mysql-provider.git-2851809011601993600/Tests/MySQLProviderTests/VaporMySQL.swift">
+			<Option target="deployment"/>
+		</Unit>
+		<Unit filename="/home/josc/Documents/invigilator/invigilator/.build/checkouts/mysql.git-1162084777216072846/Package.swift">
+			<Option target="deployment"/>
+		</Unit>
+		<Unit filename="/home/josc/Documents/invigilator/invigilator/.build/checkouts/mysql.git-1162084777216072846/Sources/MySQL/Bind/Bind+Node.swift">
+			<Option target="deployment"/>
+		</Unit>
+		<Unit filename="/home/josc/Documents/invigilator/invigilator/.build/checkouts/mysql.git-1162084777216072846/Sources/MySQL/Bind/Bind.swift">
+			<Option target="deployment"/>
+		</Unit>
+		<Unit filename="/home/josc/Documents/invigilator/invigilator/.build/checkouts/mysql.git-1162084777216072846/Sources/MySQL/Bind/Binds.swift">
+			<Option target="deployment"/>
+		</Unit>
+		<Unit filename="/home/josc/Documents/invigilator/invigilator/.build/checkouts/mysql.git-1162084777216072846/Sources/MySQL/Connection.swift">
+			<Option target="deployment"/>
+		</Unit>
+		<Unit filename="/home/josc/Documents/invigilator/invigilator/.build/checkouts/mysql.git-1162084777216072846/Sources/MySQL/Context.swift">
+			<Option target="deployment"/>
+		</Unit>
+		<Unit filename="/home/josc/Documents/invigilator/invigilator/.build/checkouts/mysql.git-1162084777216072846/Sources/MySQL/Database.swift">
+			<Option target="deployment"/>
+		</Unit>
+		<Unit filename="/home/josc/Documents/invigilator/invigilator/.build/checkouts/mysql.git-1162084777216072846/Sources/MySQL/Error.swift">
+			<Option target="deployment"/>
+		</Unit>
+		<Unit filename="/home/josc/Documents/invigilator/invigilator/.build/checkouts/mysql.git-1162084777216072846/Sources/MySQL/Exports.swift">
+			<Option target="deployment"/>
+		</Unit>
+		<Unit filename="/home/josc/Documents/invigilator/invigilator/.build/checkouts/mysql.git-1162084777216072846/Sources/MySQL/Field/Field+Variant.swift">
+			<Option target="deployment"/>
+		</Unit>
+		<Unit filename="/home/josc/Documents/invigilator/invigilator/.build/checkouts/mysql.git-1162084777216072846/Sources/MySQL/Field/Field.swift">
+			<Option target="deployment"/>
+		</Unit>
+		<Unit filename="/home/josc/Documents/invigilator/invigilator/.build/checkouts/mysql.git-1162084777216072846/Sources/MySQL/Field/Fields.swift">
+			<Option target="deployment"/>
+		</Unit>
+		<Unit filename="/home/josc/Documents/invigilator/invigilator/.build/checkouts/mysql.git-1162084777216072846/Tests/LinuxMain.swift">
+			<Option target="deployment"/>
+		</Unit>
+		<Unit filename="/home/josc/Documents/invigilator/invigilator/.build/checkouts/mysql.git-1162084777216072846/Tests/MySQLTests/MySQLTests.swift">
+			<Option target="deployment"/>
+		</Unit>
+		<Unit filename="/home/josc/Documents/invigilator/invigilator/.build/checkouts/mysql.git-1162084777216072846/Tests/MySQLTests/Utilities.swift">
+			<Option target="deployment"/>
+		</Unit>
+		<Unit filename="/home/josc/Documents/invigilator/invigilator/.build/checkouts/node.git-2952832382801875343/Package.swift">
+			<Option target="deployment"/>
+		</Unit>
+		<Unit filename="/home/josc/Documents/invigilator/invigilator/.build/checkouts/node.git-2952832382801875343/Sources/Node/Accessors/Getters.swift">
+			<Option target="deployment"/>
+		</Unit>
+		<Unit filename="/home/josc/Documents/invigilator/invigilator/.build/checkouts/node.git-2952832382801875343/Sources/Node/Accessors/Setters.swift">
+			<Option target="deployment"/>
+		</Unit>
+		<Unit filename="/home/josc/Documents/invigilator/invigilator/.build/checkouts/node.git-2952832382801875343/Sources/Node/Convertibles/Bool+Convertible.swift">
+			<Option target="deployment"/>
+		</Unit>
+		<Unit filename="/home/josc/Documents/invigilator/invigilator/.build/checkouts/node.git-2952832382801875343/Sources/Node/Convertibles/Date+Convertible.swift">
+			<Option target="deployment"/>
+		</Unit>
+		<Unit filename="/home/josc/Documents/invigilator/invigilator/.build/checkouts/node.git-2952832382801875343/Sources/Node/Convertibles/FloatingPoint+Convertible.swift">
+			<Option target="deployment"/>
+		</Unit>
+		<Unit filename="/home/josc/Documents/invigilator/invigilator/.build/checkouts/node.git-2952832382801875343/Sources/Node/Convertibles/Integer+Convertible.swift">
+			<Option target="deployment"/>
+		</Unit>
+		<Unit filename="/home/josc/Documents/invigilator/invigilator/.build/checkouts/node.git-2952832382801875343/Sources/Node/Convertibles/Schema+Convertible.swift">
+			<Option target="deployment"/>
+		</Unit>
+		<Unit filename="/home/josc/Documents/invigilator/invigilator/.build/checkouts/node.git-2952832382801875343/Sources/Node/Convertibles/SchemaWrapper+Convertible.swift">
+			<Option target="deployment"/>
+		</Unit>
+		<Unit filename="/home/josc/Documents/invigilator/invigilator/.build/checkouts/node.git-2952832382801875343/Sources/Node/Convertibles/String+Convertible.swift">
+			<Option target="deployment"/>
+		</Unit>
+		<Unit filename="/home/josc/Documents/invigilator/invigilator/.build/checkouts/node.git-2952832382801875343/Sources/Node/Convertibles/UUID+Convertible.swift">
+			<Option target="deployment"/>
+		</Unit>
+		<Unit filename="/home/josc/Documents/invigilator/invigilator/.build/checkouts/node.git-2952832382801875343/Sources/Node/Convertibles/UnsignedInteger+Convertible.swift">
+			<Option target="deployment"/>
+		</Unit>
+		<Unit filename="/home/josc/Documents/invigilator/invigilator/.build/checkouts/node.git-2952832382801875343/Sources/Node/Core/Context.swift">
+			<Option target="deployment"/>
+		</Unit>
+		<Unit filename="/home/josc/Documents/invigilator/invigilator/.build/checkouts/node.git-2952832382801875343/Sources/Node/Core/Node.swift">
+			<Option target="deployment"/>
+		</Unit>
+		<Unit filename="/home/josc/Documents/invigilator/invigilator/.build/checkouts/node.git-2952832382801875343/Sources/Node/Core/NodeConvertible.swift">
+			<Option target="deployment"/>
+		</Unit>
+		<Unit filename="/home/josc/Documents/invigilator/invigilator/.build/checkouts/node.git-2952832382801875343/Sources/Node/Core/NodeInitializable.swift">
+			<Option target="deployment"/>
+		</Unit>
+		<Unit filename="/home/josc/Documents/invigilator/invigilator/.build/checkouts/node.git-2952832382801875343/Sources/Node/Core/NodeRepresentable.swift">
+			<Option target="deployment"/>
+		</Unit>
+		<Unit filename="/home/josc/Documents/invigilator/invigilator/.build/checkouts/node.git-2952832382801875343/Sources/Node/Fuzzy/Array+Convertible.swift">
+			<Option target="deployment"/>
+		</Unit>
+		<Unit filename="/home/josc/Documents/invigilator/invigilator/.build/checkouts/node.git-2952832382801875343/Sources/Node/Fuzzy/Dictionary+Convertible.swift">
+			<Option target="deployment"/>
+		</Unit>
+		<Unit filename="/home/josc/Documents/invigilator/invigilator/.build/checkouts/node.git-2952832382801875343/Sources/Node/Fuzzy/Fuzzy+Any.swift">
+			<Option target="deployment"/>
+		</Unit>
+		<Unit filename="/home/josc/Documents/invigilator/invigilator/.build/checkouts/node.git-2952832382801875343/Sources/Node/Fuzzy/FuzzyConverter.swift">
+			<Option target="deployment"/>
+		</Unit>
+		<Unit filename="/home/josc/Documents/invigilator/invigilator/.build/checkouts/node.git-2952832382801875343/Sources/Node/Fuzzy/Optional+Convertible.swift">
+			<Option target="deployment"/>
+		</Unit>
+		<Unit filename="/home/josc/Documents/invigilator/invigilator/.build/checkouts/node.git-2952832382801875343/Sources/Node/Fuzzy/Set+Convertible.swift">
+			<Option target="deployment"/>
+		</Unit>
+		<Unit filename="/home/josc/Documents/invigilator/invigilator/.build/checkouts/node.git-2952832382801875343/Sources/Node/Number/Number.swift">
+			<Option target="deployment"/>
+		</Unit>
+		<Unit filename="/home/josc/Documents/invigilator/invigilator/.build/checkouts/node.git-2952832382801875343/Sources/Node/StructuredData/StructuredData+Equatable.swift">
+			<Option target="deployment"/>
+		</Unit>
+		<Unit filename="/home/josc/Documents/invigilator/invigilator/.build/checkouts/node.git-2952832382801875343/Sources/Node/StructuredData/StructuredData+Init.swift">
+			<Option target="deployment"/>
+		</Unit>
+		<Unit filename="/home/josc/Documents/invigilator/invigilator/.build/checkouts/node.git-2952832382801875343/Sources/Node/StructuredData/StructuredData+PathIndexable.swift">
+			<Option target="deployment"/>
+		</Unit>
+		<Unit filename="/home/josc/Documents/invigilator/invigilator/.build/checkouts/node.git-2952832382801875343/Sources/Node/StructuredData/StructuredData+Polymorphic.swift">
+			<Option target="deployment"/>
+		</Unit>
+		<Unit filename="/home/josc/Documents/invigilator/invigilator/.build/checkouts/node.git-2952832382801875343/Sources/Node/StructuredData/StructuredData.swift">
+			<Option target="deployment"/>
+		</Unit>
+		<Unit filename="/home/josc/Documents/invigilator/invigilator/.build/checkouts/node.git-2952832382801875343/Sources/Node/StructuredDataWrapper/StructuredDataWrapper+Cases.swift">
+			<Option target="deployment"/>
+		</Unit>
+		<Unit filename="/home/josc/Documents/invigilator/invigilator/.build/checkouts/node.git-2952832382801875343/Sources/Node/StructuredDataWrapper/StructuredDataWrapper+Convenience.swift">
+			<Option target="deployment"/>
+		</Unit>
+		<Unit filename="/home/josc/Documents/invigilator/invigilator/.build/checkouts/node.git-2952832382801875343/Sources/Node/StructuredDataWrapper/StructuredDataWrapper+Equatable.swift">
+			<Option target="deployment"/>
+		</Unit>
+		<Unit filename="/home/josc/Documents/invigilator/invigilator/.build/checkouts/node.git-2952832382801875343/Sources/Node/StructuredDataWrapper/StructuredDataWrapper+Literals.swift">
+			<Option target="deployment"/>
+		</Unit>
+		<Unit filename="/home/josc/Documents/invigilator/invigilator/.build/checkouts/node.git-2952832382801875343/Sources/Node/StructuredDataWrapper/StructuredDataWrapper+PathIndexable.swift">
+			<Option target="deployment"/>
+		</Unit>
+		<Unit filename="/home/josc/Documents/invigilator/invigilator/.build/checkouts/node.git-2952832382801875343/Sources/Node/StructuredDataWrapper/StructuredDataWrapper+Polymorphic.swift">
+			<Option target="deployment"/>
+		</Unit>
+		<Unit filename="/home/josc/Documents/invigilator/invigilator/.build/checkouts/node.git-2952832382801875343/Sources/Node/StructuredDataWrapper/StructuredDataWrapper.swift">
+			<Option target="deployment"/>
+		</Unit>
+		<Unit filename="/home/josc/Documents/invigilator/invigilator/.build/checkouts/node.git-2952832382801875343/Sources/Node/Utilities/Errors.swift">
+			<Option target="deployment"/>
+		</Unit>
+		<Unit filename="/home/josc/Documents/invigilator/invigilator/.build/checkouts/node.git-2952832382801875343/Sources/Node/Utilities/Exports.swift">
+			<Option target="deployment"/>
+		</Unit>
+		<Unit filename="/home/josc/Documents/invigilator/invigilator/.build/checkouts/node.git-2952832382801875343/Sources/Node/Utilities/Identifier.swift">
+			<Option target="deployment"/>
+		</Unit>
+		<Unit filename="/home/josc/Documents/invigilator/invigilator/.build/checkouts/node.git-2952832382801875343/Sources/PathIndexable/PathIndexable+Subscripting.swift">
+			<Option target="deployment"/>
+		</Unit>
+		<Unit filename="/home/josc/Documents/invigilator/invigilator/.build/checkouts/node.git-2952832382801875343/Sources/PathIndexable/PathIndexable.swift">
+			<Option target="deployment"/>
+		</Unit>
+		<Unit filename="/home/josc/Documents/invigilator/invigilator/.build/checkouts/node.git-2952832382801875343/Tests/LinuxMain.swift">
+			<Option target="deployment"/>
+		</Unit>
+		<Unit filename="/home/josc/Documents/invigilator/invigilator/.build/checkouts/node.git-2952832382801875343/Tests/NodeTests/BasicConvertibleTests.swift">
+			<Option target="deployment"/>
+		</Unit>
+		<Unit filename="/home/josc/Documents/invigilator/invigilator/.build/checkouts/node.git-2952832382801875343/Tests/NodeTests/DictionaryKeyPathTests.swift">
+			<Option target="deployment"/>
+		</Unit>
+		<Unit filename="/home/josc/Documents/invigilator/invigilator/.build/checkouts/node.git-2952832382801875343/Tests/NodeTests/NodeBackedTests.swift">
+			<Option target="deployment"/>
+		</Unit>
+		<Unit filename="/home/josc/Documents/invigilator/invigilator/.build/checkouts/node.git-2952832382801875343/Tests/NodeTests/NodeDataTypeTests.swift">
+			<Option target="deployment"/>
+		</Unit>
+		<Unit filename="/home/josc/Documents/invigilator/invigilator/.build/checkouts/node.git-2952832382801875343/Tests/NodeTests/NodeGetterTests.swift">
+			<Option target="deployment"/>
+		</Unit>
+		<Unit filename="/home/josc/Documents/invigilator/invigilator/.build/checkouts/node.git-2952832382801875343/Tests/NodeTests/NodeIndexableTests.swift">
+			<Option target="deployment"/>
+		</Unit>
+		<Unit filename="/home/josc/Documents/invigilator/invigilator/.build/checkouts/node.git-2952832382801875343/Tests/NodeTests/NodePolymorphicTests.swift">
+			<Option target="deployment"/>
+		</Unit>
+		<Unit filename="/home/josc/Documents/invigilator/invigilator/.build/checkouts/node.git-2952832382801875343/Tests/NodeTests/NodeTests.swift">
+			<Option target="deployment"/>
+		</Unit>
+		<Unit filename="/home/josc/Documents/invigilator/invigilator/.build/checkouts/node.git-2952832382801875343/Tests/NodeTests/NumberTests.swift">
+			<Option target="deployment"/>
+		</Unit>
+		<Unit filename="/home/josc/Documents/invigilator/invigilator/.build/checkouts/node.git-2952832382801875343/Tests/NodeTests/SequenceConvertibleTests.swift">
+			<Option target="deployment"/>
+		</Unit>
+		<Unit filename="/home/josc/Documents/invigilator/invigilator/.build/checkouts/node.git-2952832382801875343/Tests/NodeTests/SettersTests.swift">
+			<Option target="deployment"/>
+		</Unit>
+		<Unit filename="/home/josc/Documents/invigilator/invigilator/.build/checkouts/node.git-2952832382801875343/Tests/PathIndexableTests/PathIndexableTests.swift">
+			<Option target="deployment"/>
+		</Unit>
+		<Unit filename="/home/josc/Documents/invigilator/invigilator/.build/checkouts/random.git--2899605832270210308/Package.swift">
+			<Option target="deployment"/>
+		</Unit>
+		<Unit filename="/home/josc/Documents/invigilator/invigilator/.build/checkouts/random.git--2899605832270210308/Sources/Random/Array+Random.swift">
+			<Option target="deployment"/>
+		</Unit>
+		<Unit filename="/home/josc/Documents/invigilator/invigilator/.build/checkouts/random.git--2899605832270210308/Sources/Random/EmptyInitializable.swift">
+			<Option target="deployment"/>
+		</Unit>
+		<Unit filename="/home/josc/Documents/invigilator/invigilator/.build/checkouts/random.git--2899605832270210308/Sources/Random/Exports.swift">
+			<Option target="deployment"/>
+		</Unit>
+		<Unit filename="/home/josc/Documents/invigilator/invigilator/.build/checkouts/random.git--2899605832270210308/Sources/Random/OSRandom.swift">
+			<Option target="deployment"/>
+		</Unit>
+		<Unit filename="/home/josc/Documents/invigilator/invigilator/.build/checkouts/random.git--2899605832270210308/Sources/Random/RandomProtocol.swift">
+			<Option target="deployment"/>
+		</Unit>
+		<Unit filename="/home/josc/Documents/invigilator/invigilator/.build/checkouts/random.git--2899605832270210308/Sources/Random/URandom.swift">
+			<Option target="deployment"/>
+		</Unit>
+		<Unit filename="/home/josc/Documents/invigilator/invigilator/.build/checkouts/random.git--2899605832270210308/Tests/LinuxMain.swift">
+			<Option target="deployment"/>
+		</Unit>
+		<Unit filename="/home/josc/Documents/invigilator/invigilator/.build/checkouts/random.git--2899605832270210308/Tests/RandomTests/RandomTests.swift">
+			<Option target="deployment"/>
+		</Unit>
+		<Unit filename="/home/josc/Documents/invigilator/invigilator/.build/checkouts/routing.git--6598891073243145985/Package.swift">
+			<Option target="deployment"/>
+		</Unit>
+		<Unit filename="/home/josc/Documents/invigilator/invigilator/.build/checkouts/routing.git--6598891073243145985/Sources/Branches/Branch+Paths.swift">
+			<Option target="deployment"/>
+		</Unit>
+		<Unit filename="/home/josc/Documents/invigilator/invigilator/.build/checkouts/routing.git--6598891073243145985/Sources/Branches/Branch.swift">
+			<Option target="deployment"/>
+		</Unit>
+		<Unit filename="/home/josc/Documents/invigilator/invigilator/.build/checkouts/routing.git--6598891073243145985/Sources/Branches/SubBranchMap.swift">
+			<Option target="deployment"/>
+		</Unit>
+		<Unit filename="/home/josc/Documents/invigilator/invigilator/.build/checkouts/routing.git--6598891073243145985/Sources/Routing/Method+Wildcard.swift">
+			<Option target="deployment"/>
+		</Unit>
+		<Unit filename="/home/josc/Documents/invigilator/invigilator/.build/checkouts/routing.git--6598891073243145985/Sources/Routing/Parameterizable.swift">
+			<Option target="deployment"/>
+		</Unit>
+		<Unit filename="/home/josc/Documents/invigilator/invigilator/.build/checkouts/routing.git--6598891073243145985/Sources/Routing/Parameters.swift">
+			<Option target="deployment"/>
+		</Unit>
+		<Unit filename="/home/josc/Documents/invigilator/invigilator/.build/checkouts/routing.git--6598891073243145985/Sources/Routing/Request+Routing.swift">
+			<Option target="deployment"/>
+		</Unit>
+		<Unit filename="/home/josc/Documents/invigilator/invigilator/.build/checkouts/routing.git--6598891073243145985/Sources/Routing/RouteBuilder+Grouping.swift">
+			<Option target="deployment"/>
+		</Unit>
+		<Unit filename="/home/josc/Documents/invigilator/invigilator/.build/checkouts/routing.git--6598891073243145985/Sources/Routing/RouteBuilder.swift">
+			<Option target="deployment"/>
+		</Unit>
+		<Unit filename="/home/josc/Documents/invigilator/invigilator/.build/checkouts/routing.git--6598891073243145985/Sources/Routing/RouteGroup.swift">
+			<Option target="deployment"/>
+		</Unit>
+		<Unit filename="/home/josc/Documents/invigilator/invigilator/.build/checkouts/routing.git--6598891073243145985/Sources/Routing/Router+Responder.swift">
+			<Option target="deployment"/>
+		</Unit>
+		<Unit filename="/home/josc/Documents/invigilator/invigilator/.build/checkouts/routing.git--6598891073243145985/Sources/Routing/Router.swift">
+			<Option target="deployment"/>
+		</Unit>
+		<Unit filename="/home/josc/Documents/invigilator/invigilator/.build/checkouts/routing.git--6598891073243145985/Sources/Routing/Utilities.swift">
+			<Option target="deployment"/>
+		</Unit>
+		<Unit filename="/home/josc/Documents/invigilator/invigilator/.build/checkouts/routing.git--6598891073243145985/Sources/TypeSafeGenerator/Body.swift">
+			<Option target="deployment"/>
+		</Unit>
+		<Unit filename="/home/josc/Documents/invigilator/invigilator/.build/checkouts/routing.git--6598891073243145985/Sources/TypeSafeGenerator/Function.swift">
+			<Option target="deployment"/>
+		</Unit>
+		<Unit filename="/home/josc/Documents/invigilator/invigilator/.build/checkouts/routing.git--6598891073243145985/Sources/TypeSafeGenerator/Generator.swift">
+			<Option target="deployment"/>
+		</Unit>
+		<Unit filename="/home/josc/Documents/invigilator/invigilator/.build/checkouts/routing.git--6598891073243145985/Sources/TypeSafeGenerator/Method.swift">
+			<Option target="deployment"/>
+		</Unit>
+		<Unit filename="/home/josc/Documents/invigilator/invigilator/.build/checkouts/routing.git--6598891073243145985/Sources/TypeSafeGenerator/Operators.swift">
+			<Option target="deployment"/>
+		</Unit>
+		<Unit filename="/home/josc/Documents/invigilator/invigilator/.build/checkouts/routing.git--6598891073243145985/Sources/TypeSafeGenerator/Parameter.swift">
+			<Option target="deployment"/>
+		</Unit>
+		<Unit filename="/home/josc/Documents/invigilator/invigilator/.build/checkouts/routing.git--6598891073243145985/Sources/TypeSafeGenerator/Signature+Documentation.swift">
+			<Option target="deployment"/>
+		</Unit>
+		<Unit filename="/home/josc/Documents/invigilator/invigilator/.build/checkouts/routing.git--6598891073243145985/Sources/TypeSafeGenerator/Signature.swift">
+			<Option target="deployment"/>
+		</Unit>
+		<Unit filename="/home/josc/Documents/invigilator/invigilator/.build/checkouts/routing.git--6598891073243145985/Sources/TypeSafeGenerator/Variant.swift">
+			<Option target="deployment"/>
+		</Unit>
+		<Unit filename="/home/josc/Documents/invigilator/invigilator/.build/checkouts/routing.git--6598891073243145985/Sources/TypeSafeGenerator/main.swift">
+			<Option target="deployment"/>
+		</Unit>
+		<Unit filename="/home/josc/Documents/invigilator/invigilator/.build/checkouts/routing.git--6598891073243145985/Tests/BranchesTests/BranchTests.swift">
+			<Option target="deployment"/>
+		</Unit>
+		<Unit filename="/home/josc/Documents/invigilator/invigilator/.build/checkouts/routing.git--6598891073243145985/Tests/BranchesTests/RouteExtractionTests.swift">
+			<Option target="deployment"/>
+		</Unit>
+		<Unit filename="/home/josc/Documents/invigilator/invigilator/.build/checkouts/routing.git--6598891073243145985/Tests/LinuxMain.swift">
+			<Option target="deployment"/>
+		</Unit>
+		<Unit filename="/home/josc/Documents/invigilator/invigilator/.build/checkouts/routing.git--6598891073243145985/Tests/RoutingTests/AddTests.swift">
+			<Option target="deployment"/>
+		</Unit>
+		<Unit filename="/home/josc/Documents/invigilator/invigilator/.build/checkouts/routing.git--6598891073243145985/Tests/RoutingTests/GroupTests.swift">
+			<Option target="deployment"/>
+		</Unit>
+		<Unit filename="/home/josc/Documents/invigilator/invigilator/.build/checkouts/routing.git--6598891073243145985/Tests/RoutingTests/GroupedTests.swift">
+			<Option target="deployment"/>
+		</Unit>
+		<Unit filename="/home/josc/Documents/invigilator/invigilator/.build/checkouts/routing.git--6598891073243145985/Tests/RoutingTests/RouteBuilderTests.swift">
+			<Option target="deployment"/>
+		</Unit>
+		<Unit filename="/home/josc/Documents/invigilator/invigilator/.build/checkouts/routing.git--6598891073243145985/Tests/RoutingTests/RouteTests.swift">
+			<Option target="deployment"/>
+		</Unit>
+		<Unit filename="/home/josc/Documents/invigilator/invigilator/.build/checkouts/routing.git--6598891073243145985/Tests/RoutingTests/RouterTests.swift">
+			<Option target="deployment"/>
+		</Unit>
+		<Unit filename="/home/josc/Documents/invigilator/invigilator/.build/checkouts/routing.git--6598891073243145985/Tests/RoutingTests/Utilities.swift">
+			<Option target="deployment"/>
+		</Unit>
+		<Unit filename="/home/josc/Documents/invigilator/invigilator/.build/checkouts/sockets.git-503837987401966189/Package.swift">
+			<Option target="deployment"/>
+		</Unit>
+		<Unit filename="/home/josc/Documents/invigilator/invigilator/.build/checkouts/sockets.git-503837987401966189/Sources/Sockets/Address/Address+C.swift">
+			<Option target="deployment"/>
+		</Unit>
+		<Unit filename="/home/josc/Documents/invigilator/invigilator/.build/checkouts/sockets.git-503837987401966189/Sources/Sockets/Address/Address.swift">
+			<Option target="deployment"/>
+		</Unit>
+		<Unit filename="/home/josc/Documents/invigilator/invigilator/.build/checkouts/sockets.git-503837987401966189/Sources/Sockets/Core/Buffer.swift">
+			<Option target="deployment"/>
+		</Unit>
+		<Unit filename="/home/josc/Documents/invigilator/invigilator/.build/checkouts/sockets.git-503837987401966189/Sources/Sockets/Core/Conversions.swift">
+			<Option target="deployment"/>
+		</Unit>
+		<Unit filename="/home/josc/Documents/invigilator/invigilator/.build/checkouts/sockets.git-503837987401966189/Sources/Sockets/Core/Error.swift">
+			<Option target="deployment"/>
+		</Unit>
+		<Unit filename="/home/josc/Documents/invigilator/invigilator/.build/checkouts/sockets.git-503837987401966189/Sources/Sockets/Core/FDSet.swift">
+			<Option target="deployment"/>
+		</Unit>
+		<Unit filename="/home/josc/Documents/invigilator/invigilator/.build/checkouts/sockets.git-503837987401966189/Sources/Sockets/Core/Types.swift">
+			<Option target="deployment"/>
+		</Unit>
+		<Unit filename="/home/josc/Documents/invigilator/invigilator/.build/checkouts/sockets.git-503837987401966189/Sources/Sockets/Exports.swift">
+			<Option target="deployment"/>
+		</Unit>
+		<Unit filename="/home/josc/Documents/invigilator/invigilator/.build/checkouts/sockets.git-503837987401966189/Sources/Sockets/Socket/Config.swift">
+			<Option target="deployment"/>
+		</Unit>
+		<Unit filename="/home/josc/Documents/invigilator/invigilator/.build/checkouts/sockets.git-503837987401966189/Sources/Sockets/Socket/Descriptor.swift">
+			<Option target="deployment"/>
+		</Unit>
+		<Unit filename="/home/josc/Documents/invigilator/invigilator/.build/checkouts/sockets.git-503837987401966189/Sources/Sockets/Socket/InternetSocket.swift">
+			<Option target="deployment"/>
+		</Unit>
+		<Unit filename="/home/josc/Documents/invigilator/invigilator/.build/checkouts/sockets.git-503837987401966189/Sources/Sockets/Socket/Pipe.swift">
+			<Option target="deployment"/>
+		</Unit>
+		<Unit filename="/home/josc/Documents/invigilator/invigilator/.build/checkouts/sockets.git-503837987401966189/Sources/Sockets/Socket/RawSocket.swift">
+			<Option target="deployment"/>
+		</Unit>
+		<Unit filename="/home/josc/Documents/invigilator/invigilator/.build/checkouts/sockets.git-503837987401966189/Sources/Sockets/Socket/Select.swift">
+			<Option target="deployment"/>
+		</Unit>
+		<Unit filename="/home/josc/Documents/invigilator/invigilator/.build/checkouts/sockets.git-503837987401966189/Sources/Sockets/Socket/Socket.swift">
+			<Option target="deployment"/>
+		</Unit>
+		<Unit filename="/home/josc/Documents/invigilator/invigilator/.build/checkouts/sockets.git-503837987401966189/Sources/Sockets/Socket/SocketOptions.swift">
+			<Option target="deployment"/>
+		</Unit>
+		<Unit filename="/home/josc/Documents/invigilator/invigilator/.build/checkouts/sockets.git-503837987401966189/Sources/Sockets/TCP/TCPEstablishedSocket.swift">
+			<Option target="deployment"/>
+		</Unit>
+		<Unit filename="/home/josc/Documents/invigilator/invigilator/.build/checkouts/sockets.git-503837987401966189/Sources/Sockets/TCP/TCPInternetSocket.swift">
+			<Option target="deployment"/>
+		</Unit>
+		<Unit filename="/home/josc/Documents/invigilator/invigilator/.build/checkouts/sockets.git-503837987401966189/Sources/Sockets/TCP/TCPReadableSocket.swift">
+			<Option target="deployment"/>
+		</Unit>
+		<Unit filename="/home/josc/Documents/invigilator/invigilator/.build/checkouts/sockets.git-503837987401966189/Sources/Sockets/TCP/TCPSocket.swift">
+			<Option target="deployment"/>
+		</Unit>
+		<Unit filename="/home/josc/Documents/invigilator/invigilator/.build/checkouts/sockets.git-503837987401966189/Sources/Sockets/TCP/TCPWriteableSocket.swift">
+			<Option target="deployment"/>
+		</Unit>
+		<Unit filename="/home/josc/Documents/invigilator/invigilator/.build/checkouts/sockets.git-503837987401966189/Sources/Sockets/UDP/UDPSocket.swift">
+			<Option target="deployment"/>
+		</Unit>
+		<Unit filename="/home/josc/Documents/invigilator/invigilator/.build/checkouts/sockets.git-503837987401966189/Sources/Transport/Exports.swift">
+			<Option target="deployment"/>
+		</Unit>
+		<Unit filename="/home/josc/Documents/invigilator/invigilator/.build/checkouts/sockets.git-503837987401966189/Sources/Transport/Internet/ClientStream.swift">
+			<Option target="deployment"/>
+		</Unit>
+		<Unit filename="/home/josc/Documents/invigilator/invigilator/.build/checkouts/sockets.git-503837987401966189/Sources/Transport/Internet/InternetStream.swift">
+			<Option target="deployment"/>
+		</Unit>
+		<Unit filename="/home/josc/Documents/invigilator/invigilator/.build/checkouts/sockets.git-503837987401966189/Sources/Transport/Internet/Port.swift">
+			<Option target="deployment"/>
+		</Unit>
+		<Unit filename="/home/josc/Documents/invigilator/invigilator/.build/checkouts/sockets.git-503837987401966189/Sources/Transport/Internet/ServerStream.swift">
+			<Option target="deployment"/>
+		</Unit>
+		<Unit filename="/home/josc/Documents/invigilator/invigilator/.build/checkouts/sockets.git-503837987401966189/Sources/Transport/Streams/FoundationStream.swift">
+			<Option target="deployment"/>
+		</Unit>
+		<Unit filename="/home/josc/Documents/invigilator/invigilator/.build/checkouts/sockets.git-503837987401966189/Sources/Transport/Streams/ReadableStream.swift">
+			<Option target="deployment"/>
+		</Unit>
+		<Unit filename="/home/josc/Documents/invigilator/invigilator/.build/checkouts/sockets.git-503837987401966189/Sources/Transport/Streams/Stream.swift">
+			<Option target="deployment"/>
+		</Unit>
+		<Unit filename="/home/josc/Documents/invigilator/invigilator/.build/checkouts/sockets.git-503837987401966189/Sources/Transport/Streams/StreamError.swift">
+			<Option target="deployment"/>
+		</Unit>
+		<Unit filename="/home/josc/Documents/invigilator/invigilator/.build/checkouts/sockets.git-503837987401966189/Sources/Transport/Streams/WriteableStream.swift">
+			<Option target="deployment"/>
+		</Unit>
+		<Unit filename="/home/josc/Documents/invigilator/invigilator/.build/checkouts/sockets.git-503837987401966189/Tests/LinuxMain.swift">
+			<Option target="deployment"/>
+		</Unit>
+		<Unit filename="/home/josc/Documents/invigilator/invigilator/.build/checkouts/sockets.git-503837987401966189/Tests/SocketsTests/AddressResolutionTests.swift">
+			<Option target="deployment"/>
+		</Unit>
+		<Unit filename="/home/josc/Documents/invigilator/invigilator/.build/checkouts/sockets.git-503837987401966189/Tests/SocketsTests/ConversionTests.swift">
+			<Option target="deployment"/>
+		</Unit>
+		<Unit filename="/home/josc/Documents/invigilator/invigilator/.build/checkouts/sockets.git-503837987401966189/Tests/SocketsTests/LifetimeTests.swift">
+			<Option target="deployment"/>
+		</Unit>
+		<Unit filename="/home/josc/Documents/invigilator/invigilator/.build/checkouts/sockets.git-503837987401966189/Tests/SocketsTests/LiveTests.swift">
+			<Option target="deployment"/>
+		</Unit>
+		<Unit filename="/home/josc/Documents/invigilator/invigilator/.build/checkouts/sockets.git-503837987401966189/Tests/SocketsTests/OptionsTests.swift">
+			<Option target="deployment"/>
+		</Unit>
+		<Unit filename="/home/josc/Documents/invigilator/invigilator/.build/checkouts/sockets.git-503837987401966189/Tests/SocketsTests/PipeTests.swift">
+			<Option target="deployment"/>
+		</Unit>
+		<Unit filename="/home/josc/Documents/invigilator/invigilator/.build/checkouts/sockets.git-503837987401966189/Tests/SocketsTests/SelectTests.swift">
+			<Option target="deployment"/>
+		</Unit>
+		<Unit filename="/home/josc/Documents/invigilator/invigilator/.build/checkouts/sockets.git-503837987401966189/Tests/SocketsTests/StreamTests.swift">
+			<Option target="deployment"/>
+		</Unit>
+		<Unit filename="/home/josc/Documents/invigilator/invigilator/.build/checkouts/sockets.git-503837987401966189/Tests/SocketsTests/TimeoutTests.swift">
+			<Option target="deployment"/>
+		</Unit>
+		<Unit filename="/home/josc/Documents/invigilator/invigilator/.build/checkouts/sockets.git-503837987401966189/Tests/SocketsTests/XCTestManifests.swift">
+			<Option target="deployment"/>
+		</Unit>
+		<Unit filename="/home/josc/Documents/invigilator/invigilator/.build/checkouts/sqlite.git-2484597385024340150/Package.swift">
+			<Option target="deployment"/>
+		</Unit>
+		<Unit filename="/home/josc/Documents/invigilator/invigilator/.build/checkouts/sqlite.git-2484597385024340150/Sources/SQLite/SQLite+Result.swift">
+			<Option target="deployment"/>
+		</Unit>
+		<Unit filename="/home/josc/Documents/invigilator/invigilator/.build/checkouts/sqlite.git-2484597385024340150/Sources/SQLite/SQLite+Statement.swift">
+			<Option target="deployment"/>
+		</Unit>
+		<Unit filename="/home/josc/Documents/invigilator/invigilator/.build/checkouts/sqlite.git-2484597385024340150/Sources/SQLite/SQLite.swift">
+			<Option target="deployment"/>
+		</Unit>
+		<Unit filename="/home/josc/Documents/invigilator/invigilator/.build/checkouts/sqlite.git-2484597385024340150/Tests/LinuxMain.swift">
+			<Option target="deployment"/>
+		</Unit>
+		<Unit filename="/home/josc/Documents/invigilator/invigilator/.build/checkouts/sqlite.git-2484597385024340150/Tests/SQLiteTests/SQLite3Tests.swift">
+			<Option target="deployment"/>
+		</Unit>
+		<Unit filename="/home/josc/Documents/invigilator/invigilator/.build/checkouts/sqlite.git-2484597385024340150/Tests/SQLiteTests/Utilities.swift">
+			<Option target="deployment"/>
+		</Unit>
+		<Unit filename="/home/josc/Documents/invigilator/invigilator/.build/checkouts/tls.git-3357518906564724053/Package.swift">
+			<Option target="deployment"/>
+		</Unit>
+		<Unit filename="/home/josc/Documents/invigilator/invigilator/.build/checkouts/tls.git-3357518906564724053/Sources/TLS/Certificates.swift">
+			<Option target="deployment"/>
+		</Unit>
+		<Unit filename="/home/josc/Documents/invigilator/invigilator/.build/checkouts/tls.git-3357518906564724053/Sources/TLS/ClientSocket.swift">
+			<Option target="deployment"/>
+		</Unit>
+		<Unit filename="/home/josc/Documents/invigilator/invigilator/.build/checkouts/tls.git-3357518906564724053/Sources/TLS/Context.swift">
+			<Option target="deployment"/>
+		</Unit>
+		<Unit filename="/home/josc/Documents/invigilator/invigilator/.build/checkouts/tls.git-3357518906564724053/Sources/TLS/Error.swift">
+			<Option target="deployment"/>
+		</Unit>
+		<Unit filename="/home/josc/Documents/invigilator/invigilator/.build/checkouts/tls.git-3357518906564724053/Sources/TLS/Exports.swift">
+			<Option target="deployment"/>
+		</Unit>
+		<Unit filename="/home/josc/Documents/invigilator/invigilator/.build/checkouts/tls.git-3357518906564724053/Sources/TLS/InternetSocket.swift">
+			<Option target="deployment"/>
+		</Unit>
+		<Unit filename="/home/josc/Documents/invigilator/invigilator/.build/checkouts/tls.git-3357518906564724053/Sources/TLS/Mode.swift">
+			<Option target="deployment"/>
+		</Unit>
+		<Unit filename="/home/josc/Documents/invigilator/invigilator/.build/checkouts/tls.git-3357518906564724053/Sources/TLS/ReadableSocket.swift">
+			<Option target="deployment"/>
+		</Unit>
+		<Unit filename="/home/josc/Documents/invigilator/invigilator/.build/checkouts/tls.git-3357518906564724053/Sources/TLS/ServerSocket.swift">
+			<Option target="deployment"/>
+		</Unit>
+		<Unit filename="/home/josc/Documents/invigilator/invigilator/.build/checkouts/tls.git-3357518906564724053/Sources/TLS/Socket.swift">
+			<Option target="deployment"/>
+		</Unit>
+		<Unit filename="/home/josc/Documents/invigilator/invigilator/.build/checkouts/tls.git-3357518906564724053/Sources/TLS/Utilities.swift">
+			<Option target="deployment"/>
+		</Unit>
+		<Unit filename="/home/josc/Documents/invigilator/invigilator/.build/checkouts/tls.git-3357518906564724053/Sources/TLS/WriteableSocket.swift">
+			<Option target="deployment"/>
+		</Unit>
+		<Unit filename="/home/josc/Documents/invigilator/invigilator/.build/checkouts/tls.git-3357518906564724053/Tests/LinuxMain.swift">
+			<Option target="deployment"/>
+		</Unit>
+		<Unit filename="/home/josc/Documents/invigilator/invigilator/.build/checkouts/tls.git-3357518906564724053/Tests/TLSTests/Certs.swift">
+			<Option target="deployment"/>
+		</Unit>
+		<Unit filename="/home/josc/Documents/invigilator/invigilator/.build/checkouts/tls.git-3357518906564724053/Tests/TLSTests/LiveTests.swift">
+			<Option target="deployment"/>
+		</Unit>
+		<Unit filename="/home/josc/Documents/invigilator/invigilator/.build/checkouts/vapor.git-1753225148733440341/Package.swift">
+			<Option target="deployment"/>
+		</Unit>
+		<Unit filename="/home/josc/Documents/invigilator/invigilator/.build/checkouts/vapor.git-1753225148733440341/Sources/Cache/CacheProtocol.swift">
+			<Option target="deployment"/>
+		</Unit>
+		<Unit filename="/home/josc/Documents/invigilator/invigilator/.build/checkouts/vapor.git-1753225148733440341/Sources/Cache/MemoryCache.swift">
+			<Option target="deployment"/>
+		</Unit>
+		<Unit filename="/home/josc/Documents/invigilator/invigilator/.build/checkouts/vapor.git-1753225148733440341/Sources/Configs/Config+Arguments.swift">
+			<Option target="deployment"/>
+		</Unit>
+		<Unit filename="/home/josc/Documents/invigilator/invigilator/.build/checkouts/vapor.git-1753225148733440341/Sources/Configs/Config+Directory.swift">
+			<Option target="deployment"/>
+		</Unit>
+		<Unit filename="/home/josc/Documents/invigilator/invigilator/.build/checkouts/vapor.git-1753225148733440341/Sources/Configs/Config.swift">
+			<Option target="deployment"/>
+		</Unit>
+		<Unit filename="/home/josc/Documents/invigilator/invigilator/.build/checkouts/vapor.git-1753225148733440341/Sources/Configs/ConfigError.swift">
+			<Option target="deployment"/>
+		</Unit>
+		<Unit filename="/home/josc/Documents/invigilator/invigilator/.build/checkouts/vapor.git-1753225148733440341/Sources/Configs/ConfigInitializable.swift">
+			<Option target="deployment"/>
+		</Unit>
+		<Unit filename="/home/josc/Documents/invigilator/invigilator/.build/checkouts/vapor.git-1753225148733440341/Sources/Configs/Env/Env.swift">
+			<Option target="deployment"/>
+		</Unit>
+		<Unit filename="/home/josc/Documents/invigilator/invigilator/.build/checkouts/vapor.git-1753225148733440341/Sources/Configs/Env/Node+Env.swift">
+			<Option target="deployment"/>
+		</Unit>
+		<Unit filename="/home/josc/Documents/invigilator/invigilator/.build/checkouts/vapor.git-1753225148733440341/Sources/Configs/Env/String+Env.swift">
+			<Option target="deployment"/>
+		</Unit>
+		<Unit filename="/home/josc/Documents/invigilator/invigilator/.build/checkouts/vapor.git-1753225148733440341/Sources/Configs/Environment.swift">
+			<Option target="deployment"/>
+		</Unit>
+		<Unit filename="/home/josc/Documents/invigilator/invigilator/.build/checkouts/vapor.git-1753225148733440341/Sources/Configs/KeyAccessible+Merge.swift">
+			<Option target="deployment"/>
+		</Unit>
+		<Unit filename="/home/josc/Documents/invigilator/invigilator/.build/checkouts/vapor.git-1753225148733440341/Sources/Configs/KeyAccessible.swift">
+			<Option target="deployment"/>
+		</Unit>
+		<Unit filename="/home/josc/Documents/invigilator/invigilator/.build/checkouts/vapor.git-1753225148733440341/Sources/Configs/Node+Merge.swift">
+			<Option target="deployment"/>
+		</Unit>
+		<Unit filename="/home/josc/Documents/invigilator/invigilator/.build/checkouts/vapor.git-1753225148733440341/Sources/Configs/Source.swift">
+			<Option target="deployment"/>
+		</Unit>
+		<Unit filename="/home/josc/Documents/invigilator/invigilator/.build/checkouts/vapor.git-1753225148733440341/Sources/Development/Controllers/UserController.swift">
+			<Option target="deployment"/>
+		</Unit>
+		<Unit filename="/home/josc/Documents/invigilator/invigilator/.build/checkouts/vapor.git-1753225148733440341/Sources/Development/Models/User.swift">
+			<Option target="deployment"/>
+		</Unit>
+		<Unit filename="/home/josc/Documents/invigilator/invigilator/.build/checkouts/vapor.git-1753225148733440341/Sources/Development/main.swift">
+			<Option target="deployment"/>
+		</Unit>
+		<Unit filename="/home/josc/Documents/invigilator/invigilator/.build/checkouts/vapor.git-1753225148733440341/Sources/Performance/main.swift">
+			<Option target="deployment"/>
+		</Unit>
+		<Unit filename="/home/josc/Documents/invigilator/invigilator/.build/checkouts/vapor.git-1753225148733440341/Sources/Sessions/CacheSessions.swift">
+			<Option target="deployment"/>
+		</Unit>
+		<Unit filename="/home/josc/Documents/invigilator/invigilator/.build/checkouts/vapor.git-1753225148733440341/Sources/Sessions/MemorySessions.swift">
+			<Option target="deployment"/>
+		</Unit>
+		<Unit filename="/home/josc/Documents/invigilator/invigilator/.build/checkouts/vapor.git-1753225148733440341/Sources/Sessions/Request+Session.swift">
+			<Option target="deployment"/>
+		</Unit>
+		<Unit filename="/home/josc/Documents/invigilator/invigilator/.build/checkouts/vapor.git-1753225148733440341/Sources/Sessions/Session.swift">
+			<Option target="deployment"/>
+		</Unit>
+		<Unit filename="/home/josc/Documents/invigilator/invigilator/.build/checkouts/vapor.git-1753225148733440341/Sources/Sessions/SessionsError.swift">
+			<Option target="deployment"/>
+		</Unit>
+		<Unit filename="/home/josc/Documents/invigilator/invigilator/.build/checkouts/vapor.git-1753225148733440341/Sources/Sessions/SessionsMiddleware.swift">
+			<Option target="deployment"/>
+		</Unit>
+		<Unit filename="/home/josc/Documents/invigilator/invigilator/.build/checkouts/vapor.git-1753225148733440341/Sources/Sessions/SessionsProtocol.swift">
+			<Option target="deployment"/>
+		</Unit>
+		<Unit filename="/home/josc/Documents/invigilator/invigilator/.build/checkouts/vapor.git-1753225148733440341/Sources/Testing/Bytes.swift">
+			<Option target="deployment"/>
+		</Unit>
+		<Unit filename="/home/josc/Documents/invigilator/invigilator/.build/checkouts/vapor.git-1753225148733440341/Sources/Testing/Exports.swift">
+			<Option target="deployment"/>
+		</Unit>
+		<Unit filename="/home/josc/Documents/invigilator/invigilator/.build/checkouts/vapor.git-1753225148733440341/Sources/Testing/Request.swift">
+			<Option target="deployment"/>
+		</Unit>
+		<Unit filename="/home/josc/Documents/invigilator/invigilator/.build/checkouts/vapor.git-1753225148733440341/Sources/Testing/Responder.swift">
+			<Option target="deployment"/>
+		</Unit>
+		<Unit filename="/home/josc/Documents/invigilator/invigilator/.build/checkouts/vapor.git-1753225148733440341/Sources/Testing/Response.swift">
+			<Option target="deployment"/>
+		</Unit>
+		<Unit filename="/home/josc/Documents/invigilator/invigilator/.build/checkouts/vapor.git-1753225148733440341/Sources/Testing/TestingError.swift">
+			<Option target="deployment"/>
+		</Unit>
+		<Unit filename="/home/josc/Documents/invigilator/invigilator/.build/checkouts/vapor.git-1753225148733440341/Sources/TypeSafeGenerator/Body.swift">
+			<Option target="deployment"/>
+		</Unit>
+		<Unit filename="/home/josc/Documents/invigilator/invigilator/.build/checkouts/vapor.git-1753225148733440341/Sources/TypeSafeGenerator/Function.swift">
+			<Option target="deployment"/>
+		</Unit>
+		<Unit filename="/home/josc/Documents/invigilator/invigilator/.build/checkouts/vapor.git-1753225148733440341/Sources/TypeSafeGenerator/Generator.swift">
+			<Option target="deployment"/>
+		</Unit>
+		<Unit filename="/home/josc/Documents/invigilator/invigilator/.build/checkouts/vapor.git-1753225148733440341/Sources/TypeSafeGenerator/Method.swift">
+			<Option target="deployment"/>
+		</Unit>
+		<Unit filename="/home/josc/Documents/invigilator/invigilator/.build/checkouts/vapor.git-1753225148733440341/Sources/TypeSafeGenerator/Operators.swift">
+			<Option target="deployment"/>
+		</Unit>
+		<Unit filename="/home/josc/Documents/invigilator/invigilator/.build/checkouts/vapor.git-1753225148733440341/Sources/TypeSafeGenerator/Parameter.swift">
+			<Option target="deployment"/>
+		</Unit>
+		<Unit filename="/home/josc/Documents/invigilator/invigilator/.build/checkouts/vapor.git-1753225148733440341/Sources/TypeSafeGenerator/Signature+Documentation.swift">
+			<Option target="deployment"/>
+		</Unit>
+		<Unit filename="/home/josc/Documents/invigilator/invigilator/.build/checkouts/vapor.git-1753225148733440341/Sources/TypeSafeGenerator/Signature.swift">
+			<Option target="deployment"/>
+		</Unit>
+		<Unit filename="/home/josc/Documents/invigilator/invigilator/.build/checkouts/vapor.git-1753225148733440341/Sources/TypeSafeGenerator/Variant.swift">
+			<Option target="deployment"/>
+		</Unit>
+		<Unit filename="/home/josc/Documents/invigilator/invigilator/.build/checkouts/vapor.git-1753225148733440341/Sources/TypeSafeGenerator/main.swift">
+			<Option target="deployment"/>
+		</Unit>
+		<Unit filename="/home/josc/Documents/invigilator/invigilator/.build/checkouts/vapor.git-1753225148733440341/Sources/Vapor/CORS/CORSConfiguration.swift">
+			<Option target="deployment"/>
+		</Unit>
+		<Unit filename="/home/josc/Documents/invigilator/invigilator/.build/checkouts/vapor.git-1753225148733440341/Sources/Vapor/CORS/CORSMiddleware.swift">
+			<Option target="deployment"/>
+		</Unit>
+		<Unit filename="/home/josc/Documents/invigilator/invigilator/.build/checkouts/vapor.git-1753225148733440341/Sources/Vapor/Cache/Config+Cache.swift">
+			<Option target="deployment"/>
+		</Unit>
+		<Unit filename="/home/josc/Documents/invigilator/invigilator/.build/checkouts/vapor.git-1753225148733440341/Sources/Vapor/Cipher/CipherProtocol.swift">
+			<Option target="deployment"/>
+		</Unit>
+		<Unit filename="/home/josc/Documents/invigilator/invigilator/.build/checkouts/vapor.git-1753225148733440341/Sources/Vapor/Cipher/Config+Cipher.swift">
+			<Option target="deployment"/>
+		</Unit>
+		<Unit filename="/home/josc/Documents/invigilator/invigilator/.build/checkouts/vapor.git-1753225148733440341/Sources/Vapor/Cipher/CryptoCipher.swift">
+			<Option target="deployment"/>
+		</Unit>
+		<Unit filename="/home/josc/Documents/invigilator/invigilator/.build/checkouts/vapor.git-1753225148733440341/Sources/Vapor/Cipher/CryptoEncoding.swift">
+			<Option target="deployment"/>
+		</Unit>
+		<Unit filename="/home/josc/Documents/invigilator/invigilator/.build/checkouts/vapor.git-1753225148733440341/Sources/Vapor/Commands/Config+Command.swift">
+			<Option target="deployment"/>
+		</Unit>
+		<Unit filename="/home/josc/Documents/invigilator/invigilator/.build/checkouts/vapor.git-1753225148733440341/Sources/Vapor/Commands/Config+Console.swift">
+			<Option target="deployment"/>
+		</Unit>
+		<Unit filename="/home/josc/Documents/invigilator/invigilator/.build/checkouts/vapor.git-1753225148733440341/Sources/Vapor/Commands/DumpConfig.swift">
+			<Option target="deployment"/>
+		</Unit>
+		<Unit filename="/home/josc/Documents/invigilator/invigilator/.build/checkouts/vapor.git-1753225148733440341/Sources/Vapor/Commands/Vapor+Console.swift">
+			<Option target="deployment"/>
+		</Unit>
+		<Unit filename="/home/josc/Documents/invigilator/invigilator/.build/checkouts/vapor.git-1753225148733440341/Sources/Vapor/Commands/Version.swift">
+			<Option target="deployment"/>
+		</Unit>
+		<Unit filename="/home/josc/Documents/invigilator/invigilator/.build/checkouts/vapor.git-1753225148733440341/Sources/Vapor/Config/Configurable.swift">
+			<Option target="deployment"/>
+		</Unit>
+		<Unit filename="/home/josc/Documents/invigilator/invigilator/.build/checkouts/vapor.git-1753225148733440341/Sources/Vapor/Config/Directories.swift">
+			<Option target="deployment"/>
+		</Unit>
+		<Unit filename="/home/josc/Documents/invigilator/invigilator/.build/checkouts/vapor.git-1753225148733440341/Sources/Vapor/Config/Resolve.swift">
+			<Option target="deployment"/>
+		</Unit>
+		<Unit filename="/home/josc/Documents/invigilator/invigilator/.build/checkouts/vapor.git-1753225148733440341/Sources/Vapor/Content/Content.swift">
+			<Option target="deployment"/>
+		</Unit>
+		<Unit filename="/home/josc/Documents/invigilator/invigilator/.build/checkouts/vapor.git-1753225148733440341/Sources/Vapor/Content/MediaType.swift">
+			<Option target="deployment"/>
+		</Unit>
+		<Unit filename="/home/josc/Documents/invigilator/invigilator/.build/checkouts/vapor.git-1753225148733440341/Sources/Vapor/Content/Request+Content.swift">
+			<Option target="deployment"/>
+		</Unit>
+		<Unit filename="/home/josc/Documents/invigilator/invigilator/.build/checkouts/vapor.git-1753225148733440341/Sources/Vapor/Content/Response+Content.swift">
+			<Option target="deployment"/>
+		</Unit>
+		<Unit filename="/home/josc/Documents/invigilator/invigilator/.build/checkouts/vapor.git-1753225148733440341/Sources/Vapor/Date/DateMiddleware.swift">
+			<Option target="deployment"/>
+		</Unit>
+		<Unit filename="/home/josc/Documents/invigilator/invigilator/.build/checkouts/vapor.git-1753225148733440341/Sources/Vapor/Droplet/Droplet+Responder.swift">
+			<Option target="deployment"/>
+		</Unit>
+		<Unit filename="/home/josc/Documents/invigilator/invigilator/.build/checkouts/vapor.git-1753225148733440341/Sources/Vapor/Droplet/Droplet+Run.swift">
+			<Option target="deployment"/>
+		</Unit>
+		<Unit filename="/home/josc/Documents/invigilator/invigilator/.build/checkouts/vapor.git-1753225148733440341/Sources/Vapor/Droplet/Droplet.swift">
+			<Option target="deployment"/>
+		</Unit>
+		<Unit filename="/home/josc/Documents/invigilator/invigilator/.build/checkouts/vapor.git-1753225148733440341/Sources/Vapor/Engine/Client/ClientFactory.swift">
+			<Option target="deployment"/>
+		</Unit>
+		<Unit filename="/home/josc/Documents/invigilator/invigilator/.build/checkouts/vapor.git-1753225148733440341/Sources/Vapor/Engine/Client/ClientFactoryProtocol.swift">
+			<Option target="deployment"/>
+		</Unit>
+		<Unit filename="/home/josc/Documents/invigilator/invigilator/.build/checkouts/vapor.git-1753225148733440341/Sources/Vapor/Engine/Client/ClientProtocol.swift">
+			<Option target="deployment"/>
+		</Unit>
+		<Unit filename="/home/josc/Documents/invigilator/invigilator/.build/checkouts/vapor.git-1753225148733440341/Sources/Vapor/Engine/Client/Config+ClientFactory.swift">
+			<Option target="deployment"/>
+		</Unit>
+		<Unit filename="/home/josc/Documents/invigilator/invigilator/.build/checkouts/vapor.git-1753225148733440341/Sources/Vapor/Engine/Client/EngineClient.swift">
+			<Option target="deployment"/>
+		</Unit>
+		<Unit filename="/home/josc/Documents/invigilator/invigilator/.build/checkouts/vapor.git-1753225148733440341/Sources/Vapor/Engine/Client/FoundationClient.swift">
+			<Option target="deployment"/>
+		</Unit>
+		<Unit filename="/home/josc/Documents/invigilator/invigilator/.build/checkouts/vapor.git-1753225148733440341/Sources/Vapor/Engine/Client/Responder+Helpers.swift">
+			<Option target="deployment"/>
+		</Unit>
+		<Unit filename="/home/josc/Documents/invigilator/invigilator/.build/checkouts/vapor.git-1753225148733440341/Sources/Vapor/Engine/SecurityLayer.swift">
+			<Option target="deployment"/>
+		</Unit>
+		<Unit filename="/home/josc/Documents/invigilator/invigilator/.build/checkouts/vapor.git-1753225148733440341/Sources/Vapor/Engine/Server/Config+ServerFactory.swift">
+			<Option target="deployment"/>
+		</Unit>
+		<Unit filename="/home/josc/Documents/invigilator/invigilator/.build/checkouts/vapor.git-1753225148733440341/Sources/Vapor/Engine/Server/EngineServer.swift">
+			<Option target="deployment"/>
+		</Unit>
+		<Unit filename="/home/josc/Documents/invigilator/invigilator/.build/checkouts/vapor.git-1753225148733440341/Sources/Vapor/Engine/Server/ServerFactory.swift">
+			<Option target="deployment"/>
+		</Unit>
+		<Unit filename="/home/josc/Documents/invigilator/invigilator/.build/checkouts/vapor.git-1753225148733440341/Sources/Vapor/Engine/Server/ServerFactoryProtocol.swift">
+			<Option target="deployment"/>
+		</Unit>
+		<Unit filename="/home/josc/Documents/invigilator/invigilator/.build/checkouts/vapor.git-1753225148733440341/Sources/Vapor/Engine/Server/ServerProtocol.swift">
+			<Option target="deployment"/>
+		</Unit>
+		<Unit filename="/home/josc/Documents/invigilator/invigilator/.build/checkouts/vapor.git-1753225148733440341/Sources/Vapor/Error/Abort.swift">
+			<Option target="deployment"/>
+		</Unit>
+		<Unit filename="/home/josc/Documents/invigilator/invigilator/.build/checkouts/vapor.git-1753225148733440341/Sources/Vapor/Error/AbortError.swift">
+			<Option target="deployment"/>
+		</Unit>
+		<Unit filename="/home/josc/Documents/invigilator/invigilator/.build/checkouts/vapor.git-1753225148733440341/Sources/Vapor/Error/ErrorMiddleware.swift">
+			<Option target="deployment"/>
+		</Unit>
+		<Unit filename="/home/josc/Documents/invigilator/invigilator/.build/checkouts/vapor.git-1753225148733440341/Sources/Vapor/Error/ErrorView.swift">
+			<Option target="deployment"/>
+		</Unit>
+		<Unit filename="/home/josc/Documents/invigilator/invigilator/.build/checkouts/vapor.git-1753225148733440341/Sources/Vapor/Event/Event.swift">
+			<Option target="deployment"/>
+		</Unit>
+		<Unit filename="/home/josc/Documents/invigilator/invigilator/.build/checkouts/vapor.git-1753225148733440341/Sources/Vapor/Event/Subscription.swift">
+			<Option target="deployment"/>
+		</Unit>
+		<Unit filename="/home/josc/Documents/invigilator/invigilator/.build/checkouts/vapor.git-1753225148733440341/Sources/Vapor/File/FileManager.swift">
+			<Option target="deployment"/>
+		</Unit>
+		<Unit filename="/home/josc/Documents/invigilator/invigilator/.build/checkouts/vapor.git-1753225148733440341/Sources/Vapor/File/FileMiddleware.swift">
+			<Option target="deployment"/>
+		</Unit>
+		<Unit filename="/home/josc/Documents/invigilator/invigilator/.build/checkouts/vapor.git-1753225148733440341/Sources/Vapor/FormURLEncoded/Request+FormURLEncoded.swift">
+			<Option target="deployment"/>
+		</Unit>
+		<Unit filename="/home/josc/Documents/invigilator/invigilator/.build/checkouts/vapor.git-1753225148733440341/Sources/Vapor/FormURLEncoded/StructuredData+FormURLEncoded.swift">
+			<Option target="deployment"/>
+		</Unit>
+		<Unit filename="/home/josc/Documents/invigilator/invigilator/.build/checkouts/vapor.git-1753225148733440341/Sources/Vapor/HTTP/Accept.swift">
+			<Option target="deployment"/>
+		</Unit>
+		<Unit filename="/home/josc/Documents/invigilator/invigilator/.build/checkouts/vapor.git-1753225148733440341/Sources/Vapor/HTTP/AcceptLanguage.swift">
+			<Option target="deployment"/>
+		</Unit>
+		<Unit filename="/home/josc/Documents/invigilator/invigilator/.build/checkouts/vapor.git-1753225148733440341/Sources/Vapor/HTTP/HTTP+Node.swift">
+			<Option target="deployment"/>
+		</Unit>
+		<Unit filename="/home/josc/Documents/invigilator/invigilator/.build/checkouts/vapor.git-1753225148733440341/Sources/Vapor/HTTP/RequestInitializable.swift">
+			<Option target="deployment"/>
+		</Unit>
+		<Unit filename="/home/josc/Documents/invigilator/invigilator/.build/checkouts/vapor.git-1753225148733440341/Sources/Vapor/Hash/BCryptHasher.swift">
+			<Option target="deployment"/>
+		</Unit>
+		<Unit filename="/home/josc/Documents/invigilator/invigilator/.build/checkouts/vapor.git-1753225148733440341/Sources/Vapor/Hash/Config+Hash.swift">
+			<Option target="deployment"/>
+		</Unit>
+		<Unit filename="/home/josc/Documents/invigilator/invigilator/.build/checkouts/vapor.git-1753225148733440341/Sources/Vapor/Hash/CryptoHasher.swift">
+			<Option target="deployment"/>
+		</Unit>
+		<Unit filename="/home/josc/Documents/invigilator/invigilator/.build/checkouts/vapor.git-1753225148733440341/Sources/Vapor/Hash/HashProtocol.swift">
+			<Option target="deployment"/>
+		</Unit>
+		<Unit filename="/home/josc/Documents/invigilator/invigilator/.build/checkouts/vapor.git-1753225148733440341/Sources/Vapor/Hash/Int+Random.swift">
+			<Option target="deployment"/>
+		</Unit>
+		<Unit filename="/home/josc/Documents/invigilator/invigilator/.build/checkouts/vapor.git-1753225148733440341/Sources/Vapor/JSON/HTTP/Body+JSON.swift">
+			<Option target="deployment"/>
+		</Unit>
+		<Unit filename="/home/josc/Documents/invigilator/invigilator/.build/checkouts/vapor.git-1753225148733440341/Sources/Vapor/JSON/HTTP/Message+JSON.swift">
+			<Option target="deployment"/>
+		</Unit>
+		<Unit filename="/home/josc/Documents/invigilator/invigilator/.build/checkouts/vapor.git-1753225148733440341/Sources/Vapor/JSON/HTTP/Response+JSON.swift">
+			<Option target="deployment"/>
+		</Unit>
+		<Unit filename="/home/josc/Documents/invigilator/invigilator/.build/checkouts/vapor.git-1753225148733440341/Sources/Vapor/JSON/JSON.swift">
+			<Option target="deployment"/>
+		</Unit>
+		<Unit filename="/home/josc/Documents/invigilator/invigilator/.build/checkouts/vapor.git-1753225148733440341/Sources/Vapor/JSON/JSONRepresentable.swift">
+			<Option target="deployment"/>
+		</Unit>
+		<Unit filename="/home/josc/Documents/invigilator/invigilator/.build/checkouts/vapor.git-1753225148733440341/Sources/Vapor/Log/Config+Log.swift">
+			<Option target="deployment"/>
+		</Unit>
+		<Unit filename="/home/josc/Documents/invigilator/invigilator/.build/checkouts/vapor.git-1753225148733440341/Sources/Vapor/Log/ConsoleLogger.swift">
+			<Option target="deployment"/>
+		</Unit>
+		<Unit filename="/home/josc/Documents/invigilator/invigilator/.build/checkouts/vapor.git-1753225148733440341/Sources/Vapor/Log/Log+Convenience.swift">
+			<Option target="deployment"/>
+		</Unit>
+		<Unit filename="/home/josc/Documents/invigilator/invigilator/.build/checkouts/vapor.git-1753225148733440341/Sources/Vapor/Log/LogLevel.swift">
+			<Option target="deployment"/>
+		</Unit>
+		<Unit filename="/home/josc/Documents/invigilator/invigilator/.build/checkouts/vapor.git-1753225148733440341/Sources/Vapor/Log/LogProtocol.swift">
+			<Option target="deployment"/>
+		</Unit>
+		<Unit filename="/home/josc/Documents/invigilator/invigilator/.build/checkouts/vapor.git-1753225148733440341/Sources/Vapor/Mail/Config+Mail.swift">
+			<Option target="deployment"/>
+		</Unit>
+		<Unit filename="/home/josc/Documents/invigilator/invigilator/.build/checkouts/vapor.git-1753225148733440341/Sources/Vapor/Mail/Mail.swift">
+			<Option target="deployment"/>
+		</Unit>
+		<Unit filename="/home/josc/Documents/invigilator/invigilator/.build/checkouts/vapor.git-1753225148733440341/Sources/Vapor/Mail/Mailgun.swift">
+			<Option target="deployment"/>
+		</Unit>
+		<Unit filename="/home/josc/Documents/invigilator/invigilator/.build/checkouts/vapor.git-1753225148733440341/Sources/Vapor/Middleware/Chaining.swift">
+			<Option target="deployment"/>
+		</Unit>
+		<Unit filename="/home/josc/Documents/invigilator/invigilator/.build/checkouts/vapor.git-1753225148733440341/Sources/Vapor/Middleware/Config+Middleware.swift">
+			<Option target="deployment"/>
+		</Unit>
+		<Unit filename="/home/josc/Documents/invigilator/invigilator/.build/checkouts/vapor.git-1753225148733440341/Sources/Vapor/Multipart/FormData+Polymorphic.swift">
+			<Option target="deployment"/>
+		</Unit>
+		<Unit filename="/home/josc/Documents/invigilator/invigilator/.build/checkouts/vapor.git-1753225148733440341/Sources/Vapor/Multipart/Request+FormData.swift">
+			<Option target="deployment"/>
+		</Unit>
+		<Unit filename="/home/josc/Documents/invigilator/invigilator/.build/checkouts/vapor.git-1753225148733440341/Sources/Vapor/Multipart/Request+Multipart.swift">
+			<Option target="deployment"/>
+		</Unit>
+		<Unit filename="/home/josc/Documents/invigilator/invigilator/.build/checkouts/vapor.git-1753225148733440341/Sources/Vapor/Provider/Config+Provider.swift">
+			<Option target="deployment"/>
+		</Unit>
+		<Unit filename="/home/josc/Documents/invigilator/invigilator/.build/checkouts/vapor.git-1753225148733440341/Sources/Vapor/Provider/Provider+Resources.swift">
+			<Option target="deployment"/>
+		</Unit>
+		<Unit filename="/home/josc/Documents/invigilator/invigilator/.build/checkouts/vapor.git-1753225148733440341/Sources/Vapor/Provider/Provider.swift">
+			<Option target="deployment"/>
+		</Unit>
+		<Unit filename="/home/josc/Documents/invigilator/invigilator/.build/checkouts/vapor.git-1753225148733440341/Sources/Vapor/Provider/ProviderInstall.swift">
+			<Option target="deployment"/>
+		</Unit>
+		<Unit filename="/home/josc/Documents/invigilator/invigilator/.build/checkouts/vapor.git-1753225148733440341/Sources/Vapor/Routing/Droplet+Routing.swift">
+			<Option target="deployment"/>
+		</Unit>
+		<Unit filename="/home/josc/Documents/invigilator/invigilator/.build/checkouts/vapor.git-1753225148733440341/Sources/Vapor/Routing/Resource.swift">
+			<Option target="deployment"/>
+		</Unit>
+		<Unit filename="/home/josc/Documents/invigilator/invigilator/.build/checkouts/vapor.git-1753225148733440341/Sources/Vapor/Routing/RouteCollection.swift">
+			<Option target="deployment"/>
+		</Unit>
+		<Unit filename="/home/josc/Documents/invigilator/invigilator/.build/checkouts/vapor.git-1753225148733440341/Sources/Vapor/Routing/RoutesLog.swift">
+			<Option target="deployment"/>
+		</Unit>
+		<Unit filename="/home/josc/Documents/invigilator/invigilator/.build/checkouts/vapor.git-1753225148733440341/Sources/Vapor/Serve/Config+ServerConfig.swift">
+			<Option target="deployment"/>
+		</Unit>
+		<Unit filename="/home/josc/Documents/invigilator/invigilator/.build/checkouts/vapor.git-1753225148733440341/Sources/Vapor/Serve/Serve.swift">
+			<Option target="deployment"/>
+		</Unit>
+		<Unit filename="/home/josc/Documents/invigilator/invigilator/.build/checkouts/vapor.git-1753225148733440341/Sources/Vapor/Serve/ServerConfig.swift">
+			<Option target="deployment"/>
+		</Unit>
+		<Unit filename="/home/josc/Documents/invigilator/invigilator/.build/checkouts/vapor.git-1753225148733440341/Sources/Vapor/Sessions/Config+Sessions.swift">
+			<Option target="deployment"/>
+		</Unit>
+		<Unit filename="/home/josc/Documents/invigilator/invigilator/.build/checkouts/vapor.git-1753225148733440341/Sources/Vapor/Utilities/Bytes.swift">
+			<Option target="deployment"/>
+		</Unit>
+		<Unit filename="/home/josc/Documents/invigilator/invigilator/.build/checkouts/vapor.git-1753225148733440341/Sources/Vapor/Utilities/Exports.swift">
+			<Option target="deployment"/>
+		</Unit>
+		<Unit filename="/home/josc/Documents/invigilator/invigilator/.build/checkouts/vapor.git-1753225148733440341/Sources/Vapor/Utilities/InitProtocols.swift">
+			<Option target="deployment"/>
+		</Unit>
+		<Unit filename="/home/josc/Documents/invigilator/invigilator/.build/checkouts/vapor.git-1753225148733440341/Sources/Vapor/Utilities/StringInitializable.swift">
+			<Option target="deployment"/>
+		</Unit>
+		<Unit filename="/home/josc/Documents/invigilator/invigilator/.build/checkouts/vapor.git-1753225148733440341/Sources/Vapor/View/Config+View.swift">
+			<Option target="deployment"/>
+		</Unit>
+		<Unit filename="/home/josc/Documents/invigilator/invigilator/.build/checkouts/vapor.git-1753225148733440341/Sources/Vapor/View/StaticViewRenderer.swift">
+			<Option target="deployment"/>
+		</Unit>
+		<Unit filename="/home/josc/Documents/invigilator/invigilator/.build/checkouts/vapor.git-1753225148733440341/Sources/Vapor/View/View.swift">
+			<Option target="deployment"/>
+		</Unit>
+		<Unit filename="/home/josc/Documents/invigilator/invigilator/.build/checkouts/vapor.git-1753225148733440341/Sources/Vapor/View/ViewRenderer+Request.swift">
+			<Option target="deployment"/>
+		</Unit>
+		<Unit filename="/home/josc/Documents/invigilator/invigilator/.build/checkouts/vapor.git-1753225148733440341/Sources/Vapor/View/ViewRenderer.swift">
+			<Option target="deployment"/>
+		</Unit>
+		<Unit filename="/home/josc/Documents/invigilator/invigilator/.build/checkouts/vapor.git-1753225148733440341/Sources/Vapor/WebSockets/WebSockets.swift">
+			<Option target="deployment"/>
+		</Unit>
+		<Unit filename="/home/josc/Documents/invigilator/invigilator/.build/checkouts/vapor.git-1753225148733440341/Tests/CacheTests/MemoryCacheTests.swift">
+			<Option target="deployment"/>
+		</Unit>
+		<Unit filename="/home/josc/Documents/invigilator/invigilator/.build/checkouts/vapor.git-1753225148733440341/Tests/ConfigsTests/CLIConfigTests.swift">
+			<Option target="deployment"/>
+		</Unit>
+		<Unit filename="/home/josc/Documents/invigilator/invigilator/.build/checkouts/vapor.git-1753225148733440341/Tests/ConfigsTests/ConfigTests.swift">
+			<Option target="deployment"/>
+		</Unit>
+		<Unit filename="/home/josc/Documents/invigilator/invigilator/.build/checkouts/vapor.git-1753225148733440341/Tests/ConfigsTests/EnvTests.swift">
+			<Option target="deployment"/>
+		</Unit>
+		<Unit filename="/home/josc/Documents/invigilator/invigilator/.build/checkouts/vapor.git-1753225148733440341/Tests/ConfigsTests/MergeTests.swift">
+			<Option target="deployment"/>
+		</Unit>
+		<Unit filename="/home/josc/Documents/invigilator/invigilator/.build/checkouts/vapor.git-1753225148733440341/Tests/LinuxMain.swift">
+			<Option target="deployment"/>
+		</Unit>
+		<Unit filename="/home/josc/Documents/invigilator/invigilator/.build/checkouts/vapor.git-1753225148733440341/Tests/SessionsTests/SessionTests.swift">
+			<Option target="deployment"/>
+		</Unit>
+		<Unit filename="/home/josc/Documents/invigilator/invigilator/.build/checkouts/vapor.git-1753225148733440341/Tests/SessionsTests/SessionsProtocolTests.swift">
+			<Option target="deployment"/>
+		</Unit>
+		<Unit filename="/home/josc/Documents/invigilator/invigilator/.build/checkouts/vapor.git-1753225148733440341/Tests/TestingTests/ResponderTests.swift">
+			<Option target="deployment"/>
+		</Unit>
+		<Unit filename="/home/josc/Documents/invigilator/invigilator/.build/checkouts/vapor.git-1753225148733440341/Tests/VaporTests/AcceptLanguageTests.swift">
+			<Option target="deployment"/>
+		</Unit>
+		<Unit filename="/home/josc/Documents/invigilator/invigilator/.build/checkouts/vapor.git-1753225148733440341/Tests/VaporTests/CORSMiddlewareTests.swift">
+			<Option target="deployment"/>
+		</Unit>
+		<Unit filename="/home/josc/Documents/invigilator/invigilator/.build/checkouts/vapor.git-1753225148733440341/Tests/VaporTests/CipherTests.swift">
+			<Option target="deployment"/>
+		</Unit>
+		<Unit filename="/home/josc/Documents/invigilator/invigilator/.build/checkouts/vapor.git-1753225148733440341/Tests/VaporTests/ConfigIntegrationTests.swift">
+			<Option target="deployment"/>
+		</Unit>
+		<Unit filename="/home/josc/Documents/invigilator/invigilator/.build/checkouts/vapor.git-1753225148733440341/Tests/VaporTests/ConfigTests.swift">
+			<Option target="deployment"/>
+		</Unit>
+		<Unit filename="/home/josc/Documents/invigilator/invigilator/.build/checkouts/vapor.git-1753225148733440341/Tests/VaporTests/ConsoleTests.swift">
+			<Option target="deployment"/>
+		</Unit>
+		<Unit filename="/home/josc/Documents/invigilator/invigilator/.build/checkouts/vapor.git-1753225148733440341/Tests/VaporTests/ContentTests.swift">
+			<Option target="deployment"/>
+		</Unit>
+		<Unit filename="/home/josc/Documents/invigilator/invigilator/.build/checkouts/vapor.git-1753225148733440341/Tests/VaporTests/DropletTests.swift">
+			<Option target="deployment"/>
+		</Unit>
+		<Unit filename="/home/josc/Documents/invigilator/invigilator/.build/checkouts/vapor.git-1753225148733440341/Tests/VaporTests/EnvironmentTests.swift">
+			<Option target="deployment"/>
+		</Unit>
+		<Unit filename="/home/josc/Documents/invigilator/invigilator/.build/checkouts/vapor.git-1753225148733440341/Tests/VaporTests/ErrorTests.swift">
+			<Option target="deployment"/>
+		</Unit>
+		<Unit filename="/home/josc/Documents/invigilator/invigilator/.build/checkouts/vapor.git-1753225148733440341/Tests/VaporTests/EventTests.swift">
+			<Option target="deployment"/>
+		</Unit>
+		<Unit filename="/home/josc/Documents/invigilator/invigilator/.build/checkouts/vapor.git-1753225148733440341/Tests/VaporTests/FileManagerTests.swift">
+			<Option target="deployment"/>
+		</Unit>
+		<Unit filename="/home/josc/Documents/invigilator/invigilator/.build/checkouts/vapor.git-1753225148733440341/Tests/VaporTests/FileMiddlewareTests.swift">
+			<Option target="deployment"/>
+		</Unit>
+		<Unit filename="/home/josc/Documents/invigilator/invigilator/.build/checkouts/vapor.git-1753225148733440341/Tests/VaporTests/FormDataTests.swift">
+			<Option target="deployment"/>
+		</Unit>
+		<Unit filename="/home/josc/Documents/invigilator/invigilator/.build/checkouts/vapor.git-1753225148733440341/Tests/VaporTests/HashTests.swift">
+			<Option target="deployment"/>
+		</Unit>
+		<Unit filename="/home/josc/Documents/invigilator/invigilator/.build/checkouts/vapor.git-1753225148733440341/Tests/VaporTests/LogTests.swift">
+			<Option target="deployment"/>
+		</Unit>
+		<Unit filename="/home/josc/Documents/invigilator/invigilator/.build/checkouts/vapor.git-1753225148733440341/Tests/VaporTests/MiddlewareTests.swift">
+			<Option target="deployment"/>
+		</Unit>
+		<Unit filename="/home/josc/Documents/invigilator/invigilator/.build/checkouts/vapor.git-1753225148733440341/Tests/VaporTests/ProcessTests.swift">
+			<Option target="deployment"/>
+		</Unit>
+		<Unit filename="/home/josc/Documents/invigilator/invigilator/.build/checkouts/vapor.git-1753225148733440341/Tests/VaporTests/ProviderTests.swift">
+			<Option target="deployment"/>
+		</Unit>
+		<Unit filename="/home/josc/Documents/invigilator/invigilator/.build/checkouts/vapor.git-1753225148733440341/Tests/VaporTests/QueryTests.swift">
+			<Option target="deployment"/>
+		</Unit>
+		<Unit filename="/home/josc/Documents/invigilator/invigilator/.build/checkouts/vapor.git-1753225148733440341/Tests/VaporTests/ResourceTests.swift">
+			<Option target="deployment"/>
+		</Unit>
+		<Unit filename="/home/josc/Documents/invigilator/invigilator/.build/checkouts/vapor.git-1753225148733440341/Tests/VaporTests/RouteListTests.swift">
+			<Option target="deployment"/>
+		</Unit>
+		<Unit filename="/home/josc/Documents/invigilator/invigilator/.build/checkouts/vapor.git-1753225148733440341/Tests/VaporTests/RoutingTests.swift">
+			<Option target="deployment"/>
+		</Unit>
+		<Unit filename="/home/josc/Documents/invigilator/invigilator/.build/checkouts/vapor.git-1753225148733440341/Tests/VaporTests/SessionsTests.swift">
+			<Option target="deployment"/>
+		</Unit>
+		<Unit filename="/home/josc/Documents/invigilator/invigilator/.build/checkouts/vapor.git-1753225148733440341/Tests/VaporTests/Utilities/DebugConsole.swift">
+			<Option target="deployment"/>
+		</Unit>
+		<Unit filename="/home/josc/Documents/invigilator/invigilator/.build/checkouts/vapor.git-1753225148733440341/Tests/VaporTests/Utilities/HTTP.swift">
+			<Option target="deployment"/>
+		</Unit>
+		<Unit filename="/home/josc/Documents/invigilator/invigilator/.build/checkouts/vapor.git-1753225148733440341/Tests/VaporTests/Utilities/TestRenderer.swift">
+			<Option target="deployment"/>
+		</Unit>
+		<Unit filename="/home/josc/Documents/invigilator/invigilator/.build/checkouts/vapor.git-1753225148733440341/Tests/VaporTests/Utilities/User.swift">
+			<Option target="deployment"/>
+		</Unit>
+		<Unit filename="/home/josc/Documents/invigilator/invigilator/.build/checkouts/vapor.git-1753225148733440341/Tests/VaporTests/ViewTests.swift">
+			<Option target="deployment"/>
+		</Unit>
+		<Unit filename="/home/josc/Documents/invigilator/invigilator/Package.swift">
+			<Option target="deployment"/>
+		</Unit>
+		<Unit filename="/home/josc/Documents/invigilator/invigilator/Sources/App/Config+Setup.swift">
+			<Option target="deployment"/>
+		</Unit>
+		<Unit filename="/home/josc/Documents/invigilator/invigilator/Sources/App/Controllers/Cms/CmsMenuController.swift">
+			<Option target="deployment"/>
+		</Unit>
+		<Unit filename="/home/josc/Documents/invigilator/invigilator/Sources/App/Controllers/Cms/CmsPageController.swift">
+			<Option target="deployment"/>
+		</Unit>
+		<Unit filename="/home/josc/Documents/invigilator/invigilator/Sources/App/Controllers/DashboardController.swift">
+			<Option target="deployment"/>
+		</Unit>
+		<Unit filename="/home/josc/Documents/invigilator/invigilator/Sources/App/Controllers/UserController.swift">
+			<Option target="deployment"/>
+		</Unit>
+		<Unit filename="/home/josc/Documents/invigilator/invigilator/Sources/App/Droplet+Setup.swift">
+			<Option target="deployment"/>
+		</Unit>
+		<Unit filename="/home/josc/Documents/invigilator/invigilator/Sources/App/Middleware/GuardMiddleware.swift">
+			<Option target="deployment"/>
+		</Unit>
+		<Unit filename="/home/josc/Documents/invigilator/invigilator/Sources/App/Middleware/ViewMiddleware.swift">
+			<Option target="deployment"/>
+		</Unit>
+		<Unit filename="/home/josc/Documents/invigilator/invigilator/Sources/App/Models/CmsPage.swift">
+			<Option target="deployment"/>
+		</Unit>
+		<Unit filename="/home/josc/Documents/invigilator/invigilator/Sources/App/Models/User.swift">
+			<Option target="deployment"/>
+		</Unit>
+		<Unit filename="/home/josc/Documents/invigilator/invigilator/Sources/App/Routes.swift">
+			<Option target="deployment"/>
+		</Unit>
+		<Unit filename="/home/josc/Documents/invigilator/invigilator/Sources/App/Support/LeafTags/InvigilatorMarkdown.swift">
+			<Option target="deployment"/>
+		</Unit>
+		<Unit filename="/home/josc/Documents/invigilator/invigilator/Sources/Run/main.swift">
+			<Option target="deployment"/>
+		</Unit>
+		<Unit filename="/home/josc/Documents/invigilator/invigilator/Tests/AppTests/PostControllerTests.swift">
+			<Option target="deployment"/>
+		</Unit>
+		<Unit filename="/home/josc/Documents/invigilator/invigilator/Tests/AppTests/RouteTests.swift">
+			<Option target="deployment"/>
+		</Unit>
+		<Unit filename="/home/josc/Documents/invigilator/invigilator/Tests/AppTests/Utilities.swift">
+			<Option target="deployment"/>
+		</Unit>
+		<Unit filename="/home/josc/Documents/invigilator/invigilator/Tests/LinuxMain.swift">
+			<Option target="deployment"/>
+		</Unit>
+		<Unit filename="/home/josc/Documents/invigilator/invigilator/CMakeLists.txt">
+			<Option virtualFolder="CMake Files\"/>
+		</Unit>
+	</Project>
+</CodeBlocks_project_file>

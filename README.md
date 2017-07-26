@@ -1,5 +1,5 @@
 <p align="center">
-    <img src="https://user-images.githubusercontent.com/2535140/28637833-211a6d0e-7243-11e7-9337-33660da9ad34.png" width="520" alt="Web Template">
+    <img src="https://user-images.githubusercontent.com/2535140/28638170-54d02d54-7244-11e7-9a0a-93ba60b3319c.png" width="620" alt="Web Template">
     <br>
     <br>
     <a href="LICENSE">

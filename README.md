@@ -10,7 +10,7 @@
     </a>
 </p>
 
-** Warning: Project is still in Alpha**
+**Warning: Project is still in Alpha**
 
 Invigilator is a Swift CMS platform build using the Vapor Framework. It uses the Fluent driver, so it can support multiple database drivers. It also uses LeafMarkdown allowing you to write in Markdown.
 
